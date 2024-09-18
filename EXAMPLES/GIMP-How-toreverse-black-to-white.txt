@@ -1,0 +1,16 @@
+https://logosbynick.com/make-an-image-black-and-white-with-gimp/
+
+https://thegimptutorials.com/how-to-invert-colors/
+
+
+TRICK
+==================================================
+Convert to BW a part of the image.
+
+Clip image out in BW
+
+Then paste insitu back into whatever non BW.
+
+==================================================
+
+

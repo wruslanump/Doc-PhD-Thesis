@@ -1,0 +1,67 @@
+\clearpage
+\pagebreak
+\section{Program runtime parameters}
+
+
+%% \begin{landscape}
+	
+\begin{table}[ht]
+%% \begin{center}
+\caption{Program runtime parameters}
+\label  {Program runtime parameters}
+
+%% IMPORTANT TO SCALEBOX BELOW
+\scalebox{0.90}{
+			
+%% START COPY AND PASTE BELOW HERE
+%% FROM \begin{tabular} UNTIL \end{tabular)
+
+\begin{tabular}{ p{0.5cm} p{4.0cm} p{1.25cm} p{1.25cm} p{7.50cm} }
+\hline
+	&                     &                 &       &     \\
+    & MACHINE LIMITS      & VALUE  & UNIT   & DESCRIPTION \\
+%%	&                     &        &        &     \\
+1	&  x\_Vel\_max        & 30.0   & mm/s   & X-axis maximum velocity \\
+2	&  y\_Vel\_max        & 30.0   & mm/s   & Y-axis maximum velocity \\
+3	&  x\_Acc\_max        & 30.0   & mm/s2  & X-axis maximum acceleration\\
+4	&  y\_Acc\_max        & 30.0   & mm/s2  & y-axis maximum acceleration\\
+5	&  Jerk\_max          & 200.0  & mm/s2  & Maximum allowable jerk\\
+	&                     &        &       &     \\
+    & RUNTIME VALUES      &        &       &     \\
+%%	&                     &        &       &     \\
+1   & u\_end\_rise        &  0.05  & nil   & Rising S-curve range (0.0 .. 0.05)\\
+2   & rshape1             &  5.00  & nil   & Sigmoid curve rise shaping factor 1\\
+3   & rshape2             &  8.00  & nil   & Sigmoid curve rise shaping factor 2\\
+4   & u\_start\_fall      &  0.95  & nil   & Falling S-curve range (0.95 .. 1.00)\\   
+5   & fshape1             &  5.00  & nil   & Sigmoid curve fall shaping factor 1)\\
+6   & fshape2             &  8.00  & nil   & Sigmoid curve fall shaping factor 2)\\
+7	& T\_interpol         & 0.001  & s     & Interpolation time (period) \\
+	&                     &        &       & 1 millisecond per step. \\
+8	& Error\_tol          & 1E-6   & mm    & Chord-error tolerance for  \\
+    &                     &        &       & maximum allowable chord-error. \\
+9   & ngc\_scale          & 1.0    & nil   & RS274/NGC G-code scaling factor \\
+10	& ngc\_feedrate\_min  & 3.0    & mm/s  & Minimum NGC feedrate setting for\\
+	&                     &        &       & startup and shutdown of CNC machine.\\
+11	& PI constant used    & PI     & nil   & PI = 3.14159\_26535\_89793\_238 precision\\
+	&                     &        &       & at 18 decimal digits (from internet)\\
+	&                     &        &       &     \\
+	& RUN SPECIFIED       &        &       &     \\
+%%	&                     &        &       &     \\
+1   & Feedrate Command FC &  20.0  & mm/s  & Maximum feedrate set that should not \\
+    &                     &        &       & be exceeded. For example: 10, 20, 30. \\
+2   & Lamda safety factor &  0.18  & nil   & Acceleration limit safety factor. \\
+    &                     &        &       & A number between (0.0 .. 1.0) \\
+	&                     &        &       &     
+\end{tabular}
+
+%% PI (longest from internet) BUT USE display only 12 decimal digits \\
+%% PI BUT USE 12 decimal digits \\
+
+%% END COPY AND PASTE		
+
+}   %% IMPORTANT FOR SCALEBOX CLOSING
+\hrule
+\end{table}
+%% \end{landscape}
+
+

@@ -1,0 +1,153 @@
+(3) sum_arc_length is NaN = Not a Number
+CORRECT MAIN OUTPUT: sum_length_arc 	= nan (mm)
+CORRECT MAIN OUTPUT: sum_arc_theta 	= 6.281736388398e+00 (rad)
+CORRECT MAIN OUTPUT: sum_arc_area 	= 2.093382040200e-04 (mm2)
+
+
+START LOOP sum_length_arc = nan 
+FC20-L0.18-A26-CIRCLE  24.817  0.999809685  0.000040287  0.001 4.029239e-05  4.028729e-05  5.100303e-09   -0.094  79.000  79.000  8.609418e-08  79.000000  -0.000236   7.376417   0.000019  7.376397359   0.000019   0.000000  20.00 FallScurve 
+GOOD FXN OUTPUT: arc_length 		= 9.850747413104e-07 (mm)
+GOOD MAIN RECV: next_arc_length 	= 9.850747413104e-07 (mm)
+(1) next_arc_length = 9.850747413104e-07 
+(1) next_arc_length is REAL 
+(2) sum_arc_length = nan 
+(2) sum_arc_length is NaN = Not a Number 
+(3) sum_arc_length = nan 
+(3) sum_arc_length is NaN = Not a Number
+CORRECT MAIN OUTPUT: sum_length_arc 	= nan (mm)
+CORRECT MAIN OUTPUT: sum_arc_theta 	= 6.281989520909e+00 (rad)
+CORRECT MAIN OUTPUT: sum_arc_area 	= 2.093466396343e-04 (mm2)
+
+
+START LOOP sum_length_arc = nan 
+FC20-L0.18-A26-CIRCLE  24.818  0.999849972  0.000040287  0.001 4.029239e-05  4.028729e-05  5.100303e-09   -0.074  79.000  79.000  8.609069e-08  79.000000  -0.000233   7.376267   0.000019  7.376247929   0.000019   0.000000  20.00 FallScurve 
+GOOD FXN OUTPUT: arc_length 		= 9.850747413104e-07 (mm)
+GOOD MAIN RECV: next_arc_length 	= 9.850747413104e-07 (mm)
+(1) next_arc_length = 9.850747413104e-07 
+(1) next_arc_length is REAL 
+(2) sum_arc_length = nan 
+(2) sum_arc_length is NaN = Not a Number 
+(3) sum_arc_length = nan 
+(3) sum_arc_length is NaN = Not a Number
+CORRECT MAIN OUTPUT: sum_length_arc 	= nan (mm)
+CORRECT MAIN OUTPUT: sum_arc_theta 	= 6.282242653419e+00 (rad)
+CORRECT MAIN OUTPUT: sum_arc_area 	= 2.093550752485e-04 (mm2)
+
+
+START LOOP sum_length_arc = nan 
+FC20-L0.18-A26-CIRCLE  24.819  0.999890259  0.000040287  0.001 4.029239e-05  4.028729e-05  5.100303e-09   -0.054  79.000  79.000  8.608726e-08  79.000000  -0.000230   7.376120   0.000019  7.376101102   0.000019   0.000000  20.00 FallScurve 
+GOOD FXN OUTPUT: arc_length 		= 9.850747413104e-07 (mm)
+GOOD MAIN RECV: next_arc_length 	= 9.850747413104e-07 (mm)
+(1) next_arc_length = 9.850747413104e-07 
+(1) next_arc_length is REAL 
+(2) sum_arc_length = nan 
+(2) sum_arc_length is NaN = Not a Number 
+(3) sum_arc_length = nan 
+(3) sum_arc_length is NaN = Not a Number
+CORRECT MAIN OUTPUT: sum_length_arc 	= nan (mm)
+CORRECT MAIN OUTPUT: sum_arc_theta 	= 6.282495785930e+00 (rad)
+CORRECT MAIN OUTPUT: sum_arc_area 	= 2.093635108628e-04 (mm2)
+
+
+START LOOP sum_length_arc = nan 
+FC20-L0.18-A26-CIRCLE  24.820  0.999930547  0.000040287  0.001 4.029239e-05  4.028729e-05  5.100303e-09   -0.034  79.000  79.000  8.608375e-08  79.000000  -0.000227   7.375970   0.000019  7.375951279   0.000019   0.000000  20.00 FallScurve 
+GOOD FXN OUTPUT: arc_length 		= 9.850747413104e-07 (mm)
+GOOD MAIN RECV: next_arc_length 	= 9.850747413104e-07 (mm)
+(1) next_arc_length = 9.850747413104e-07 
+(1) next_arc_length is REAL 
+(2) sum_arc_length = nan 
+(2) sum_arc_length is NaN = Not a Number 
+(3) sum_arc_length = nan 
+(3) sum_arc_length is NaN = Not a Number
+CORRECT MAIN OUTPUT: sum_length_arc 	= nan (mm)
+CORRECT MAIN OUTPUT: sum_arc_theta 	= 6.282748918441e+00 (rad)
+CORRECT MAIN OUTPUT: sum_arc_area 	= 2.093719464771e-04 (mm2)
+
+
+START LOOP sum_length_arc = nan 
+FC20-L0.18-A26-CIRCLE  24.821  0.999970834  0.000040287  0.001 4.029239e-05  4.028729e-05  5.100303e-09   -0.014  79.000  79.000  8.608026e-08  79.000000  -0.000224   7.375820   0.000018  7.375801904   0.000018   0.000000  20.00 FallScurve 
+GOOD FXN OUTPUT: arc_length 		= 9.850747413104e-07 (mm)
+GOOD MAIN RECV: next_arc_length 	= 9.850747413104e-07 (mm)
+(1) next_arc_length = 9.850747413104e-07 
+(1) next_arc_length is REAL 
+(2) sum_arc_length = nan 
+(2) sum_arc_length is NaN = Not a Number 
+(3) sum_arc_length = nan 
+(3) sum_arc_length is NaN = Not a Number
+CORRECT MAIN OUTPUT: sum_length_arc 	= nan (mm)
+CORRECT MAIN OUTPUT: sum_arc_theta 	= 6.283002050952e+00 (rad)
+CORRECT MAIN OUTPUT: sum_arc_area 	= 2.093803820914e-04 (mm2)
+
+
+sum_arc_length       = nan 
+FC20-L0.18-A26-CIRCLE  24.822  1.000000000  0.000029166  0.001 4.029239e-05  4.028729e-05  5.100303e-09   -0.000  79.000  79.000  4.511391e-08  79.000000   0.000000   7.375674   0.000000 100.000000000   0.000018   0.000000  Ended
+2023-09-29 19:28:05.128699945 	Ended while loop 
+2023-09-29 19:28:05.128706526 	Timer 1 stop. Duration (timer start-to-stop) = 46.587169661 seconds. 
+
+2023-09-29 19:28:05.128712894 	Write run report statistics to screen and file. 
+
+FC20-L0.18-A26-CIRCLE (1) EPSILON PROCESSING ERRORS 
+FC20-L0.18-A26-CIRCLE STEP 1 ERRORS 
+FC20-L0.18-A26-CIRCLE count_step1_ERROR_1 =          0 
+FC20-L0.18-A26-CIRCLE count_step1_ERROR_2 =          0 
+FC20-L0.18-A26-CIRCLE STEP 2 ERRORS 
+FC20-L0.18-A26-CIRCLE count_step2_ERROR_1 =          0 
+FC20-L0.18-A26-CIRCLE count_step2_ERROR_2 =          0 
+FC20-L0.18-A26-CIRCLE count_step2_ERROR_3 =          0 
+FC20-L0.18-A26-CIRCLE count_step2_ERROR_4 =          0 
+
+FC20-L0.18-A26-CIRCLE (2) EPSILON COUNT RANGE VALUE STATISTICS 
+FC20-L0.18-A26-CIRCLE cnt_eps_above_10E_6             =          0  (0.000000 %) 
+FC20-L0.18-A26-CIRCLE cnt_eps_betwn_10E_7_upto_10E_6  =       6959  (28.035614 %) 
+FC20-L0.18-A26-CIRCLE cnt_eps_betwn_10E_8_upto_10E_7  =      17863  (71.964386 %) 
+FC20-L0.18-A26-CIRCLE cnt_eps_betwn_10E_9_upto_10E_8  =          0  (0.000000 %) 
+FC20-L0.18-A26-CIRCLE cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+FC20-L0.18-A26-CIRCLE cnt_eps_below_10E_10            =          0  (0.000000 %) 
+FC20-L0.18-A26-CIRCLE cnt_eps_total_points processed  =      24822  (100.000000 %) 
+
+FC20-L0.18-A26-CIRCLE (3) INTERPOLATED POINT STATISTICS 
+FC20-L0.18-A26-CIRCLE Count before step1, epsilon is already    below upper bound = 24822 ( 100.000000  %) 
+FC20-L0.18-A26-CIRCLE Count during step1, pushdown epsilon to   below upper bound = 0 (   0.000000  %) 
+FC20-L0.18-A26-CIRCLE After step1 the interpolated points count below upper bound = 24822 (total interpolated points) 
+FC20-L0.18-A26-CIRCLE Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+FC20-L0.18-A26-CIRCLE (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+FC20-L0.18-A26-CIRCLE Count_rising_s_curve_points     = 1242 	(    5.003626 %) 
+FC20-L0.18-A26-CIRCLE Count_frate_islower_fratelimit  = 11171 	(   45.004432 %) 
+FC20-L0.18-A26-CIRCLE Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+FC20-L0.18-A26-CIRCLE Count_frate_ishigher_fratelimit = 11168 	(   44.992345 %) 
+FC20-L0.18-A26-CIRCLE Count_falling_s_curve_points    = 1241 	(    4.999597 %) 
+FC20-L0.18-A26-CIRCLE Total interpolated points       = 24822 	(  100.000000 %) 
+
+FC20-L0.18-A26-CIRCLE (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A26-CIRCLE eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 8.813665e-08, 1.054212e-07 2.187640e-03 )
+FC20-L0.18-A26-CIRCLE At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+FC20-L0.18-A26-CIRCLE At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (  19575 7.886237e-01 -7.668510e+01 1.898409e+01 )
+
+FC20-L0.18-A26-CIRCLE (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A26-CIRCLE rho (min, avg, max, sum) = ( 0.000000e+00, 7.900000e+01, 7.900000e+01 1.960859e+06 )
+FC20-L0.18-A26-CIRCLE At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+FC20-L0.18-A26-CIRCLE At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (   1485 5.982663e-02 2.900181e+01 7.348398e+01 )
+
+FC20-L0.18-A26-CIRCLE (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A26-CIRCLE tangaccn (min, avg, max, sum) = ( -3.116533e+01, -7.442232e-04, 3.003696e+01 -1.847236e+01 )
+FC20-L0.18-A26-CIRCLE At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (  23739 9.563800e-01 3.937869e+00 7.605145e+01 )
+FC20-L0.18-A26-CIRCLE At max-tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (    197 7.936596e-03 7.890179e+01 7.890179e+01 )
+
+FC20-L0.18-A26-CIRCLE (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A26-CIRCLE frate (min, avg, max, sum) = ( 0.000000e+00, 7.063465e+00, 8.162488e+00 1.753223e+05 )
+FC20-L0.18-A26-CIRCLE At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+FC20-L0.18-A26-CIRCLE At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (  19575 7.886237e-01 -7.668510e+01 1.898409e+01 )
+
+FC20-L0.18-A26-CIRCLE (9) ALGORITHM EFFICIENCY STATISTICS 
+FC20-L0.18-A26-CIRCLE TOT INTERPOLATED POINTS = ( 24822   ) 
+FC20-L0.18-A26-CIRCLE SUM CHORD-LENGTH (mm)   = ( 4.963772e+02 )
+FC20-L0.18-A26-CIRCLE AVG CHORD-LENGTH (mm)   = ( 1.999827e-02 )
+FC20-L0.18-A26-CIRCLE SUM CHORD-ERROR  (mm)   = ( 2.187640e-03 )
+FC20-L0.18-A26-CIRCLE ALGORITHM EFFICIENCY    = ( 4.407213e-06 )
+
+2023-09-29 19:28:05.175464489 	Total program run duration   = 46.594248493 seconds. 
+
+2023-09-29 19:28:05.175478517 	Program ended. 
+2023-09-29 19:28:05.175482961 	Ending in main(), Alhamdulillah 3 times WRY. 
+[2023-09-29 19:28:05] process terminated successfully, elapsed time: 46.84s

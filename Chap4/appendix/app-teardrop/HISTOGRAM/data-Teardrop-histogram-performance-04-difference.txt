@@ -1,0 +1,11 @@
+## Teardrop Percentage Difference : Arc-Length vs Chord-Length	&	(SAL-SCL)/(SAL)
+
+## Run Type
+## FC10 Teardrop L0.18	&	8.931942058845E-07
+## FC20 Teardrop L0.18	&	7.664163788301E-07
+## FC30 Teardrop L0.18	&	-2.921101261067E-06
+## FC40 Teardrop L0.18	&	3.55205036776E-06
+
+RunType 8.931942058845E-07 7.664163788301E-07 -2.921101261067E-06 3.55205036776E-06
+
+

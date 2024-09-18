@@ -1,0 +1,83 @@
+# DTStamp_FHdata_02 2023-10-05 03:12:26 976857333 
+# Testing data 02 
+Write run report statistics to screen and file. 
+
+FC20-L0.18-A28-CIRCLE (1) EPSILON PROCESSING ERRORS 
+FC20-L0.18-A28-CIRCLE STEP 1 ERRORS 
+FC20-L0.18-A28-CIRCLE count_step1_ERROR_1 =          0 
+FC20-L0.18-A28-CIRCLE count_step1_ERROR_2 =          0 
+FC20-L0.18-A28-CIRCLE STEP 2 ERRORS 
+FC20-L0.18-A28-CIRCLE count_step2_ERROR_1 =          0 
+FC20-L0.18-A28-CIRCLE count_step2_ERROR_2 =          0 
+FC20-L0.18-A28-CIRCLE count_step2_ERROR_3 =          0 
+FC20-L0.18-A28-CIRCLE count_step2_ERROR_4 =          0 
+
+FC20-L0.18-A28-CIRCLE (2) EPSILON COUNT RANGE VALUE STATISTICS 
+FC20-L0.18-A28-CIRCLE cnt_eps_above_10E_6             =          0  (0.000000 %) 
+FC20-L0.18-A28-CIRCLE cnt_eps_betwn_10E_7_upto_10E_6  =       6959  (28.035614 %) 
+FC20-L0.18-A28-CIRCLE cnt_eps_betwn_10E_8_upto_10E_7  =      17863  (71.964386 %) 
+FC20-L0.18-A28-CIRCLE cnt_eps_betwn_10E_9_upto_10E_8  =          0  (0.000000 %) 
+FC20-L0.18-A28-CIRCLE cnt_eps_betwn_10E_10_upto_10E_9 =          0  (0.000000 %) 
+FC20-L0.18-A28-CIRCLE cnt_eps_below_10E_10            =          0  (0.000000 %) 
+FC20-L0.18-A28-CIRCLE cnt_eps_total_points processed  =      24822  (100.000000 %) 
+
+FC20-L0.18-A28-CIRCLE (3) INTERPOLATED POINT STATISTICS 
+FC20-L0.18-A28-CIRCLE Count before step1, epsilon is already    below upper bound = 24822 ( 100.000000  %) 
+FC20-L0.18-A28-CIRCLE Count during step1, pushdown epsilon to   below upper bound = 0 (   0.000000  %) 
+FC20-L0.18-A28-CIRCLE After step1 the interpolated points count below upper bound = 24822 (total interpolated points) 
+FC20-L0.18-A28-CIRCLE Count during step2, pushup into range (lower , upper) bound = 0 (total pushup points) 
+
+FC20-L0.18-A28-CIRCLE (4) ADJUST (INCR/DECR) CURR_FRATE TO CALCULATED CURR_FRATE_LIMIT 
+FC20-L0.18-A28-CIRCLE Count_rising_s_curve_points     = 1242 	(    5.003626 %) 
+FC20-L0.18-A28-CIRCLE Count_frate_islower_fratelimit  = 11171 	(   45.004432 %) 
+FC20-L0.18-A28-CIRCLE Count_frate_isequal_fratelimit  = 0 	(    0.000000 %) 
+FC20-L0.18-A28-CIRCLE Count_frate_ishigher_fratelimit = 11168 	(   44.992345 %) 
+FC20-L0.18-A28-CIRCLE Count_falling_s_curve_points    = 1241 	(    4.999597 %) 
+FC20-L0.18-A28-CIRCLE Total interpolated points       = 24822 	(  100.000000 %) 
+
+FC20-L0.18-A28-CIRCLE (5) CHORD ERROR (CURR_EPS) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A28-CIRCLE eps (min_eps, avg_eps, max_eps, sum_eps) = ( 0.000000e+00, 8.813665e-08, 1.054212e-07 2.187640e-03 )
+FC20-L0.18-A28-CIRCLE At min_eps (line_mineps, u_mineps, x_mineps, y_mineps) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+FC20-L0.18-A28-CIRCLE At max_eps (line_maxeps, u_maxeps, x_maxeps, y_maxeps) = (  19575 7.886237e-01 -7.668510e+01 1.898409e+01 )
+
+FC20-L0.18-A28-CIRCLE (6) RADIUS OF CURVATURE (CURR_RHO) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A28-CIRCLE rho (min, avg, max, sum) = ( 0.000000e+00, 7.900000e+01, 7.900000e+01 1.960859e+06 )
+FC20-L0.18-A28-CIRCLE At min_rho (line_minrho, u_minrho, x_minrho, y_minrho) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+FC20-L0.18-A28-CIRCLE At max_rho (line_maxrho, u_maxrho, x_maxrho, y_maxrho) = (   1485 5.982663e-02 2.900181e+01 7.348398e+01 )
+
+FC20-L0.18-A28-CIRCLE (7) TANGENTIAL ACCELERATION (CURR_TANG_ACCN) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A28-CIRCLE tangaccn (min, avg, max, sum) = ( -3.116533e+01, -7.442232e-04, 3.003696e+01 -1.847236e+01 )
+FC20-L0.18-A28-CIRCLE At min_tangaccn (line_mintangaccn, u_mintangaccn, x_mintangaccn, y_mintangaccn) = (  23739 9.563800e-01 -2.138169e+01 7.605145e+01 )
+FC20-L0.18-A28-CIRCLE At max_tangaccn (line_maxtangaccn, u_maxtangaccn, x_maxtangaccn, y_maxtangaccn) = (    197 7.936596e-03 3.937869e+00 7.890179e+01 )
+
+FC20-L0.18-A28-CIRCLE (8) FEEDRATE (CURR_FRATE) VARIABLE VALUE STATISTICS 
+FC20-L0.18-A28-CIRCLE frate (min, avg, max, sum) = ( 0.000000e+00, 7.063465e+00, 8.162488e+00 1.753223e+05 )
+FC20-L0.18-A28-CIRCLE At min_frate (line_minfrate, u_minfrate, x_minfrate, y_minfrate) = (      0 0.000000e+00 0.000000e+00 0.000000e+00 )
+FC20-L0.18-A28-CIRCLE At max_frate (line_maxfrate, u_maxfrate, x_maxfrate, y_maxfrate) = (  19575 7.886237e-01 -7.668510e+01 1.898409e+01 )
+
+FC20-L0.18-A28-CIRCLE (9) ALGORITHM EXECUTION STATISTICS 
+
+FC20-L0.18-A28-CIRCLE TOTAL-INTERPOLATED-POINTS          =  24822    
+FC20-L0.18-A28-CIRCLE SUM-CHORD-ERROR-(mm)               =  2.187639876000e-03 
+FC20-L0.18-A28-CIRCLE SUM-CHORD-ERROR/TOT-INTERPOL-PNTS  =  8.813665347893e-08 
+
+FC20-L0.18-A28-CIRCLE SUM-ARC-LENGTH-(mm)                =  4.963771594934e+02 
+FC20-L0.18-A28-CIRCLE SUM-CHORD-LENGTH-(mm)              =  4.963771581682e+02 
+FC20-L0.18-A28-CIRCLE DIFF-ARC-LENGTH-CHORD-LENGTH-(mm)  =  1.325165840171e-06 
+FC20-L0.18-A28-CIRCLE PCNT-DIFF-ARC-CHORD-LENGTH         =  2.669675295946e-07 
+
+FC20-L0.18-A28-CIRCLE SUM-CHORD-ERROR/SUM-CHORD-LENGTH   =  4.407213023407e-06 
+
+FC20-L0.18-A28-CIRCLE SUM-ARC-THETA-(rad)                =  6.283002050952e+00 
+FC20-L0.18-A28-CIRCLE SUM-ARC-AREA-(mm2)                 =  2.093803820914e-04 
+
+FC20-L0.18-A28-CIRCLE SUM-ARC-AREA/SUM-CHORD-LENGTH      =  4.407213023407e-06 
+
+FC20-L0.18-A28-CIRCLE AVG-CHORD-ERROR-(mm)               =  8.813665347893e-08 
+FC20-L0.18-A28-CIRCLE AVG-ARC-LENGTH-(mm)                =  1.999827402173e-02 
+FC20-L0.18-A28-CIRCLE AVG-CHORD-LENGTH-(mm)              =  1.999827396834e-02 
+FC20-L0.18-A28-CIRCLE AVG-ARC-THETA-(rad)                =  2.531325108155e-04 
+FC20-L0.18-A28-CIRCLE AVG-ARC-AREA-(mm2)                 =  8.435614281914e-09 
+
+# Testing data 01 
+# DTStamp_FHdata_02 2023-10-05 03:12:35 125837755 

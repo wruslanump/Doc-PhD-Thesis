@@ -1,0 +1,95 @@
+\chapter{METHODOLOGY}
+\label{ch:tocloft}
+
+\section{Parametric Representation of curves and surfaces}
+
+
+[1] Rogers. David F., An introduction to NURBS with historical perspective. 2001 by Academic Press.
+
+
+The standard for describing and modeling curves and surfaces in computer aided design (CAD) and computer graphics is NURBS, or NonUniform Rational B-Splines. Essentially, NURBS describe parametric curves and surfaces. Curves and surfaces are mathematically represented either explicitly, implicitly or parametrically.
+
+In practice, curves and surfaces are generally bounded. When either an explicit or implicit representation is used, imposing the boundaries is awkward. In contrast, the boundaries for a parametrically represented curve or surface are provided by the restective parameter ranges. In addition, the parameter range for a parametric curve also specifies a natural traversal direction along the curve. For example, specifying a curve requires one parameter while specifying a surface requires 2 parameters.
+
+In general, a parametric curve representation of a 3D curve takes the mathematical functional form of x=f(t), y=g)t), and z=h(t), where t is the independent parameter. By extension, a parametric surface representation takes the form of x=f(u,w), y=g(u,w), z=h(u,w), where u and w are independent parameters. When compared to either explicit or implicit formulations, this parametric representation is extremely flexible. The representation is axis independent, easily represented by multiple-valued functions, can have infinite derivatives, and extended degrees of freedom.  To have more degrees of freedom additional independent parameters can be added.
+
+\section{Continuity of curves and surfaces}
+
+There are two kinds of continuity, or smoothness, associated with parametric curves and surfaces known as geometric continuity and parametric continuity. Simplistically, you can think of geometric continuity as physical and parametric continuity as mathematical. Geometric continuity is less restrictive than parametric continuity.
+
+
+
+
+\section{Advantages of Parametric Representations in CNC}
+
+
+
+\section{Parametric representation to CNC G-Codes}
+
+
+
+
+
+
+All auto-numbered headings get entered in the Table of Contents (ToC) automatically. Entries for the ToC are recorded each time you process your document, and reproduced the next time you process it, so you need to re-run {\LaTeX} one extra time to ensure that all ToC page number references are correctly calculated. The commands \verb+\listoffigures+ and \verb+\listoftables+ work in exactly the same way as \verb+\tableofcontents+ to automatically list all your tables and figures. Note that, to have your figures or tables listed in list of figures or tables the command \verb+\ref{}+ must be used for referring the designated figure or table. Details on this will be given the following chapters.\\
+
+The primary way to build a table is to use the tabular environment. Here's an example:
+
+\begin{tabular}[t]{|l|ccccc|c|}
+\multicolumn{7}{c}{USAMTS Scores Round 1}\\\hline
+Name&\#1&\#2&\#3&\#4&\#5&Total\\\hline
+John Doe&5&5&3&2&1&16\\
+Jane Doe&5&5&5&4&5&24\\
+Richard Feynman&5&5&5&5&5&25\\\hline
+\end{tabular}
+
+When you typeset that code, you should see a simple table like this one. Read through the following general description of the tabular environment to understand how the code above produced the table.\\
+
+General form of the tabular environment:
+\verb+\begin{tabular}[alignment]{columns}+
+\verb+rows+
+\verb+\end{tabular}+\\
+
+\textbf{alignment} - put either b or t, or omit this completely. This determines how your table is vertically positioned with the text around it. This entry is not too important - experiment using different values (or omitting it) when you have a table in the midst of a document to get a better feel for it.\\
+
+\textbf{columns} - this describes the number of columns and the alignment of each column. Put r for a right-justified column, c for a centered column, and l for a left-justified column. Put a | if you want a vertical line between columns. For example, the column declaration \verb+{||rr|cc|l}+ will produce a table that has 2 vertical lines on the left, then two columns that are right-justified, then a vertical line, then 2 columns that are centered, then another vertical line, then a left-justified column. There are more complicating things that you can do, and even more complicated things if you include the array packing in your document (check a good LaTeX book for more details), but for most tables, the options we've described here are sufficient.\\
+
+\textbf{rows} - You can have as many rows as you like. For each row, you need an entry for each column. Each of these entries is separated by an \verb+&+. Use \verb+\\+ to indicate that your input for that row is finished. Hence, if your column declaration was \verb+{cccc}+, a possible row entry could be \verb+5&5&5&5\\+
+\\
+
+If you wish for one row to have fewer columns (i.e. one column takes up several of the usual table columns), use the command \verb+\multicolumn+. In the example above, we had as our first row\\
+
+\verb+\multicolumn{7}{c}{USAMTS Scores Round 1}\\+
+
+The first \verb+{ }+ indicates how many regular columns this entry will take up. The second \verb+{ }+ indicates whether the text in this entry is right (r), left (l) or center (c) justified. The final \verb+{ }+ contains our entry. As with the regular column declaration, use | if you want a vertical line before or after the entry of \verb+\multicolumn+.\\
+
+In general, you can use \verb+\vline+ to introduce a vertical line anywhere in a table (try putting one between John and Nash in the example below and see what happens).\\
+
+Finally, at the end of some of the rows in our example, we have the command \verb+\hline+. This produces a horizontal line after the row it follows. If you want a horizontal line atop a table, use \verb+\hline+ right before the first row. If you only want a horizontal line under a portion of the row, use \verb+\cline{start column-end column}+ as indicated in the example below:\\
+
+\begin{tabular}[t]{|l|l|cccc|c|}\hline
+\multicolumn{7}{|c|}{USAMTS Final Scores by Round}\\\hline
+Medal&Name&\#1&\#2&\#3&\#4&Total\\\hline\hline
+&Richard Feynman&25&25&25&25&100\\\cline{3-7}
+Gold&Albert Einstein&25&25&25&25&100\\\cline{3-7}
+&Marie Curie&25&24&24&25&98\\\hline
+Silver&John Nash&20&20&25&24&89\\\hline
+&Jane Doe&23&\multicolumn{2}{c}{None}&25&48\\\cline{3-7}
+None&John Doe&\multicolumn{2}{c}{None}&25&20&45\\\cline{3-7}
+&Lazy Person&5&\multicolumn{3}{c|}{None}&5\\\hline
+\end{tabular}
+
+When you typeset this, you should get output like this. Note how we made a double horizontal line after the table headings.\\
+
+Finally, sometimes you'll want to create a table that consists solely of items in math mode. For such a table, use the array environment. The array environment works exactly like tabular, except that all its entries are rendered in math mode:
+
+\[\begin{array}[b]{ccc}
+x&y&z\\
+y&x&z\\
+1&2&3
+\end{array}\]
+
+Change both array declarations to tabular and delete the \verb+\[+ and \verb+\]+ and see what happens. You can do a number of other things with the array and tabular environments, but the above should cover most of what you'll want to do with them.\\
+
+If you build a table in which some entries are text that will take up multiple lines, you'll probably want to learn about boxes (below).
+

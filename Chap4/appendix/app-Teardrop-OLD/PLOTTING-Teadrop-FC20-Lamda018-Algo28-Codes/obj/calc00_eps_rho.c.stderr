@@ -1,0 +1,4 @@
+/home/wruslan/WOM-WRY-UMP-PhD/multithreading-gnat/src/algo/calc00_eps_rho.c:6:10: fatal error: algo/calc00_eps_rho_chordlength.h: No such file or directory
+    6 | #include "algo/calc00_eps_rho_chordlength.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.

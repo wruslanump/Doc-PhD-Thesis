@@ -1,0 +1,59 @@
+% LISTING RESIZED AT basicstyle=\linespread{0.xxx}\fontsize
+%% ========================================================
+\clearpage
+\pagebreak
+%% \begin{landscape}
+	
+%% INPUT FROM FILE
+%% \lstinputlisting[⟨key=value list⟩]{⟨file name⟩}
+%% typesets the stand alone source code file as a displayed listing.
+%% \lstset{backgroundcolor=\color{white}, basicstyle=\linespread{0.9}\scriptsize, frame={topline, bottomline, leftline, rightline}}
+	
+\lstset{backgroundcolor=\color{white}, basicstyle=\linespread{0.92}\footnotesize, frame={topline, bottomline, leftline, rightline}}	
+\begin{lstlisting}[caption={NOTE 1: SnaHyp-FC30-40-Run-Error-log-listing}, label=SnaHyp-FC30-40-Run-Error-log-listing]	
+
+Curve Type  RunTime      u        u_next    Diff FRate   FRateStatus
+....
+FC30-SNAHYP 11.497 0.706104005 0.000000000  3.499017e-14 FRAboveLimit
+FC30-SNAHYP 11.498 0.706104005 0.000000000  4.608268e-14 FRBelowLimit 
+FC30-SNAHYP 11.499 0.706104005 0.000000000  4.296434e-14 FRAboveLimit 
+FC30-SNAHYP 11.500 0.706104005 0.000000000  3.351623e-14 FRBelowLimit
+FC30-SNAHYP 11.501 0.706104005 0.000000000  1.913195e-14 FRAboveLimit 
+FC30-SNAHYP 11.501 0.706104005 0.000000000  1.913195e-14 FRAboveLimit 
+NOTE: u_next_zero FIRST  occurance of (u_next < 1.0E-14)
+NOTE: u_next_zero SECOND occurance of (u_next < 1.0E-14)
+NOTE: u_next_zero THIRD  occurance of (u_next < 1.0E-14)
+NOTE: u_next_zero FOURTH occurance of (u_next < 1.0E-14)
+NOTE: u_next_zero FIFTH  occurance of (u_next < 1.0E-14)
+RUN ERROR .... RECURSIVE NON STOP 
+Five(5) consecutive occurances of (u_next < 1.0E-14) 
+Execute exit(1) at line 1310 in main(). 
+STATUS: 0 = NOT ACTIVATED, 1 ACTIVATED 
+EXIT ON u VALUE NOT CHANGING CONSECUTIVELY
+u_val_constant_1 = 0 
+u_val_constant_2 = 0 
+u_val_constant_3 = 0 
+u_val_constant_4 = 0 
+u_val_constant_5 = 0 
+EXIT ON u_next VALUE BECOMES ZERO CONSECUTIVELY
+u_next_zero_1 = 1 
+u_next_zero_2 = 1 
+u_next_zero_3 = 1 
+u_next_zero_4 = 1 
+u_next_zero_5 = 1 
+EXIT ON INTERPOLATED POINTS EXCEEDING 50,000 LINE LIMIT
+display_line_limit_03K_BELOW = 1 
+display_line_limit_03K = 1 
+display_line_limit_05K = 1 
+display_line_limit_10K = 1 
+display_line_limit_15K = 0 
+display_line_limit_20K = 0 
+display_line_limit_25K = 0 
+....
+display_line_limit_50K_ABOVE = 0 
+display_line_limit_100K_ABOVE = 0 
+[2023-09-30 18:42:57] process exited status 1, elapsed time: 08.14s
+
+\end{lstlisting}
+%% \end{landscape}
+

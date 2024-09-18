@@ -1,0 +1,88 @@
+\chapter{CONCLUSION}
+
+\section{Conclusions of the research}
+
+The realtime interpolation algorithm developed in this work, when executed against all of the selected curves exclusively and simultaneously satisfy both the design constraints on the feedrate and its chord-error tolerance. The summary of work achievements are as follows.
+
+\begin{enumerate}
+	\item The resulting feedrate profiles throughout the entire path are continuous and smooth. 
+	
+	\item The maximum feedrate at every interpolated point remains below and close to the calculated feedrate limit. 
+	
+	\item The current running feedrate does not exceed the user specified command feedrate at every point during the traversal along the entire parametric curve. 
+	
+	\item The chord-error at every interpolated arc segment remains below the chord-error tolerance throughout the curve traversal. 
+	
+	\item Without fail, a single and robust interpolation algorithm was developed and is capable of handling the complexities of a wide range of 2D parametric curves comprising different sizes and shapes. 
+	
+	\item The algorithm can be implemented both in a realtime, online mode by driving the CNC machine directly, or in an offline mode by using a stored RS274/NGC G-code standard file. This work satisfies both interpretations of realtime: the lay person interpretation and the technical definition of realtime. 
+	
+	\item The performance accuracy of the algorithm for the chord-error per unit length traversed and error-tolerance set at $(10)^{-6}$ mm, as expected, varies for different curves. 
+	
+	\item The average performance of chord-error to length ratio is in the range of $(10)^{-6}$ to $(10)^{-5}$ for the algorithm. The results are provided in [Table \ref{Chord-error-per-unit-curve-traversed-FC20}]. 
+
+\end{enumerate}	
+
+	
+\section{Performance accuracy of the algorithm}	
+	
+\noindent
+The curve-error per unit length traversed is the sum total of all chord-errors divided by the sum total of all chord lengths for each parametric curve. This ratio is a performance accuracy measure of the interpolation algorithm developed in this work.
+	
+\begin{table}[ht]
+%%	\begin{center}
+\caption{Chord-error per unit length curve traversed (ratio) CEE}
+\label{Chord-error-per-unit-curve-traversed-FC20}
+\begin{tabular}{p{0.5cm} p{4.0cm} p{2.5cm} p{2.0cm} p{2.0cm} p{2.0cm} }
+\hline	
+			  &              &                & CEE    & CEE   & CEE \\
+			  &              &    Total Chord & Ratio & Ratio & Ratio \\
+			  & Curve Type   &    Length(mm)  & Min   &  Avg  & Max\\
+			\hline
+			1 &	Teardrop curve      & 101.83  & $5.70(10)^{-5}$ & $6.45(10)^{-5}$ & $7.20(10)^{-5}$ \\ 
+			2 &	Butterfly curve     & 356.07  & $5.45(10)^{-6}$ & $1.09(10)^{-5}$ & $1.64(10)^{-5}$ \\ 
+			3 &	Ellipse curve       & 215.64  & $1.38(10)^{-5}$ & $2.39(10)^{-5}$ & $3.40(10)^{-5}$ \\ 
+			4 &	SkewedAstroid curve & 445.71  & $1.16(10)^{-6}$ & $2.89(10)^{-5}$ & $4.62(10)^{-6}$ \\ 
+			5 &	Circle curve        & 496.39  & $2.20(10)^{-6}$ & $4.75(10)^{-6}$ & $7.30(10)^{-6}$ \\
+			6 &	AstEpi curve        & 426.26  & $1.97(10)^{-6}$ & $5.39(10)^{-6}$ & $8.81(10)^{-6}$ \\  
+			7 &	Snailshell curve    & 138.56  & $3.69(10)^{-5}$ & $4.38(10)^{-5}$ & $5.08(10)^{-5}$ \\
+			8 &	SnaHyp curve        & 478.99  & $5.94(10)^{-6}$ & $7.62(10)^{-6}$ & $9.31(10)^{-6}$ \\
+			9 &	Ribbon10L curve     & 15.21   & $4.81(10)^{-4}$ & $4.82(10)^{-4}$ & $4.82(10)^{-4}$ \\ 
+			10 & Ribbon100L curve   & 152.13  & $4.75(10)^{-5}$ & $4.79(10)^{-5}$ & $4.82(10)^{-5}$ \\ 	
+\hline
+\end{tabular}
+%%	\end{center}
+\end{table}
+
+\noindent
+The ratio in the table above is termed Chord-Error-Efficiency (CEE) and interpreted as the amount of error generated per unit chord-length of curve travel. This CEE ratio is independent of the total length of the curve. \\
+
+Ignoring the Ribbon10L curve for being too small (4 mm x 4 mm), the average performance of chord-error to length ratio is in the range of $(10)^{-6}$ to $(10)^{-5}$ for the algorithm developed in this work. 
+
+
+		
+%% ==============================================
+\clearpage
+\pagebreak
+
+\section{Knowledge contributions}
+
+\begin{enumerate}
+	\item A parametric curve interpolation method that successfully constrain chord-error and feedrate simultaneously with confinement of tangential acceleration.
+	
+	\item The importance of having a fully functionalized and modularized implementation code for interpolation that follows good software engineering practice.   
+	
+\end{enumerate}
+
+
+\section{Recommendations for future work}
+
+It is highly recommended that future interpolation work involves NURBS curves. The availability of libraries in various programming languages to manipulate NURBS, like C/C++, Python, Julia and Octave, opens up possibilities for commercial applications of NURBS in CNC machining. It is recommended that a study be conducted to compare the simplicity, accuracy and intensiveness of computations using NURBS libraries of the different programming languages.  
+
+
+
+
+
+%% =============================
+\cleardoublepage
+

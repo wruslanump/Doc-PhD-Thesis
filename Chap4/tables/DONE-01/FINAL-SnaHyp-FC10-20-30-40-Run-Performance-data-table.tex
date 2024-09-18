@@ -1,0 +1,170 @@
+
+
+\begin{tabular}{ p{0.5cm} p{8.0cm} p{4.00cm} p{4.0cm} p{4.00cm} p{4.0cm}}
+\hline
+	&                                                      &                    &                      &                    & \\
+1	& Curve Type	                                       & SNAHYP             & ELLIPSE	           & ELLIPSE            &	ELLIPSE \\
+2	& User Feedrate Command FC (mm/s)                      &	10	            &    20                &	30	            &    40 \\
+3	& User Lamda Acceleration Safety Factor	               &   0.18             &	0.18               &   0.18             &   0.18 \\
+4	& Total number interpolated points	                   &   38672	        &  20223	           &  SEE NOTE 1	    & SEE NOTE 2\\
+	&                                                      &                    &                      &    &  \\
+5	& Total chord length (mm)	                           & 4.789870865777E+02	& 4.789986994127E+02   &    &  \\
+6	& Average chord length (mm)	                           & 1.238620895704E-02	& 2.368700916886E-02   & 	&  \\
+	&                                                      &                    &                      &    &  \\
+7	& Total chord error (mm)	                           & 2.846873175820E-03	& 4.002975369043E-03   & u = 0.706104005     & u = 0.706104005\\
+8	& Average chord error (mm)	                           & 7.361778014067E-08	& 1.979515067275E-07   & 	& \\
+9	& Total chord error/Total chord length                 & 5.943528031539E-06	& 8.356965006276E-06   &    & \\
+	&                                                      &                    &                      &    & \\
+10	& Total arc length (mm)	                               & 3.779474887498E+02	& 3.779592549820E+02   &    & \\
+11	& Average arc length (mm)	                           & 9.773408723587E-03	& 1.869049821887E-02   & 	& \\
+	&                                                      &                    &                      &    & \\
+12	& Total arc theta (rad)	                               & 5.483921922253E+02	& 5.514331568816E+02   &    & \\
+13	& Average arc theta (rad)	                           & 1.418096744913E-02	& 2.726897225208E-02   & 	& \\
+	&                                                      &                    &                      &                    & 
+14	& Total arc area (mm2)	                               & 2.706870610425E-01	& 2.760007501922E-01   &    & \\
+15	& Average arc area (mm2)	                           & 6.999742986798E-06	& 1.364853872971E-05   & 	& \\
+16	& Total arc area (mm2)/Total number of chords	       & 5.943528031539E-06	& 8.356965006276E-06   & 	& \\
+	&                                                      &                    &                      &    & \\
+17	& Algorithm simulation runtime on computer (s)         & 18.851497408	    & 16.84857493	       & 8.14  & 8.57 \\
+	&                                                      &                    &                      &                    & 
+\end{tabular}
+
+SNAHYP	SNAHYP	SNAHYP	SNAHYP
+10	20	30	40
+0.18	0.18	0.18	0.18
+38672	20223	SEE NOTE 1	SEE NOTE 2
+
+
+4.789870865777E+02	4.789986994127E+02		
+1.238620895704E-02	2.368700916886E-02	Error u_next = 0	Error u_next = 0
+
+2.846873175820E-03	4.002975369043E-03	at main() line 1310	at main() line 1310
+7.361778014067E-08	1.979515067275E-07		
+5.943528031539E-06	8.356965006276E-06		
+
+3.779474887498E+02	3.779592549820E+02	
+9.773408723587E-03	1.869049821887E-02		
+
+5.483921922253E+02	5.514331568816E+02		
+1.418096744913E-02	2.726897225208E-02
+		
+2.706870610425E-01	2.760007501922E-01		
+6.999742986798E-06	1.364853872971E-05		
+5.943528031539E-06	8.356965006276E-06		
+
+18.851497408	16.84857493	8.14	8.57
+
+
+===================================
+FC30 SNAHYP REPORT
+===================================
+
+FC30-L0.18-A27-SNAHYP  11.497  0.706104005  0.000000000  0.001 4.200094e-03  4.604823e-14  4.200094e-03   29.192  29.002  41.149  3.499017e-14   0.047475   0.003780   0.000105   0.000105  0.000000035   0.000034  -0.000100  30.00 FRAboveLimit 
+
+FC30-L0.18-A27-SNAHYP  11.498  0.706104005  0.000000000  0.001 4.200094e-03  3.357644e-14  4.200094e-03   29.192  29.002  41.149  4.608268e-14   0.047475  -0.007020   0.000099   0.000098  0.000000504   0.000031  -0.000093  30.00 FRBelowLimit 
+
+FC30-L0.18-A27-SNAHYP  11.499  0.706104005  0.000000000  0.001 4.200094e-03  2.433123e-14  4.200094e-03   29.192  29.002  41.149  4.296434e-14   0.047475   0.026500   0.000125   0.000125  0.000000632   0.000040  -0.000118  30.00 FRAboveLimit 
+
+FC30-L0.18-A27-SNAHYP  11.500  0.706104005  0.000000000  0.001 4.200094e-03  1.787459e-14  4.200094e-03   29.192  29.002  41.149  3.351623e-14   0.047475  -0.020700   0.000104   0.000104  0.000000364   0.000033  -0.000099  30.00 FRBelowLimit 
+
+FC30-L0.18-A27-SNAHYP  11.501  0.706104005  0.000000000  0.001 4.200094e-03  1.301129e-14  4.200094e-03   29.192  29.002  41.149  1.913195e-14   0.047475   0.008680   0.000113   0.000113  0.000000208   0.000036  -0.000107  30.00 FRAboveLimit 
+
+FC30-L0.18-A27-SNAHYP  11.501  0.706104005  0.000000000  0.001 4.200094e-03  1.301129e-14  4.200094e-03   29.192  29.002  41.149  1.913195e-14   0.047475   0.008680   0.000113   0.000113  0.000000208   0.000036  -0.000107  30.00 FRAboveLimit 
+
+ NOTE: u_next_zero FIRST  occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero SECOND occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero THIRD  occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero FOURTH occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero FIFTH  occurance of (u_next < 1.0E-14)
+ RUN ERROR .... RECURSIVE NON STOP 
+ Five(5) consecutive occurances of (u_next < 1.0E-14) 
+ Execute exit(1) at line 1310 in main(). 
+ STATUS: 0 = NOT ACTIVATED, 1 ACTIVATED 
+EXIT ON u VALUE NOT CHANGING CONSECUTIVELY
+u_val_constant_1 = 0 
+u_val_constant_2 = 0 
+u_val_constant_3 = 0 
+u_val_constant_4 = 0 
+u_val_constant_5 = 0 
+EXIT ON u_next VALUE BECOMES ZERO CONSECUTIVELY
+u_next_zero_1 = 1 
+u_next_zero_2 = 1 
+u_next_zero_3 = 1 
+u_next_zero_4 = 1 
+u_next_zero_5 = 1 
+EXIT ON INTERPOLATED POINTS EXCEEDING 50,000 LINE LIMIT
+display_line_limit_03K_BELOW = 1 
+display_line_limit_03K = 1 
+display_line_limit_05K = 1 
+display_line_limit_10K = 1 
+display_line_limit_15K = 0 
+display_line_limit_20K = 0 
+display_line_limit_25K = 0 
+display_line_limit_30K = 0 
+display_line_limit_35K = 0 
+display_line_limit_40K = 0 
+display_line_limit_45K = 0 
+display_line_limit_50K = 0 
+display_line_limit_50K_ABOVE = 0 
+display_line_limit_100K_ABOVE = 0 
+[2023-09-30 18:42:57] process exited with status 1, elapsed time: 08.14s
+
+============================================
+FC40 SNAHYP REPORT
+============================================
+FC40-L0.18-A27-SNAHYP  8.888  0.703535840  0.000000000  0.001 4.766347e-03  1.410185e-11  4.766347e-03   29.125  30.478  42.157  2.416107e-14   0.031333   0.022540   0.000087   0.000086  0.000000758   0.000055  -0.000066  40.00 FRBelowLimit 
+
+FC40-L0.18-A27-SNAHYP  8.889  0.703535840  0.000000000  0.001 4.766347e-03  4.201265e-12  4.766347e-03   29.125  30.478  42.157  2.711491e-14   0.031333   0.005040   0.000092   0.000091  0.000000373   0.000059  -0.000070  40.00 FRBelowLimit 
+
+FC40-L0.18-A27-SNAHYP  8.890  0.703535840  0.000000000  0.001 4.766347e-03  1.251623e-12  4.766347e-03   29.125  30.478  42.157  2.225769e-14   0.031333   0.000280   0.000092   0.000092  0.000000093   0.000059  -0.000070  40.00 FRBelowLimit 
+
+FC40-L0.18-A27-SNAHYP  8.891  0.703535840  0.000000000  0.001 4.766347e-03  3.728953e-13  4.766347e-03   29.125  30.478  42.157  3.202373e-14   0.031333   0.004600   0.000096   0.000096  0.000000092   0.000062  -0.000074  40.00 FRAboveLimit 
+
+FC40-L0.18-A27-SNAHYP  8.892  0.703535840  0.000000000  0.001 4.766347e-03  1.110717e-13  4.766347e-03   29.125  30.478  42.157  3.842847e-14   0.031333  -0.035400   0.000061   0.000061  0.000000702   0.000039  -0.000047  40.00 FRBelowLimit 
+
+FC40-L0.18-A27-SNAHYP  8.893  0.703535840  0.000000000  0.001 4.766347e-03  3.307164e-14  4.766347e-03   29.125  30.478  42.157  3.814000e-14   0.031333   0.025480   0.000087   0.000086  0.000000758   0.000055  -0.000066  40.00 FRBelowLimit 
+
+ NOTE: u_next_zero FIRST  occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero SECOND occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero THIRD  occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero FOURTH occurance of (u_next < 1.0E-14)
+ NOTE: u_next_zero FIFTH  occurance of (u_next < 1.0E-14)
+ RUN ERROR .... RECURSIVE NON STOP 
+ Five(5) consecutive occurances of (u_next < 1.0E-14) 
+ Execute exit(1) at line 1310 in main(). 
+ STATUS: 0 = NOT ACTIVATED, 1 ACTIVATED 
+EXIT ON u VALUE NOT CHANGING CONSECUTIVELY
+u_val_constant_1 = 0 
+u_val_constant_2 = 0 
+u_val_constant_3 = 0 
+u_val_constant_4 = 0 
+u_val_constant_5 = 0 
+EXIT ON u_next VALUE BECOMES ZERO CONSECUTIVELY
+u_next_zero_1 = 1 
+u_next_zero_2 = 1 
+u_next_zero_3 = 1 
+u_next_zero_4 = 1 
+u_next_zero_5 = 1 
+EXIT ON INTERPOLATED POINTS EXCEEDING 50,000 LINE LIMIT
+display_line_limit_03K_BELOW = 1 
+display_line_limit_03K = 1 
+display_line_limit_05K = 1 
+display_line_limit_10K = 0 
+display_line_limit_15K = 0 
+display_line_limit_20K = 0 
+display_line_limit_25K = 0 
+display_line_limit_30K = 0 
+display_line_limit_35K = 0 
+display_line_limit_40K = 0 
+display_line_limit_45K = 0 
+display_line_limit_50K = 0 
+display_line_limit_50K_ABOVE = 0 
+display_line_limit_100K_ABOVE = 0 
+[2023-09-30 18:49:46] process exited with status 1, elapsed time: 08.57s
+
+=====================================================================
+ALHAMDULILLAH 3 TIMES.
+=====================================================================
+
+
+

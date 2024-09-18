@@ -1,0 +1,11 @@
+## Teardrop Performance 1: Chord-Error per Interpolated-Point	&	(SCE/TIP)	\\
+## set yrange [ 1E-7 : 1E-6]
+
+## Run Type
+## FC10 Teardrop L0.18		5.662512512745E-07	
+## FC20 Teardrop L0.18		9.398272128007E-07	
+## FC30 Teardrop L0.18		9.987467611463E-07	
+## FC40 Teardrop L0.18		9.985225973861E-07	
+
+RunType 5.662512512745E-07  9.398272128007E-07	9.987467611463E-07	9.985225973861E-07	
+

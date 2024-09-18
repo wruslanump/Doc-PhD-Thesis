@@ -1,0 +1,35 @@
+gprbuild -d -P/home/wruslan/WRY-UMP-Thesis-Calc-Reports-75/
+Data-Varying-FC-10-20-30-40-LAMDA-018-Algo28/03-Teardrop-
+VFC-fixed-Lamda-018-Algo28-DONE
+/Teadrop-FC20-Lamda018-Algo28-Codes/c_multithreading.gpr -s -k
+
+Compile
+   [C]            main_c_multithreading.c
+   [C]            c_position.c
+   [C]            c_velocity.c
+   [C]            c_accelern.c
+   [C]            calc03_feedrate_limit.c
+   [C]            calc00_parametric_curve.c
+   [C]            calc06_decide_next_frate.c
+   [C]            calc07_iterate_u_next.c
+   [C]            write_ngc_code.c
+   [C]            calc05_action_next_frate.c
+   [C]            calc01_lookahead_length.c
+   [C]            calc02_tang_accn_limit.c
+   [C]            calc04_integration_error.c
+   [C]            preempt_rt.c
+   [C]            main_usb-to-parallel-port.c
+   [C]            usb_parallel_port.c
+   [C]            pci_parallel_port.c
+   [C]            c_report_01.c
+   [C]            test_threads_01.c
+   [C]            c_min_max_int_dbl_in_array.c
+   [C]            c_dtstamp.c
+   [C]            c_random_int_dbl.c
+   [C]            c_parallel_port.c
+Link
+   [archive]      libc_multithreading.a
+   [index]        libc_multithreading.a
+   [link]         main_c_multithreading.c
+[2023-10-10 11:06:29] process terminated successfully, elapsed time: 02.36s
+

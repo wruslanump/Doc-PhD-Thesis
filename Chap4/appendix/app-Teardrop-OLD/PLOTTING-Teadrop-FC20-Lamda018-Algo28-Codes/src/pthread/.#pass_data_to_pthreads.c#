@@ -1,0 +1,93 @@
+/*
+ * pass_data_to_pthreads.c
+ *
+ *  Created on: Feb 26, 2020
+ *      Author: wruslan
+ */
+
+#include <stdio.h>
+#include <pthread.h>
+#include <sched.h>
+#include <stdint.h>     // For intptr_t
+#include <sys/types.h>  // For getpid() and getppid()
+#include <unistd.h>     // For getpid() and getppid()
+#include <sys/syscall.h> //For long tid = syscall(SYS_gettid), pthread_self();
+#include <stdlib.h>      // For exit()
+
+
+#include "common/c_dtstamp.h"
+// #include "pthread/pass_data_to_pthreads.h"
+
+// ========================================================
+// GLOBALS
+typedef struct passed_data {
+		const char *passed_msg;
+		long 		passed_long;
+		int			passed_int;
+		double		passed_dbl;
+} passed_data_1, *ptrpassed_data_1;
+
+struct passed_data data_1;
+
+struct sched_param  param;
+pthread_t 			    the_thread_01;
+pthread_attr_t 	    the_attr;
+int                 ret_the_thread_create_01;
+int                 ret_the_thread_join_01;
+
+// ========================================================
+void passdatato_thread_01(double tee0) {
+// ========================================================
+DTStamp ();
+printf("Started running passdatato_thread_01. PPID:%d PID:%d TID:%lu \n", getppid(), getpid(), pthread_self());
+
+  ptrpassed_data_1  data_1;
+
+	const char* mymsg = data_1->passed_msg;
+	long mylong = data_1->passed_long;
+	int myint = data_1->passed_int;
+	double mydbl = data_1->passed_dbl;
+
+	DTStamp(); printf("TID:%lu received mymsg = %s \n",   pthread_self(), mymsg);
+	DTStamp(); printf("TID:%lu received mylong = %ld \n", pthread_self(), mylong);
+	DTStamp(); printf("TID:%lu received myint = %d \n",   pthread_self(), myint);
+	DTStamp(); printf("TID:%lu received mydbl = %f \n",   pthread_self(), mydbl);
+
+// return NULL;
+}
+
+// =========================================================
+void execute_create_passdatato_thread_01(double tee0){
+// =========================================================
+
+// struct passed_data data1; // SET AS GLOBAL TO WORK
+	data_1.passed_msg  = "Bismillah 3 times";
+	data_1.passed_long = 1118888;
+	data_1.passed_int  = 11;
+	data_1.passed_dbl  = 1111.99877;
+
+	// Create the_thread_01, and immediately execute function passdatato_thread_01 with passed data &data1
+	ret_the_thread_create_01 = pthread_create(&the_thread_01, &the_attr, (void *)passdatato_thread_01, &data_1);
+
+	if (ret_the_thread_create_01) {
+	        DTStamp(); printf("(7) %m: pthread create failed. thread_create_check \t= %d \n", ret_the_thread_create_01);
+			perror("ret_the_thread_create_01");
+			exit(1);
+	    } else {
+			DTStamp(); printf("(7) %m: pthread create success. thread_create_check \t= %d \n", ret_the_thread_create_01);
+		}
+}
+// =========================================================
+void execute_join_passdatato_thread_01(double tee0){
+// =========================================================
+	ret_the_thread_join_01 = pthread_join(the_thread_01, NULL);
+
+	if (ret_the_thread_join_01) {
+		DTStamp(); printf("(8) %m: pthread join failed. thread_join_check \t= %d \n", ret_the_thread_join_01);
+		perror("ret_the_thread_join_01");
+		exit(1);
+	} else {
+		DTStamp(); printf("(8) %m: pthread join success. thread_join_check \t= %d \n", ret_the_thread_join_01);
+	}
+}
+// ========================================================
