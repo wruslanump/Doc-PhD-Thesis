@@ -1,0 +1,305 @@
+%% File: 122-main-WRY-PhD-Thesis.tex  v
+
+%% Bismillah Hirrahma Nirrahim
+
+%% =========================================================
+%% BEGIN PREAMBLE SECTION
+%% =========================================================
+% REPORT TEMPLATE WITH STANDARD PACKAGES
+\documentclass[a4paper,12pt,oneside]{book}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{derivative}
+\numberwithin{equation}{section}
+\numberwithin{equation}{subsection}
+\usepackage{lscape}
+
+\usepackage[a4paper,left=3.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[nooneline]{caption}
+\usepackage[subfigure]{tocloft} 
+\usepackage{subfigure}
+\usepackage{indentfirst}
+
+%% THIS IS APA STYLE REFERENCE SYSTEM
+\usepackage[natbibapa]{apacite}
+\setlength{\bibsep}{12pt}
+\usepackage{natbib}
+\usepackage{booktabs}
+
+\usepackage[hidelinks]{hyperref, graphicx} 
+%% \usepakage{hyperref}
+%% This is my link: \href{http://www.latex-tutorial.com}{LaTeX-Tutorial}.
+%% EXAMPLE Figure \ref{fig:boat1} shows a boat.
+% Use this to hide links. Delete [hidelinks] to unhide
+
+%% FOR CODE LISTINGS
+\usepackage{listings}
+%% \usepackage{keyval}
+
+%% https://www.baeldung.com/cs/latex-include-vs-input
+
+
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{afterpage}
+\usepackage{titling}
+\usepackage{nomencl}
+\usepackage{glossaries}
+\usepackage{enumitem} 
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+%% FONTSPEC IS THE PROBLEM
+%% DOES NOR WORK WITH pdflatex
+% \usepackage{fontspec} 
+
+\usepackage{rotating} 
+%delete this if you don't need sideways table
+\usepackage[toc,page,header]{appendix}
+\usepackage{minitoc}
+\usepackage{times}
+\usepackage{tocbasic}
+\usepackage{blindtext}
+
+%% REFERENCING
+\usepackage{hyperref}[colorlinks=true, urlcolor=blue, linkcolor=red]
+%% \usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+
+% FOR LISTING SOFTWARE CODES
+%% AUTOMATIC SOURCE CODE LINE NUMBERING
+%% AVAILABLE PROGRAMMING LANGUAGE LISTINGS
+%% http://tug.ctan.org/tex-archive/macros/latex/contrib/listings/listings.pdf
+\usepackage{listings}
+\usepackage{caption}
+
+
+\usepackage{tikz}
+% WRY TESTED ALL THESE LIBRARIES EXIST
+\usetikzlibrary{shapes, arrows, automata, backgrounds, calendar, 
+	fit, chains, matrix, mindmap, patterns, petri, shadows, 
+	shapes.geometric, shapes.misc, spy, trees
+} 
+
+%% EXPORT DIA TO SVG FORMAT (TO LEARN), THEN INCLUDE SVG
+%% NOW USING GRAPHICS IMPORT PDF FILE INTO ANOTHER PDF
+%% USE IS SIMILAR TO JPG/MPEG FILES.
+%% \includesvg{figSVG}
+%% \usepackage{svg}
+
+
+%% \setmainfont{Times New Roman} %% MOVE AFTER BEGIN DOCUMENT
+\parindent=0.5in
+\pagestyle{plain}
+\titleformat{\chapter}[display]{\bfseries\normalfont\bfseries}{\vspace{-12ex}\filcenter\MakeUppercase{\chaptertitlename} \normalfont\bfseries\thechapter}{1ex}{\vspace{8ex}\filcenter}
+\titleformat{\section}{\vspace{2ex}\normalfont\bfseries}{\thesection}{0.25in}{}[\vspace{2ex}]
+\titleformat{\subsection}{\vspace{2ex}\normalfont\bfseries}{\thesubsection}{0.10in}{}[\vspace{2ex}]
+\titleformat{\subsubsection}{\vspace{2ex}\normalfont\bfseries}{\thesubsection}{0.10in}{}[\vspace{2ex}]
+
+% Centering titles for the ToC, Lof and Lot
+\renewcommand{\cfttoctitlefont}{\centering\normalfont\MakeUppercase}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\setlength{\cftbeforetoctitleskip}{-1.5em}
+\renewcommand{\cftloftitlefont}{\hfill\normalfont\MakeUppercase}
+\renewcommand{\cftafterloftitle}{\hfill}
+\setlength{\cftbeforeloftitleskip}{-1.5em}
+\renewcommand{\cftlottitlefont}{\hfill\normalfont\MakeUppercase}
+\renewcommand{\cftafterlottitle}{\hfill}
+\setlength{\cftbeforelottitleskip}{-1.5em}
+
+%definition of the list of appendices
+\makeatletter
+\newcommand\tableofappendices
+{\section*{LIST OF APPENDICES}\@starttoc{toa}}
+\newcommand\l@appendix[2]
+{\par\noindent\bfseries{#1}\hfill\bfseries{#2}\par}
+\makeatother
+
+%changingformatoflof
+\newlength\mylen
+\renewcommand\cfttabpresnum{\tablename~}
+\renewcommand\cfttabaftersnum{:}
+\settowidth\mylen{\cfttabpresnum\cfttabaftersnum}
+\addtolength\cfttabnumwidth{\mylen}
+
+%changingformatoflot
+\newlength\mylength
+\renewcommand\cftfigpresnum{\figurename~}
+\renewcommand\cftfigaftersnum{:}
+\settowidth\mylength{\cftfigpresnum\cftfigaftersnum}
+\addtolength\cftfignumwidth{\mylength}
+
+% Chapter entries formatting for frontmatter chapters
+\newcommand\frontmatterchaptoc{%
+	\titlecontents{chapter}
+	[1.5em]{\addvspace{\baselineskip}}
+	{\contentslabel{1.5em}\MakeUppercase}
+	{\hspace*{-1.5em}\MakeUppercase}
+	{\titlerule*[1pc]{.}\contentspage}
+}
+
+% Chapter entries formatting for mainmatter chapters
+\newcommand\mainmatterchaptoc{%
+	\titlecontents {chapter}
+	[5em]{\addvspace{\baselineskip}}
+	{\contentslabel{3em}\hspace*{-1em}\MakeUppercase}
+	{\MakeUppercase}
+	{\titlerule*[1pc]{.}\contentspage}
+}
+
+% Adjust the TOC horizontal spacing
+\cftsetindents{section}{0em}{3em}
+\cftsetindents{subsection}{3em}{3em}
+
+% Add word CHAPTER in toc
+\let\oldcftchappresnum\cftchappresnum
+\renewcommand*{\cftchappresnum}{CHAPTER \oldcftchappresnum} % change the chapter number to include the word "Chapter"
+\setlength{\cftchapnumwidth}{6.5em}
+
+%% FOR LIST OF ABBREVIATIONS MORE THAN 1 PAGE
+\usepackage{longtable}
+\usepackage{sectsty}
+
+
+%% =======================================
+% END OF PREAMBLE SECTION
+%% =======================================
+
+%% =======================================
+% BEGIN DOCUMENT SECTION
+%% =======================================
+\begin{document}
+	
+\onehalfspacing
+
+%% PRELIMINARIES
+\include{Frontmatter/copy}
+\include{Frontmatter/letter}
+\include{Frontmatter/sv_declaration}
+\include{Frontmatter/stud_declaration}
+
+\addcontentsline{toc}{chapter}{\protect\textbf{DECLARATION}}
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between Decl and Title Page
+\addcontentsline{toc}{chapter}{\protect\textbf{TITLE PAGE}}
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between Title Page and Ackn
+
+%% TITLE PAGE
+\pagenumbering{gobble}
+\include{Titlepage/titlepage}
+{\protect\pagestyle{empty}}
+\titlespacing*{\chapter}{0pt}{-60pt}{40pt}
+\setcounter{page}{2}	
+
+\frontmatter
+\renewcommand{\contentsname}{\hspace*{\fill}\normalfont\normalsize\textbf {TABLE OF CONTENTS}\hspace*{\fill}} 
+\renewcommand{\cftdot}{} % empty {} for no dots. you can have any symbol inside. 
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between Ackn and Abstrak
+\include{Frontmatter/acknowledgement}
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between Abstrak and Abstract
+\include{Frontmatter/abstrak_bm}
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between Abstract and TOC
+
+%% ABSTRACT
+\include{Frontmatter/abstract_english}
+\doublespacing
+\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between TOC and LOT
+\tableofcontents
+\cleardoublepage	
+
+%% LIST OF TABLES (LOT)	
+%\addtocontents{lot}{\lotheading}% add heading to the first page in LoT
+\renewcommand\listtablename{\textbf{LIST OF TABLES}}
+\listoftables
+\cleardoublepage
+
+%% LIST OF FIGURES (LOF)
+%\addtocontents{lof}{\lofheading}% add heading to the first page in LOF
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between LOT and LOF
+\renewcommand\listfigurename{\textbf{LIST OF FIGURES}}
+\listoffigures
+
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between LOF and LOS
+\renewcommand\listfigurename{\textbf{LIST OF ABBREVIATIONS}}
+\cleardoublepage
+
+%% AUTOMATIC LIST OF LISTINGS
+%% http://tug.ctan.org/tex-archive/macros/latex/contrib/listings/listings.pdf
+\addtocontents{toc}{\protect\vskip-10pt}
+\renewcommand\lstlistlistingname{\textbf{LIST OF CODE LISTINGS}}
+\lstlistoflistings
+\addtocontents{toc}{\protect\vskip-10pt}
+\cleardoublepage
+
+%% LIST OF SYMBOLS
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between LOS and LOAb
+\include{Frontmatter/symbols}
+\addtocontents{toc}{\protect\vskip-10pt} % to create single spacing between LOAb and LOAp
+
+%% LIST OF ABBREVIATIONS
+\include{Frontmatter/abbreviations}
+
+
+%% LIST OF APPENDICES
+\renewcommand{\nomname}{LIST OF APPENDICES}
+\titlespacing*{\chapter}{0pt}{-60pt}{40pt}
+\printnomenclature
+%% \include{Frontmatter/listappendices}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}	
+
+%% =========================================
+%% START MAIN THESIS BODY
+%% =========================================
+\mainmatter
+\include{Chap1/Introduction-chap1}
+\include{Chap2/Literature-Review-chap2}
+\include{Chap3/Methodology-chap3}
+\include{Chap4/Results-chap4}
+\include{Chap5/Conclusion-chap5}
+%% =========================================
+%% END MAIN THESIS BODY
+%% =========================================
+
+%% REFERENCES SECTION (APA BIBLIOGRAPHY STYLE)
+\renewcommand\bibname{REFERENCES}
+\bibliographystyle{apacite}
+\renewcommand{\doiprefix}{}
+\renewcommand{\doi}[1]{https://doi.org/#1}
+\titlespacing*{\chapter}{0pt}{-60pt}{40pt}
+
+% this command makes single spacing for reference
+\begingroup
+\setlength{\bibsep}{10pt}
+\setstretch{1}
+
+%% NAME OF REFERENCE FILE (References.tex)
+\bibliography{References}
+\endgroup
+
+%% APPENDIX SECTION
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\cleardoublepage
+\appendix
+\let\appendixpagenameorig\appendixpagename
+\renewcommand{\appendixpagename}{\normalfont\MakeUppercase\appendixpagenameorig}
+\renewcommand{\appendixtocname}{APPENDICES}
+\expandafter\def\expandafter\appendixpagename%
+\expandafter{\expandafter\Large\appendixpagename}
+\appendixpage
+\cleardoublepage
+\titlespacing*{\chapter}{0pt}{-60pt}{40pt}
+
+\include{Appendix/Appendix}
+
+
+
+\end{document}
+%% =========================================
+% END OF DOCUMENT SECTION
+%% =========================================
