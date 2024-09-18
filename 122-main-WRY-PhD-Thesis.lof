@@ -1,0 +1,512 @@
+\addvspace {10\p@ }
+\contentsline {xchapter}{ACKNOWLEDGEMENTS}{i}{chapter*.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{ABSTRAK}{iii}{chapter*.4}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{ABSTRACT}{iv}{chapter*.5}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{LIST OF ABBREVIATIONS}{xlvii}{chapter*.8}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{INTRODUCTION}{1}{chapter.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Concept of Chord-error $\epsilon $, Feedrate F, and Interpolation time T \relax }}{2}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Butterfly Perspective View 3D in LinuxCNC-Axis\relax }}{6}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{LITERATURE REVIEW}{11}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Basic achitecture for a typical CNC system\relax }}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Typical Servo drive and spindle driving mechanism\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Typical CNC Software control flow diagram\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Typical CNC Functional Architecture\relax }}{15}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Typical CNC Commercial Milling machine\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Typical CNC Commercial Lathe machine\relax }}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces CNC UMP Model 2008 - University Malaysia Pahang\relax }}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Youtube: CNC Jalur Gemilang Rendition Video by Ahmad (2017)\relax }}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Proton logo output of UMP CNC machine by Ahmad:2017\relax }}{25}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Setup of Nexsys-3 Spartan-6 Xilinc board by Teh:2016\relax }}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces G-code file (left) and Signal file (right) for FPGA by Teh:2016\relax }}{29}{figure.caption.21}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{METHODOLOGY}{30}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Table data summary curve shapes and dimensions\relax }}{34}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Teardrop shape profile\relax }}{36}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Teardrop comparison Zhong et. al. (2018) \relax }}{37}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Butterfly shape profile\relax }}{38}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Butterfly comparison Ni et. al. (2018) NURBS\relax }}{39}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Butterfly comparison Hu et. al. (2023) NURBS \relax }}{39}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Ellipse shape profile\relax }}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces SkewedAstroid shape profile\relax }}{41}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Circle shape profile\relax }}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces AstEpi shape profile\relax }}{43}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Snailshell shape profile\relax }}{44}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces SnaHyp shape profile\relax }}{45}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Ribbon10L shape profile\relax }}{46}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Ribbon100L shape profile\relax }}{47}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Ribbon comparison Zhong et. al. (2018) B-Splines\relax }}{48}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Teardrop 3D plot x(u) vs y(u) vs u(t)\relax }}{49}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Butterfly 3D plot x(u) vs y(u) vs u(t)\relax }}{50}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Chord-error eps ($\epsilon $), Feedrate F, and Interpolation time T\relax }}{51}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Example-1-Structured Programming Design (1-in, 1-out)\relax }}{53}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Example-2-Structured Programming Design (1-in, 1-out)\relax }}{53}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Example-3-Non-Structured Programming Design, (S=Start, E=Exit)\relax }}{54}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Example-4-Non-Structured Programming Design (1-in, 4-outs)\relax }}{54}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Chord-error between two interpolated points\relax }}{56}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Flowchart of main program\relax }}{69}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Flowchart of Feedrate Rising S-Curve\relax }}{71}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Flowchart Current Feedrate above Feedrate Limit Part 1/2\relax }}{72}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Flowchart Current Feedrate above Feedrate Limit Part 2/2\relax }}{73}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Flowchart Current Feedrate below Feedrate Limit Part 1/2\relax }}{74}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Flowchart Current Feedrate below Feedrate Limit Part 2/2\relax }}{75}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Flowchart Current Feedrate equal Feedrate Limit\relax }}{76}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Flowchart Calculate u\_next(u)\relax }}{77}{figure.caption.70}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Flowchart Calculate u\_next(u) with eps pushdown\relax }}{78}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Flowchart of Feedrate Falling S-Curve\relax }}{79}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Calculation for the Circle Arc-Length\relax }}{84}{figure.caption.77}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Algorithm-Functional-Components\relax }}{93}{figure.caption.78}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces The prototype 3-axis CNC research machine\relax }}{102}{figure.caption.85}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces The 3-sets AC servo drivers for the CNC research machine\relax }}{102}{figure.caption.86}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Validation of G-code using LinuxCNC Axis software\relax }}{103}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces The front end environment of the system\relax }}{105}{figure.caption.88}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Overview CNC system menvironment\relax }}{106}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces CNC-system-Panaterm-controller\relax }}{107}{figure.caption.90}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Parport-CNC-servo-PCIE-1884-wiring-diagram\relax }}{108}{figure.caption.91}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces RS232 Snooper Circuit\relax }}{109}{figure.caption.92}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{RESULTS AND DISCUSSIONS}{110}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Feedrate variations along the curve\relax }}{116}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparisons velocity profiles of the x and y axes motions\relax }}{117}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Running feedrate profile against the feedrate-limit\relax }}{118}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Acceleration profile containment\relax }}{119}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Execution of Teardrop Curve on CNC Machine\relax }}{121}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Results of Teardrop Curve CNC Machine execution - ruler (cm)\relax }}{121}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Teardrop Perspective View 3D in LinuxCNC-Axis\relax }}{123}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Example Snailshell Tangential Acceleration Jitters\relax }}{127}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Example Snailshell Close View Tangential Acceleration Jitters\relax }}{128}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Example Ribbon-100L Tangential Acceleration Jitters\relax }}{129}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Example Ribbon-100L Close View Tangential Acceleration Jitters\relax }}{130}{figure.caption.103}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Circle Lamda Safety Factor Threshold\relax }}{133}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Ellipse Lamda Safety Factor Threshold\relax }}{134}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Teardrop Lamda Safety Factor Threshold\relax }}{135}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Butterfly Lamda Safety Factor Threshold\relax }}{136}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Snailshell Lamda Safety Factor Threshold\relax }}{137}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Skewed-Astroid Lamda Safety Factor Threshold\relax }}{138}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ribbon-10L Lamda Safety Factor Threshold\relax }}{139}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Ribbon-100L Lamda Safety Factor Threshold\relax }}{140}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces AstEpi Lamda Safety Factor Threshold\relax }}{141}{figure.caption.114}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces SnaHyp Lamda Safety Factor Threshold\relax }}{142}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Butterfly Tangential Acceleration Magnified 2X\relax }}{143}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Butterfly Tangential Acceleration Closeup View\relax }}{144}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces SnaHyp Tangential Acceleration Magnified 2X\relax }}{145}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces SnaHyp Tangential Acceleration Closeup View\relax }}{146}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Plot of Teardrop curve\relax }}{152}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Teardrop Direction of Travel 3D\relax }}{152}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Teardrop Perspective View 3D in LinuxCNC-Axis\relax }}{153}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Teardrop Radius of Curvature\relax }}{155}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Butterfly Radius of Curvature\relax }}{155}{figure.caption.124}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Teardrop 1st and 2nd Order Taylor's Approximation\relax }}{157}{figure.caption.125}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Teardrop (1st minus 2nd) Order Taylor's Approximation\relax }}{157}{figure.caption.126}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Teardrop Chord-Error Absolute Constraint\relax }}{160}{figure.caption.127}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Teardrop Four Feedrate Limit Components Profile\relax }}{160}{figure.caption.128}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Teardrop FRate Command, FRate Limit and Current FRate\relax }}{162}{figure.caption.129}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Teardrop Current Feedrate Absolute Constraint\relax }}{162}{figure.caption.130}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Teardrop Histogram distribution of interpolated points\relax }}{164}{figure.caption.131}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Teardrop Rising Current Feedrate Profile\relax }}{166}{figure.caption.133}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Teardrop Falling Current Feedrate Profile\relax }}{166}{figure.caption.134}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Teardrop FC10 Running Feedrate Profiles\relax }}{168}{figure.caption.135}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Teardrop FC20 Running Feedrate Profiles\relax }}{168}{figure.caption.136}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Teardrop FC30 Running Feedrate Profiles\relax }}{169}{figure.caption.137}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Teardrop FC40 Running Feedrate Profiles\relax }}{169}{figure.caption.138}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Teardrop FC10 Colored Feedrate Run Profile\relax }}{171}{figure.caption.139}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Teardrop FC20 Colored Feedrate Run Profile\relax }}{171}{figure.caption.140}%
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Teardrop FC30 Colored Feedrate Run Profile\relax }}{172}{figure.caption.141}%
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Teardrop FC40 Colored Feedrate Run Profile\relax }}{172}{figure.caption.142}%
+\contentsline {figure}{\numberline {4.48}{\ignorespaces Teardrop Run Performance 1: SCE/TIP\relax }}{179}{figure.caption.145}%
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Teardrop Run Performance 2: SCE/SCL\relax }}{180}{figure.caption.147}%
+\contentsline {figure}{\numberline {4.50}{\ignorespaces Teardrop Run Performance 3: SAA/SCL\relax }}{181}{figure.caption.149}%
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Teardrop Run Performance 4: 100*(SAL-SCL)/SAL\relax }}{182}{figure.caption.151}%
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Teardrop Closeup-View No Jitters FC40 Tangential Acceleration Run Profile\relax }}{184}{figure.caption.153}%
+\contentsline {figure}{\numberline {4.53}{\ignorespaces Teardrop FC10 Tangential Acceleration Run Profile\relax }}{185}{figure.caption.154}%
+\contentsline {figure}{\numberline {4.54}{\ignorespaces Teardrop FC20 Tangential Acceleration Run Profile\relax }}{186}{figure.caption.155}%
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Teardrop FC30 Tangential Acceleration Run Profile\relax }}{187}{figure.caption.156}%
+\contentsline {figure}{\numberline {4.56}{\ignorespaces Teardrop FC40 Tangential Acceleration Run Profile\relax }}{188}{figure.caption.157}%
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Plot of Teardrop FC10 FC20 FC30 and FC40 Differences SAL-SCL\relax }}{206}{figure.caption.170}%
+\contentsline {figure}{\numberline {4.58}{\ignorespaces Teardrop Separation of FC30 and FC40 Difference SAL-SCL\relax }}{206}{figure.caption.171}%
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Plot of Teardrop Overlap FC30 and FC40 Differences SAL-SCL\relax }}{207}{figure.caption.172}%
+\contentsline {figure}{\numberline {4.60}{\ignorespaces Teardrop Separation Closeup of FC30 and FC40 Difference SAL-SCL\relax }}{207}{figure.caption.173}%
+\contentsline {figure}{\numberline {4.61}{\ignorespaces Plot of Teardrop FC10 NAL and NCL\relax }}{208}{figure.caption.174}%
+\contentsline {figure}{\numberline {4.62}{\ignorespaces Plot of Teardrop FC20 NAL and NCL\relax }}{208}{figure.caption.175}%
+\contentsline {figure}{\numberline {4.63}{\ignorespaces Plot of Teardrop FC30 NAL and NCL\relax }}{209}{figure.caption.176}%
+\contentsline {figure}{\numberline {4.64}{\ignorespaces Plot of Teardrop FC40 NAL and NCL\relax }}{209}{figure.caption.177}%
+\contentsline {figure}{\numberline {4.65}{\ignorespaces Histogram Overall Total Interpolated Points TIP\relax }}{222}{figure.caption.178}%
+\contentsline {figure}{\numberline {4.66}{\ignorespaces Histogram Overall Total Sum-Arc-Length SAL\relax }}{225}{figure.caption.180}%
+\contentsline {figure}{\numberline {4.67}{\ignorespaces Histogram Overall Total Sum-Chord-Length SCL\relax }}{228}{figure.caption.182}%
+\contentsline {figure}{\numberline {4.68}{\ignorespaces Histogram Linear Overall Percentage Difference between SAL and SCL\relax }}{231}{figure.caption.184}%
+\contentsline {figure}{\numberline {4.69}{\ignorespaces Histogram Log10 Overall Percentage Difference between SAL and SCL\relax }}{232}{figure.caption.185}%
+\contentsline {figure}{\numberline {4.70}{\ignorespaces Histogram Overall Sum-Chord-Error SCE\relax }}{235}{figure.caption.187}%
+\contentsline {figure}{\numberline {4.71}{\ignorespaces Histogram Overall Chord-Error-Efficiency CEE\relax }}{238}{figure.caption.189}%
+\contentsline {figure}{\numberline {4.72}{\ignorespaces Histogram Overall Sum-Arc-Area SAA\relax }}{241}{figure.caption.191}%
+\contentsline {figure}{\numberline {4.73}{\ignorespaces Histogram Log 10 Overall Sum-Arc-Area SAA\relax }}{242}{figure.caption.192}%
+\contentsline {figure}{\numberline {4.74}{\ignorespaces Histogram Log 10 Overall Arc-Area-Efficiency AAE\relax }}{245}{figure.caption.194}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{CONCLUSION}{250}{chapter.5}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Histogram-Latency-HP-Laptop-01-Debian10-10million-cycles\relax }}{263}{figure.caption.199}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Histogram-Latency-HP-Laptop-01-Ubuntu20-10million-cycles\relax }}{263}{figure.caption.200}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Histogram-Latency-HP-Laptop-02-Debian10-10million-cycles\relax }}{264}{figure.caption.201}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Histogram-Latency-HP-Laptop-02-Ubuntu20-10million-cycles\relax }}{264}{figure.caption.202}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Circle validation LinuxCNC-Axis execution\relax }}{273}{figure.caption.203}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Ellipse validation LinuxCNC-Axis execution\relax }}{274}{figure.caption.204}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Teardrop validation LinuxCNC-Axis execution\relax }}{275}{figure.caption.205}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Butterfly validation LinuxCNC-Axis execution\relax }}{276}{figure.caption.206}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Snailshell validation LinuxCNC-Axis execution\relax }}{277}{figure.caption.207}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Skewed-Astroid validation LinuxCNC-Axis execution\relax }}{278}{figure.caption.208}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Ribbon-10L validation LinuxCNC-Axis execution\relax }}{279}{figure.caption.209}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Ribbon-100L validation LinuxCNC-Axis execution\relax }}{280}{figure.caption.210}%
+\contentsline {figure}{\numberline {13}{\ignorespaces AstEpi validation LinuxCNC-Axis execution\relax }}{281}{figure.caption.211}%
+\contentsline {figure}{\numberline {14}{\ignorespaces SnaHyp validation LinuxCNC-Axis execution\relax }}{282}{figure.caption.212}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Plot of Circle curve\relax }}{286}{figure.caption.213}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Circle Radius of Curvature\relax }}{286}{figure.caption.214}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Circle Validation in LinuxCNC\relax }}{287}{figure.caption.215}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Circle Direction of Travel 3D\relax }}{287}{figure.caption.216}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Circle First and Second Order Taylor's Approximation\relax }}{288}{figure.caption.217}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Circle First minus Second Order Taylor's Approximation\relax }}{288}{figure.caption.218}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Circle Separation First and Second Order Taylor's Approximation\relax }}{289}{figure.caption.219}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Circle Separation SAL and SCL\relax }}{289}{figure.caption.220}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Circle Chord-error in close view 2 scales\relax }}{290}{figure.caption.221}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Circle Four Components Feedrate Limit\relax }}{290}{figure.caption.222}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Circle FrateCommand FrateLimit and Curr-Frate\relax }}{291}{figure.caption.223}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Circle FeedRateLimit minus CurrFeedRate\relax }}{291}{figure.caption.224}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Circle FC20-Nominal X and Y Feedrate Profiles\relax }}{292}{figure.caption.225}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Circle FC20 Nominal Tangential Acceleration\relax }}{292}{figure.caption.226}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Circle FC20 Nominal Rising S-Curve Profile\relax }}{293}{figure.caption.227}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Circle FC20 Nominal Falling S-Curve Profile\relax }}{293}{figure.caption.228}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Circle FC10 Colored Feedrate Profile data ngcode\relax }}{294}{figure.caption.229}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Circle FC20 Colored Feedrate Profile data ngcode\relax }}{294}{figure.caption.230}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Circle FC30 Colored Feedrate Profile data ngcode\relax }}{295}{figure.caption.231}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Circle FC40 Colored Feedrate Profile data ngcode\relax }}{295}{figure.caption.232}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Circle FC10 Tangential Acceleration\relax }}{296}{figure.caption.233}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Circle FC20 Tangential Acceleration\relax }}{296}{figure.caption.234}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Circle FC30 Tangential Acceleration\relax }}{297}{figure.caption.235}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Circle FC40 Tangential Acceleration\relax }}{297}{figure.caption.236}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Circle FC20 Nominal Separation NAL and NCL\relax }}{298}{figure.caption.237}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Circle Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{298}{figure.caption.238}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Circle FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{299}{figure.caption.239}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Circle FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{299}{figure.caption.240}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Circle FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{300}{figure.caption.241}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Circle FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{300}{figure.caption.242}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Circle FC10 Four Components FeedrateLimit\relax }}{301}{figure.caption.243}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Circle FC20 Four Components FeedrateLimit\relax }}{301}{figure.caption.244}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Circle FC30 Four Components FeedrateLimit\relax }}{302}{figure.caption.245}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Circle FC40 Four Components FeedrateLimit\relax }}{302}{figure.caption.246}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Circle Histogram Points FC10 FC20 FC30 FC40\relax }}{303}{figure.caption.247}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Plot of Ellipse curve\relax }}{308}{figure.caption.250}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Ellipse Radius of Curvature\relax }}{308}{figure.caption.251}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Ellipse Validation in LinuxCNC\relax }}{309}{figure.caption.252}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Ellipse Direction of Travel 3D\relax }}{309}{figure.caption.253}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Ellipse First and Second Order Taylor's Approximation\relax }}{310}{figure.caption.254}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Ellipse First minus Second Order Taylor's Approximation\relax }}{310}{figure.caption.255}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Ellipse Separation First and Second Order Taylor's Approximation\relax }}{311}{figure.caption.256}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Ellipse Separation SAL and SCL\relax }}{311}{figure.caption.257}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Ellipse Chord-error in close view 2 scales\relax }}{312}{figure.caption.258}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Ellipse Four Components Feedrate Limit\relax }}{312}{figure.caption.259}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Ellipse FrateCommand FrateLimit and Curr-Frate\relax }}{313}{figure.caption.260}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Ellipse FeedRateLimit minus CurrFeedRate\relax }}{313}{figure.caption.261}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Ellipse FC20-Nominal X and Y Feedrate Profiles\relax }}{314}{figure.caption.262}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Ellipse FC20 Nominal Tangential Acceleration\relax }}{314}{figure.caption.263}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Ellipse FC20 Nominal Rising S-Curve Profile\relax }}{315}{figure.caption.264}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Ellipse FC20 Nominal Falling S-Curve Profile\relax }}{315}{figure.caption.265}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Ellipse FC10 Colored Feedrate Profile data ngcode\relax }}{316}{figure.caption.266}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Ellipse FC20 Colored Feedrate Profile data ngcode\relax }}{316}{figure.caption.267}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Ellipse FC30 Colored Feedrate Profile data ngcode\relax }}{317}{figure.caption.268}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Ellipse FC40 Colored Feedrate Profile data ngcode\relax }}{317}{figure.caption.269}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Ellipse FC10 Tangential Acceleration\relax }}{318}{figure.caption.270}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Ellipse FC20 Tangential Acceleration\relax }}{318}{figure.caption.271}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Ellipse FC30 Tangential Acceleration\relax }}{319}{figure.caption.272}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Ellipse FC40 Tangential Acceleration\relax }}{319}{figure.caption.273}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Ellipse FC20 Nominal Separation NAL and NCL\relax }}{320}{figure.caption.274}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Ellipse Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{320}{figure.caption.275}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Ellipse FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{321}{figure.caption.276}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Ellipse FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{321}{figure.caption.277}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Ellipse FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{322}{figure.caption.278}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Ellipse FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{322}{figure.caption.279}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Ellipse FC10 Four Components FeedrateLimit\relax }}{323}{figure.caption.280}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Ellipse FC20 Four Components FeedrateLimit\relax }}{323}{figure.caption.281}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Ellipse FC30 Four Components FeedrateLimit\relax }}{324}{figure.caption.282}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Ellipse FC40 Four Components FeedrateLimit\relax }}{324}{figure.caption.283}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Ellipse Histogram Points FC10 FC20 FC30 FC40\relax }}{325}{figure.caption.284}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Plot of Teardrop curve\relax }}{330}{figure.caption.287}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Teardrop Radius of Curvature\relax }}{330}{figure.caption.288}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Teardrop Validation in LinuxCNC\relax }}{331}{figure.caption.289}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Teardrop Direction of Travel 3D\relax }}{331}{figure.caption.290}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Teardrop First and Second Order Taylor's Approximation\relax }}{332}{figure.caption.291}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Teardrop First minus Second Order Taylor's Approximation\relax }}{332}{figure.caption.292}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Teardrop Separation First and Second Order Taylor's Approximation\relax }}{333}{figure.caption.293}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Teardrop Separation SAL and SCL\relax }}{333}{figure.caption.294}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Teardrop Chord-error in close view 2 scales\relax }}{334}{figure.caption.295}%
+\contentsline {figure}{\numberline {94}{\ignorespaces Teardrop Four Components Feedrate Limit\relax }}{334}{figure.caption.296}%
+\contentsline {figure}{\numberline {95}{\ignorespaces Teardrop FrateCommand FrateLimit and Curr-Frate\relax }}{335}{figure.caption.297}%
+\contentsline {figure}{\numberline {96}{\ignorespaces Teardrop FeedRateLimit minus CurrFeedRate\relax }}{335}{figure.caption.298}%
+\contentsline {figure}{\numberline {97}{\ignorespaces Teardrop FC20-Nominal X and Y Feedrate Profiles\relax }}{336}{figure.caption.299}%
+\contentsline {figure}{\numberline {98}{\ignorespaces Teardrop FC20 Nominal Tangential Acceleration\relax }}{336}{figure.caption.300}%
+\contentsline {figure}{\numberline {99}{\ignorespaces Teardrop FC20 Nominal Rising S-Curve Profile\relax }}{337}{figure.caption.301}%
+\contentsline {figure}{\numberline {100}{\ignorespaces Teardrop FC20 Nominal Falling S-Curve Profile\relax }}{337}{figure.caption.302}%
+\contentsline {figure}{\numberline {101}{\ignorespaces Teardrop FC10 Colored Feedrate Profile data ngcode\relax }}{338}{figure.caption.303}%
+\contentsline {figure}{\numberline {102}{\ignorespaces Teardrop FC20 Colored Feedrate Profile data ngcode\relax }}{338}{figure.caption.304}%
+\contentsline {figure}{\numberline {103}{\ignorespaces Teardrop FC30 Colored Feedrate Profile data ngcode\relax }}{339}{figure.caption.305}%
+\contentsline {figure}{\numberline {104}{\ignorespaces Teardrop FC40 Colored Feedrate Profile data ngcode\relax }}{339}{figure.caption.306}%
+\contentsline {figure}{\numberline {105}{\ignorespaces Teardrop FC10 Tangential Acceleration\relax }}{340}{figure.caption.307}%
+\contentsline {figure}{\numberline {106}{\ignorespaces Teardrop FC20 Tangential Acceleration\relax }}{340}{figure.caption.308}%
+\contentsline {figure}{\numberline {107}{\ignorespaces Teardrop FC30 Tangential Acceleration\relax }}{341}{figure.caption.309}%
+\contentsline {figure}{\numberline {108}{\ignorespaces Teardrop FC40 Tangential Acceleration\relax }}{341}{figure.caption.310}%
+\contentsline {figure}{\numberline {109}{\ignorespaces Teardrop FC20 Nominal Separation NAL and NCL\relax }}{342}{figure.caption.311}%
+\contentsline {figure}{\numberline {110}{\ignorespaces Teardrop Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{342}{figure.caption.312}%
+\contentsline {figure}{\numberline {111}{\ignorespaces Teardrop FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{343}{figure.caption.313}%
+\contentsline {figure}{\numberline {112}{\ignorespaces Teardrop FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{343}{figure.caption.314}%
+\contentsline {figure}{\numberline {113}{\ignorespaces Teardrop FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{344}{figure.caption.315}%
+\contentsline {figure}{\numberline {114}{\ignorespaces Teardrop FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{344}{figure.caption.316}%
+\contentsline {figure}{\numberline {115}{\ignorespaces Teardrop FC10 Four Components FeedrateLimit\relax }}{345}{figure.caption.317}%
+\contentsline {figure}{\numberline {116}{\ignorespaces Teardrop FC20 Four Components FeedrateLimit\relax }}{345}{figure.caption.318}%
+\contentsline {figure}{\numberline {117}{\ignorespaces Teardrop FC30 Four Components FeedrateLimit\relax }}{346}{figure.caption.319}%
+\contentsline {figure}{\numberline {118}{\ignorespaces Teardrop FC40 Four Components FeedrateLimit\relax }}{346}{figure.caption.320}%
+\contentsline {figure}{\numberline {119}{\ignorespaces Teardrop Histogram Points FC10 FC20 FC30 FC40\relax }}{347}{figure.caption.321}%
+\contentsline {figure}{\numberline {120}{\ignorespaces Plot of Butterfly curve\relax }}{352}{figure.caption.324}%
+\contentsline {figure}{\numberline {121}{\ignorespaces Butterfly Radius of Curvature\relax }}{352}{figure.caption.325}%
+\contentsline {figure}{\numberline {122}{\ignorespaces Butterfly Validation in LinuxCNC\relax }}{353}{figure.caption.326}%
+\contentsline {figure}{\numberline {123}{\ignorespaces Butterfly Direction of Travel 3D\relax }}{353}{figure.caption.327}%
+\contentsline {figure}{\numberline {124}{\ignorespaces Butterfly First and Second Order Taylor's Approximation\relax }}{354}{figure.caption.328}%
+\contentsline {figure}{\numberline {125}{\ignorespaces Butterfly First minus Second Order Taylor's Approximation\relax }}{354}{figure.caption.329}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Butterfly Separation First and Second Order Taylor's Approximation\relax }}{355}{figure.caption.330}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Butterfly Separation SAL and SCL\relax }}{355}{figure.caption.331}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Butterfly Chord-error in close view 2 scales\relax }}{356}{figure.caption.332}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Butterfly Four Components Feedrate Limit\relax }}{356}{figure.caption.333}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Butterfly FrateCommand FrateLimit and Curr-Frate\relax }}{357}{figure.caption.334}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Butterfly FeedRateLimit minus CurrFeedRate\relax }}{357}{figure.caption.335}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Butterfly FC20-Nominal X and Y Feedrate Profiles\relax }}{358}{figure.caption.336}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Butterfly FC20 Nominal Tangential Acceleration\relax }}{358}{figure.caption.337}%
+\contentsline {figure}{\numberline {134}{\ignorespaces Butterfly FC20 Nominal Rising S-Curve Profile\relax }}{359}{figure.caption.338}%
+\contentsline {figure}{\numberline {135}{\ignorespaces Butterfly FC20 Nominal Falling S-Curve Profile\relax }}{359}{figure.caption.339}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Butterfly FC10 Colored Feedrate Profile data ngcode\relax }}{360}{figure.caption.340}%
+\contentsline {figure}{\numberline {137}{\ignorespaces Butterfly FC20 Colored Feedrate Profile data ngcode\relax }}{360}{figure.caption.341}%
+\contentsline {figure}{\numberline {138}{\ignorespaces Butterfly FC30 Colored Feedrate Profile data ngcode\relax }}{361}{figure.caption.342}%
+\contentsline {figure}{\numberline {139}{\ignorespaces Butterfly FC40 Colored Feedrate Profile data ngcode\relax }}{361}{figure.caption.343}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Butterfly FC10 Tangential Acceleration\relax }}{362}{figure.caption.344}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Butterfly FC20 Tangential Acceleration\relax }}{362}{figure.caption.345}%
+\contentsline {figure}{\numberline {142}{\ignorespaces Butterfly FC30 Tangential Acceleration\relax }}{363}{figure.caption.346}%
+\contentsline {figure}{\numberline {143}{\ignorespaces Butterfly FC40 Tangential Acceleration\relax }}{363}{figure.caption.347}%
+\contentsline {figure}{\numberline {144}{\ignorespaces Butterfly FC20 Nominal Separation NAL and NCL\relax }}{364}{figure.caption.348}%
+\contentsline {figure}{\numberline {145}{\ignorespaces Butterfly Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{364}{figure.caption.349}%
+\contentsline {figure}{\numberline {146}{\ignorespaces Butterfly FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{365}{figure.caption.350}%
+\contentsline {figure}{\numberline {147}{\ignorespaces Butterfly FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{365}{figure.caption.351}%
+\contentsline {figure}{\numberline {148}{\ignorespaces Butterfly FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{366}{figure.caption.352}%
+\contentsline {figure}{\numberline {149}{\ignorespaces Butterfly FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{366}{figure.caption.353}%
+\contentsline {figure}{\numberline {150}{\ignorespaces Butterfly FC10 Four Components FeedrateLimit\relax }}{367}{figure.caption.354}%
+\contentsline {figure}{\numberline {151}{\ignorespaces Butterfly FC20 Four Components FeedrateLimit\relax }}{367}{figure.caption.355}%
+\contentsline {figure}{\numberline {152}{\ignorespaces Butterfly FC30 Four Components FeedrateLimit\relax }}{368}{figure.caption.356}%
+\contentsline {figure}{\numberline {153}{\ignorespaces Butterfly FC40 Four Components FeedrateLimit\relax }}{368}{figure.caption.357}%
+\contentsline {figure}{\numberline {154}{\ignorespaces Butterfly Histogram Points FC10 FC20 FC30 FC40\relax }}{369}{figure.caption.358}%
+\contentsline {figure}{\numberline {155}{\ignorespaces Plot of Snailshell curve\relax }}{374}{figure.caption.361}%
+\contentsline {figure}{\numberline {156}{\ignorespaces Snailshell Radius of Curvature\relax }}{374}{figure.caption.362}%
+\contentsline {figure}{\numberline {157}{\ignorespaces Snailshell Validation in LinuxCNC\relax }}{375}{figure.caption.363}%
+\contentsline {figure}{\numberline {158}{\ignorespaces Snailshell Direction of Travel 3D\relax }}{375}{figure.caption.364}%
+\contentsline {figure}{\numberline {159}{\ignorespaces Snailshell First and Second Order Taylor's Approximation\relax }}{376}{figure.caption.365}%
+\contentsline {figure}{\numberline {160}{\ignorespaces Snailshell First minus Second Order Taylor's Approximation\relax }}{376}{figure.caption.366}%
+\contentsline {figure}{\numberline {161}{\ignorespaces Snailshell Separation First and Second Order Taylor's Approximation\relax }}{377}{figure.caption.367}%
+\contentsline {figure}{\numberline {162}{\ignorespaces Snailshell Separation SAL and SCL\relax }}{377}{figure.caption.368}%
+\contentsline {figure}{\numberline {163}{\ignorespaces Snailshell Chord-error in close view 2 scales\relax }}{378}{figure.caption.369}%
+\contentsline {figure}{\numberline {164}{\ignorespaces Snailshell Four Components Feedrate Limit\relax }}{378}{figure.caption.370}%
+\contentsline {figure}{\numberline {165}{\ignorespaces Snailshell FrateCommand FrateLimit and Curr-Frate\relax }}{379}{figure.caption.371}%
+\contentsline {figure}{\numberline {166}{\ignorespaces Snailshell FeedRateLimit minus CurrFeedRate\relax }}{379}{figure.caption.372}%
+\contentsline {figure}{\numberline {167}{\ignorespaces Snailshell FC20-Nominal X and Y Feedrate Profiles\relax }}{380}{figure.caption.373}%
+\contentsline {figure}{\numberline {168}{\ignorespaces Snailshell FC20 Nominal Tangential Acceleration\relax }}{380}{figure.caption.374}%
+\contentsline {figure}{\numberline {169}{\ignorespaces Snailshell FC20 Nominal Rising S-Curve Profile\relax }}{381}{figure.caption.375}%
+\contentsline {figure}{\numberline {170}{\ignorespaces Snailshell FC20 Nominal Falling S-Curve Profile\relax }}{381}{figure.caption.376}%
+\contentsline {figure}{\numberline {171}{\ignorespaces Snailshell FC10 Colored Feedrate Profile data ngcode\relax }}{382}{figure.caption.377}%
+\contentsline {figure}{\numberline {172}{\ignorespaces Snailshell FC20 Colored Feedrate Profile data ngcode\relax }}{382}{figure.caption.378}%
+\contentsline {figure}{\numberline {173}{\ignorespaces Snailshell FC30 Colored Feedrate Profile data ngcode\relax }}{383}{figure.caption.379}%
+\contentsline {figure}{\numberline {174}{\ignorespaces Snailshell FC40 Colored Feedrate Profile data ngcode\relax }}{383}{figure.caption.380}%
+\contentsline {figure}{\numberline {175}{\ignorespaces Snailshell FC10 Tangential Acceleration\relax }}{384}{figure.caption.381}%
+\contentsline {figure}{\numberline {176}{\ignorespaces Snailshell FC20 Tangential Acceleration\relax }}{384}{figure.caption.382}%
+\contentsline {figure}{\numberline {177}{\ignorespaces Snailshell FC30 Tangential Acceleration\relax }}{385}{figure.caption.383}%
+\contentsline {figure}{\numberline {178}{\ignorespaces Snailshell FC40 Tangential Acceleration\relax }}{385}{figure.caption.384}%
+\contentsline {figure}{\numberline {179}{\ignorespaces Snailshell FC20 Nominal Separation NAL and NCL\relax }}{386}{figure.caption.385}%
+\contentsline {figure}{\numberline {180}{\ignorespaces Snailshell Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{386}{figure.caption.386}%
+\contentsline {figure}{\numberline {181}{\ignorespaces Snailshell FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{387}{figure.caption.387}%
+\contentsline {figure}{\numberline {182}{\ignorespaces Snailshell FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{387}{figure.caption.388}%
+\contentsline {figure}{\numberline {183}{\ignorespaces Snailshell FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{388}{figure.caption.389}%
+\contentsline {figure}{\numberline {184}{\ignorespaces Snailshell FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{388}{figure.caption.390}%
+\contentsline {figure}{\numberline {185}{\ignorespaces Snailshell FC10 Four Components FeedrateLimit\relax }}{389}{figure.caption.391}%
+\contentsline {figure}{\numberline {186}{\ignorespaces Snailshell FC20 Four Components FeedrateLimit\relax }}{389}{figure.caption.392}%
+\contentsline {figure}{\numberline {187}{\ignorespaces Snailshell FC30 Four Components FeedrateLimit\relax }}{390}{figure.caption.393}%
+\contentsline {figure}{\numberline {188}{\ignorespaces Snailshell FC40 Four Components FeedrateLimit\relax }}{390}{figure.caption.394}%
+\contentsline {figure}{\numberline {189}{\ignorespaces Snailshell Histogram Points FC10 FC20 FC30 FC40\relax }}{391}{figure.caption.395}%
+\contentsline {figure}{\numberline {190}{\ignorespaces Plot of SkwAstroid curve\relax }}{396}{figure.caption.398}%
+\contentsline {figure}{\numberline {191}{\ignorespaces SkwAstroid Radius of Curvature\relax }}{396}{figure.caption.399}%
+\contentsline {figure}{\numberline {192}{\ignorespaces SkwAstroid Validation in LinuxCNC\relax }}{397}{figure.caption.400}%
+\contentsline {figure}{\numberline {193}{\ignorespaces SkwAstroid Direction of Travel 3D\relax }}{397}{figure.caption.401}%
+\contentsline {figure}{\numberline {194}{\ignorespaces SkwAstroid First and Second Order Taylor's Approximation\relax }}{398}{figure.caption.402}%
+\contentsline {figure}{\numberline {195}{\ignorespaces SkwAstroid First minus Second Order Taylor's Approximation\relax }}{398}{figure.caption.403}%
+\contentsline {figure}{\numberline {196}{\ignorespaces SkwAstroid Separation First and Second Order Taylor's Approximation\relax }}{399}{figure.caption.404}%
+\contentsline {figure}{\numberline {197}{\ignorespaces SkwAstroid Separation SAL and SCL\relax }}{399}{figure.caption.405}%
+\contentsline {figure}{\numberline {198}{\ignorespaces SkwAstroid Chord-error in close view 2 scales\relax }}{400}{figure.caption.406}%
+\contentsline {figure}{\numberline {199}{\ignorespaces SkwAstroid Four Components Feedrate Limit\relax }}{400}{figure.caption.407}%
+\contentsline {figure}{\numberline {200}{\ignorespaces SkwAstroid FrateCommand FrateLimit and Curr-Frate\relax }}{401}{figure.caption.408}%
+\contentsline {figure}{\numberline {201}{\ignorespaces SkwAstroid FeedRateLimit minus CurrFeedRate\relax }}{401}{figure.caption.409}%
+\contentsline {figure}{\numberline {202}{\ignorespaces SkwAstroid FC20-Nominal X and Y Feedrate Profiles\relax }}{402}{figure.caption.410}%
+\contentsline {figure}{\numberline {203}{\ignorespaces SkwAstroid FC20 Nominal Tangential Acceleration\relax }}{402}{figure.caption.411}%
+\contentsline {figure}{\numberline {204}{\ignorespaces SkwAstroid FC20 Nominal Rising S-Curve Profile\relax }}{403}{figure.caption.412}%
+\contentsline {figure}{\numberline {205}{\ignorespaces SkwAstroid FC20 Nominal Falling S-Curve Profile\relax }}{403}{figure.caption.413}%
+\contentsline {figure}{\numberline {206}{\ignorespaces SkwAstroid FC10 Colored Feedrate Profile data ngcode\relax }}{404}{figure.caption.414}%
+\contentsline {figure}{\numberline {207}{\ignorespaces SkwAstroid FC20 Colored Feedrate Profile data ngcode\relax }}{404}{figure.caption.415}%
+\contentsline {figure}{\numberline {208}{\ignorespaces SkwAstroid FC30 Colored Feedrate Profile data ngcode\relax }}{405}{figure.caption.416}%
+\contentsline {figure}{\numberline {209}{\ignorespaces SkwAstroid FC40 Colored Feedrate Profile data ngcode\relax }}{405}{figure.caption.417}%
+\contentsline {figure}{\numberline {210}{\ignorespaces SkwAstroid FC10 Tangential Acceleration\relax }}{406}{figure.caption.418}%
+\contentsline {figure}{\numberline {211}{\ignorespaces SkwAstroid FC20 Tangential Acceleration\relax }}{406}{figure.caption.419}%
+\contentsline {figure}{\numberline {212}{\ignorespaces SkwAstroid FC30 Tangential Acceleration\relax }}{407}{figure.caption.420}%
+\contentsline {figure}{\numberline {213}{\ignorespaces SkwAstroid FC40 Tangential Acceleration\relax }}{407}{figure.caption.421}%
+\contentsline {figure}{\numberline {214}{\ignorespaces SkwAstroid FC20 Nominal Separation NAL and NCL\relax }}{408}{figure.caption.422}%
+\contentsline {figure}{\numberline {215}{\ignorespaces SkwAstroid Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{408}{figure.caption.423}%
+\contentsline {figure}{\numberline {216}{\ignorespaces SkwAstroid FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{409}{figure.caption.424}%
+\contentsline {figure}{\numberline {217}{\ignorespaces SkwAstroid FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{409}{figure.caption.425}%
+\contentsline {figure}{\numberline {218}{\ignorespaces SkwAstroid FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{410}{figure.caption.426}%
+\contentsline {figure}{\numberline {219}{\ignorespaces SkwAstroid FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{410}{figure.caption.427}%
+\contentsline {figure}{\numberline {220}{\ignorespaces SkwAstroid FC10 Four Components FeedrateLimit\relax }}{411}{figure.caption.428}%
+\contentsline {figure}{\numberline {221}{\ignorespaces SkwAstroid FC20 Four Components FeedrateLimit\relax }}{411}{figure.caption.429}%
+\contentsline {figure}{\numberline {222}{\ignorespaces SkwAstroid FC30 Four Components FeedrateLimit\relax }}{412}{figure.caption.430}%
+\contentsline {figure}{\numberline {223}{\ignorespaces SkwAstroid FC40 Four Components FeedrateLimit\relax }}{412}{figure.caption.431}%
+\contentsline {figure}{\numberline {224}{\ignorespaces SkwAstroid Histogram Points FC10 FC20 FC30 FC40\relax }}{413}{figure.caption.432}%
+\contentsline {figure}{\numberline {225}{\ignorespaces Plot of Ribbon-10L curve\relax }}{418}{figure.caption.435}%
+\contentsline {figure}{\numberline {226}{\ignorespaces Ribbon-10L Radius of Curvature\relax }}{418}{figure.caption.436}%
+\contentsline {figure}{\numberline {227}{\ignorespaces Ribbon-10L Validation in LinuxCNC\relax }}{419}{figure.caption.437}%
+\contentsline {figure}{\numberline {228}{\ignorespaces Ribbon-10L Direction of Travel 3D\relax }}{419}{figure.caption.438}%
+\contentsline {figure}{\numberline {229}{\ignorespaces Ribbon-10L First and Second Order Taylor's Approximation\relax }}{420}{figure.caption.439}%
+\contentsline {figure}{\numberline {230}{\ignorespaces Ribbon-10L First minus Second Order Taylor's Approximation\relax }}{420}{figure.caption.440}%
+\contentsline {figure}{\numberline {231}{\ignorespaces Ribbon-10L First and Second Order Taylor's Approximation\relax }}{421}{figure.caption.441}%
+\contentsline {figure}{\numberline {232}{\ignorespaces Ribbon-10L Separation SAL and SCL\relax }}{421}{figure.caption.442}%
+\contentsline {figure}{\numberline {233}{\ignorespaces Ribbon-10L Chord-error in close view 2 scales\relax }}{422}{figure.caption.443}%
+\contentsline {figure}{\numberline {234}{\ignorespaces Ribbon-10L Four Components Feedrate Limit\relax }}{422}{figure.caption.444}%
+\contentsline {figure}{\numberline {235}{\ignorespaces Ribbon-10L FrateCommand FrateLimit and Curr-Frate\relax }}{423}{figure.caption.445}%
+\contentsline {figure}{\numberline {236}{\ignorespaces Ribbon-10L FeedRateLimit minus CurrFeedRate\relax }}{423}{figure.caption.446}%
+\contentsline {figure}{\numberline {237}{\ignorespaces Ribbon-10L FC20-Nominal X and Y Feedrate Profiles\relax }}{424}{figure.caption.447}%
+\contentsline {figure}{\numberline {238}{\ignorespaces Ribbon-10L FC20 Nominal Tangential Acceleration\relax }}{424}{figure.caption.448}%
+\contentsline {figure}{\numberline {239}{\ignorespaces Ribbon-10L FC20 Nominal Rising S-Curve Profile\relax }}{425}{figure.caption.449}%
+\contentsline {figure}{\numberline {240}{\ignorespaces Ribbon-10L FC20 Nominal Falling S-Curve Profile\relax }}{425}{figure.caption.450}%
+\contentsline {figure}{\numberline {241}{\ignorespaces Ribbon-10L FC10 Colored Feedrate Profile data ngcode\relax }}{426}{figure.caption.451}%
+\contentsline {figure}{\numberline {242}{\ignorespaces Ribbon-10L FC20 Colored Feedrate Profile data ngcode\relax }}{426}{figure.caption.452}%
+\contentsline {figure}{\numberline {243}{\ignorespaces Ribbon-10L FC30 Colored Feedrate Profile data ngcode\relax }}{427}{figure.caption.453}%
+\contentsline {figure}{\numberline {244}{\ignorespaces Ribbon-10L FC40 Colored Feedrate Profile data ngcode\relax }}{427}{figure.caption.454}%
+\contentsline {figure}{\numberline {245}{\ignorespaces Ribbon-10L FC10 Tangential Acceleration\relax }}{428}{figure.caption.455}%
+\contentsline {figure}{\numberline {246}{\ignorespaces Ribbon-10L FC20 Tangential Acceleration\relax }}{428}{figure.caption.456}%
+\contentsline {figure}{\numberline {247}{\ignorespaces Ribbon-10L FC30 Tangential Acceleration\relax }}{429}{figure.caption.457}%
+\contentsline {figure}{\numberline {248}{\ignorespaces Ribbon-10L FC40 Tangential Acceleration\relax }}{429}{figure.caption.458}%
+\contentsline {figure}{\numberline {249}{\ignorespaces Ribbon-10L FC20 Nominal Separation NAL and NCL\relax }}{430}{figure.caption.459}%
+\contentsline {figure}{\numberline {250}{\ignorespaces Ribbon-10L SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{430}{figure.caption.460}%
+\contentsline {figure}{\numberline {251}{\ignorespaces Ribbon-10L FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{431}{figure.caption.461}%
+\contentsline {figure}{\numberline {252}{\ignorespaces Ribbon-10L FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{431}{figure.caption.462}%
+\contentsline {figure}{\numberline {253}{\ignorespaces Ribbon-10L FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{432}{figure.caption.463}%
+\contentsline {figure}{\numberline {254}{\ignorespaces Ribbon-10L FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{432}{figure.caption.464}%
+\contentsline {figure}{\numberline {255}{\ignorespaces Ribbon-10L FC10 Four Components FeedrateLimit\relax }}{433}{figure.caption.465}%
+\contentsline {figure}{\numberline {256}{\ignorespaces Ribbon-10L FC20 Four Components FeedrateLimit\relax }}{433}{figure.caption.466}%
+\contentsline {figure}{\numberline {257}{\ignorespaces Ribbon-10L FC30 Four Components FeedrateLimit\relax }}{434}{figure.caption.467}%
+\contentsline {figure}{\numberline {258}{\ignorespaces Ribbon-10L FC40 Four Components FeedrateLimit\relax }}{434}{figure.caption.468}%
+\contentsline {figure}{\numberline {259}{\ignorespaces Ribbon-10L Histogram Points FC10 FC20 FC30 FC40\relax }}{435}{figure.caption.469}%
+\contentsline {figure}{\numberline {260}{\ignorespaces Plot of Ribbon-100L curve\relax }}{440}{figure.caption.472}%
+\contentsline {figure}{\numberline {261}{\ignorespaces Ribbon-100L Radius of Curvature\relax }}{440}{figure.caption.473}%
+\contentsline {figure}{\numberline {262}{\ignorespaces Ribbon-100L Validation in LinuxCNC\relax }}{441}{figure.caption.474}%
+\contentsline {figure}{\numberline {263}{\ignorespaces Ribbon-100L Direction of Travel 3D\relax }}{441}{figure.caption.475}%
+\contentsline {figure}{\numberline {264}{\ignorespaces Ribbon-100L First and Second Order Taylor's Approximation\relax }}{442}{figure.caption.476}%
+\contentsline {figure}{\numberline {265}{\ignorespaces Ribbon-100L First minus Second Order Taylor's Approximation\relax }}{442}{figure.caption.477}%
+\contentsline {figure}{\numberline {266}{\ignorespaces Ribbon-100L-First and Second Order Taylor's Approximation\relax }}{443}{figure.caption.478}%
+\contentsline {figure}{\numberline {267}{\ignorespaces Ribbon-100L Separation SAL and SCL\relax }}{443}{figure.caption.479}%
+\contentsline {figure}{\numberline {268}{\ignorespaces Ribbon-100L Chord-error in close view 2 scales\relax }}{444}{figure.caption.480}%
+\contentsline {figure}{\numberline {269}{\ignorespaces Ribbon-100L Four Components Feedrate Limit\relax }}{444}{figure.caption.481}%
+\contentsline {figure}{\numberline {270}{\ignorespaces Ribbon-100L FrateCommand FrateLimit and Curr-Frate\relax }}{445}{figure.caption.482}%
+\contentsline {figure}{\numberline {271}{\ignorespaces Ribbon-100L FeedRateLimit minus CurrFeedRate\relax }}{445}{figure.caption.483}%
+\contentsline {figure}{\numberline {272}{\ignorespaces Ribbon-100L FC20-Nominal X and Y Feedrate Profiles\relax }}{446}{figure.caption.484}%
+\contentsline {figure}{\numberline {273}{\ignorespaces Ribbon-100L FC20 Nominal Tangential Acceleration\relax }}{446}{figure.caption.485}%
+\contentsline {figure}{\numberline {274}{\ignorespaces Ribbon-100L FC20 Nominal Rising S-Curve Profile\relax }}{447}{figure.caption.486}%
+\contentsline {figure}{\numberline {275}{\ignorespaces Ribbon-100L FC20 Nominal Falling S-Curve Profile\relax }}{447}{figure.caption.487}%
+\contentsline {figure}{\numberline {276}{\ignorespaces Ribbon-100L FC10 Colored Feedrate Profile data ngcode\relax }}{448}{figure.caption.488}%
+\contentsline {figure}{\numberline {277}{\ignorespaces Ribbon-100L FC20 Colored Feedrate Profile data ngcode\relax }}{448}{figure.caption.489}%
+\contentsline {figure}{\numberline {278}{\ignorespaces Ribbon-100L FC30 Colored Feedrate Profile data ngcode\relax }}{449}{figure.caption.490}%
+\contentsline {figure}{\numberline {279}{\ignorespaces Ribbon-100L FC40 Colored Feedrate Profile data ngcode\relax }}{449}{figure.caption.491}%
+\contentsline {figure}{\numberline {280}{\ignorespaces Ribbon-100L FC10 Tangential Acceleration\relax }}{450}{figure.caption.492}%
+\contentsline {figure}{\numberline {281}{\ignorespaces Ribbon-100L FC20 Tangential Acceleration\relax }}{450}{figure.caption.493}%
+\contentsline {figure}{\numberline {282}{\ignorespaces Ribbon-100L FC30 Tangential Acceleration\relax }}{451}{figure.caption.494}%
+\contentsline {figure}{\numberline {283}{\ignorespaces Ribbon-100L FC40 Tangential Acceleration\relax }}{451}{figure.caption.495}%
+\contentsline {figure}{\numberline {284}{\ignorespaces Ribbon-100L FC20 Nominal Separation NAL and NCL\relax }}{452}{figure.caption.496}%
+\contentsline {figure}{\numberline {285}{\ignorespaces Ribbon-100L SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{452}{figure.caption.497}%
+\contentsline {figure}{\numberline {286}{\ignorespaces Ribbon-100L FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{453}{figure.caption.498}%
+\contentsline {figure}{\numberline {287}{\ignorespaces Ribbon-100L FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{453}{figure.caption.499}%
+\contentsline {figure}{\numberline {288}{\ignorespaces Ribbon-100L FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{454}{figure.caption.500}%
+\contentsline {figure}{\numberline {289}{\ignorespaces Ribbon-100L FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{454}{figure.caption.501}%
+\contentsline {figure}{\numberline {290}{\ignorespaces Ribbon-100L FC10 Four Components FeedrateLimit\relax }}{455}{figure.caption.502}%
+\contentsline {figure}{\numberline {291}{\ignorespaces Ribbon-100L FC20 Four Components FeedrateLimit\relax }}{455}{figure.caption.503}%
+\contentsline {figure}{\numberline {292}{\ignorespaces Ribbon-100L FC30 Four Components FeedrateLimit\relax }}{456}{figure.caption.504}%
+\contentsline {figure}{\numberline {293}{\ignorespaces Ribbon-100L FC40 Four Components FeedrateLimit\relax }}{456}{figure.caption.505}%
+\contentsline {figure}{\numberline {294}{\ignorespaces Ribbon-100L Histogram Points FC10 FC20 FC30 FC40\relax }}{457}{figure.caption.506}%
+\contentsline {figure}{\numberline {295}{\ignorespaces Plot of AstEpi curve\relax }}{462}{figure.caption.509}%
+\contentsline {figure}{\numberline {296}{\ignorespaces AstEpi Radius of Curvature\relax }}{462}{figure.caption.510}%
+\contentsline {figure}{\numberline {297}{\ignorespaces AstEpi Validation in LinuxCNC\relax }}{463}{figure.caption.511}%
+\contentsline {figure}{\numberline {298}{\ignorespaces AstEpi Direction of Travel 3D\relax }}{463}{figure.caption.512}%
+\contentsline {figure}{\numberline {299}{\ignorespaces AstEpi First and Second Order Taylor's Approximation\relax }}{464}{figure.caption.513}%
+\contentsline {figure}{\numberline {300}{\ignorespaces AstEpi First minus Second Order Taylor's Approximation\relax }}{464}{figure.caption.514}%
+\contentsline {figure}{\numberline {301}{\ignorespaces AstEpi Separation First and Second Order Taylor's Approximation\relax }}{465}{figure.caption.515}%
+\contentsline {figure}{\numberline {302}{\ignorespaces AstEpi Separation SAL and SCL\relax }}{465}{figure.caption.516}%
+\contentsline {figure}{\numberline {303}{\ignorespaces AstEpi Chord-error in close view 2 scales\relax }}{466}{figure.caption.517}%
+\contentsline {figure}{\numberline {304}{\ignorespaces AstEpi Four Components Feedrate Limit\relax }}{466}{figure.caption.518}%
+\contentsline {figure}{\numberline {305}{\ignorespaces AstEpi FrateCommand FrateLimit and Curr-Frate\relax }}{467}{figure.caption.519}%
+\contentsline {figure}{\numberline {306}{\ignorespaces AstEpi FeedRateLimit minus CurrFeedRate\relax }}{467}{figure.caption.520}%
+\contentsline {figure}{\numberline {307}{\ignorespaces AstEpi FC20-Nominal X and Y Feedrate Profiles\relax }}{468}{figure.caption.521}%
+\contentsline {figure}{\numberline {308}{\ignorespaces AstEpi FC20 Nominal Tangential Acceleration\relax }}{468}{figure.caption.522}%
+\contentsline {figure}{\numberline {309}{\ignorespaces AstEpi FC20 Nominal Rising S-Curve Profile\relax }}{469}{figure.caption.523}%
+\contentsline {figure}{\numberline {310}{\ignorespaces AstEpi FC20 Nominal Falling S-Curve Profile\relax }}{469}{figure.caption.524}%
+\contentsline {figure}{\numberline {311}{\ignorespaces AstEpi FC10 Colored Feedrate Profile data ngcode\relax }}{470}{figure.caption.525}%
+\contentsline {figure}{\numberline {312}{\ignorespaces AstEpi FC20 Colored Feedrate Profile data ngcode\relax }}{470}{figure.caption.526}%
+\contentsline {figure}{\numberline {313}{\ignorespaces AstEpi FC30 Colored Feedrate Profile data ngcode\relax }}{471}{figure.caption.527}%
+\contentsline {figure}{\numberline {314}{\ignorespaces AstEpi FC40 Colored Feedrate Profile data ngcode\relax }}{471}{figure.caption.528}%
+\contentsline {figure}{\numberline {315}{\ignorespaces AstEpi FC10 Tangential Acceleration\relax }}{472}{figure.caption.529}%
+\contentsline {figure}{\numberline {316}{\ignorespaces AstEpi FC20 Tangential Acceleration\relax }}{472}{figure.caption.530}%
+\contentsline {figure}{\numberline {317}{\ignorespaces AstEpi FC30 Tangential Acceleration\relax }}{473}{figure.caption.531}%
+\contentsline {figure}{\numberline {318}{\ignorespaces AstEpi FC40 Tangential Acceleration\relax }}{473}{figure.caption.532}%
+\contentsline {figure}{\numberline {319}{\ignorespaces AstEpi FC20 Nominal Separation NAL and NCL\relax }}{474}{figure.caption.533}%
+\contentsline {figure}{\numberline {320}{\ignorespaces AstEpi Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{474}{figure.caption.534}%
+\contentsline {figure}{\numberline {321}{\ignorespaces AstEpi FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{475}{figure.caption.535}%
+\contentsline {figure}{\numberline {322}{\ignorespaces AstEpi FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{475}{figure.caption.536}%
+\contentsline {figure}{\numberline {323}{\ignorespaces AstEpi FC30 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{476}{figure.caption.537}%
+\contentsline {figure}{\numberline {324}{\ignorespaces AstEpi FC40 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{476}{figure.caption.538}%
+\contentsline {figure}{\numberline {325}{\ignorespaces AstEpi FC10 Four Components FeedrateLimit\relax }}{477}{figure.caption.539}%
+\contentsline {figure}{\numberline {326}{\ignorespaces AstEpi FC20 Four Components FeedrateLimit\relax }}{477}{figure.caption.540}%
+\contentsline {figure}{\numberline {327}{\ignorespaces AstEpi FC30 Four Components FeedrateLimit\relax }}{478}{figure.caption.541}%
+\contentsline {figure}{\numberline {328}{\ignorespaces AstEpi FC40 Four Components FeedrateLimit\relax }}{478}{figure.caption.542}%
+\contentsline {figure}{\numberline {329}{\ignorespaces AstEpi Histogram Points FC10 FC20 FC30 FC40\relax }}{479}{figure.caption.543}%
+\contentsline {figure}{\numberline {330}{\ignorespaces Plot of SnaHyp curve\relax }}{484}{figure.caption.546}%
+\contentsline {figure}{\numberline {331}{\ignorespaces SnaHyp Radius of Curvature\relax }}{484}{figure.caption.547}%
+\contentsline {figure}{\numberline {332}{\ignorespaces SnaHyp Validation in LinuxCNC\relax }}{485}{figure.caption.548}%
+\contentsline {figure}{\numberline {333}{\ignorespaces SnaHyp Direction of Travel 3D\relax }}{485}{figure.caption.549}%
+\contentsline {figure}{\numberline {334}{\ignorespaces SnaHyp First and Second Order Taylor's Approximation\relax }}{486}{figure.caption.550}%
+\contentsline {figure}{\numberline {335}{\ignorespaces SnaHyp First minus Second Order Taylor's Approximation\relax }}{486}{figure.caption.551}%
+\contentsline {figure}{\numberline {336}{\ignorespaces SnaHyp Separation First and Second Order Taylor's Approximation\relax }}{487}{figure.caption.552}%
+\contentsline {figure}{\numberline {337}{\ignorespaces SnaHyp Separation SAL and SCL\relax }}{487}{figure.caption.553}%
+\contentsline {figure}{\numberline {338}{\ignorespaces SnaHyp Chord-error in close view 2 scales\relax }}{488}{figure.caption.554}%
+\contentsline {figure}{\numberline {339}{\ignorespaces SnaHyp Four Components Feedrate Limit\relax }}{488}{figure.caption.555}%
+\contentsline {figure}{\numberline {340}{\ignorespaces SnaHyp FrateCommand FrateLimit and Curr-Frate\relax }}{489}{figure.caption.556}%
+\contentsline {figure}{\numberline {341}{\ignorespaces SnaHyp FeedRateLimit minus CurrFeedRate\relax }}{489}{figure.caption.557}%
+\contentsline {figure}{\numberline {342}{\ignorespaces SnaHyp FC20-Nominal X and Y Feedrate Profiles\relax }}{490}{figure.caption.558}%
+\contentsline {figure}{\numberline {343}{\ignorespaces SnaHyp FC20 Nominal Tangential Acceleration\relax }}{490}{figure.caption.559}%
+\contentsline {figure}{\numberline {344}{\ignorespaces SnaHyp FC20 Nominal Rising S-Curve Profile\relax }}{491}{figure.caption.560}%
+\contentsline {figure}{\numberline {345}{\ignorespaces SnaHyp FC20 Nominal Falling S-Curve Profile\relax }}{491}{figure.caption.561}%
+\contentsline {figure}{\numberline {346}{\ignorespaces SnaHyp FC10 Colored Feedrate Profile data ngcode\relax }}{492}{figure.caption.562}%
+\contentsline {figure}{\numberline {347}{\ignorespaces SnaHyp FC20 Colored Feedrate Profile data ngcode\relax }}{492}{figure.caption.563}%
+\contentsline {figure}{\numberline {348}{\ignorespaces SnaHyp FC25 Colored Feedrate Profile data ngcode\relax }}{493}{figure.caption.564}%
+\contentsline {figure}{\numberline {349}{\ignorespaces SnaHyp FC28 Colored Feedrate Profile data ngcode\relax }}{493}{figure.caption.565}%
+\contentsline {figure}{\numberline {350}{\ignorespaces SnaHyp FC10 Tangential Acceleration\relax }}{494}{figure.caption.566}%
+\contentsline {figure}{\numberline {351}{\ignorespaces SnaHyp FC20 Tangential Acceleration\relax }}{494}{figure.caption.567}%
+\contentsline {figure}{\numberline {352}{\ignorespaces SnaHyp FC30 Tangential Acceleration\relax }}{495}{figure.caption.568}%
+\contentsline {figure}{\numberline {353}{\ignorespaces SnaHyp FC40 Tangential Acceleration\relax }}{495}{figure.caption.569}%
+\contentsline {figure}{\numberline {354}{\ignorespaces SnaHyp FC20 Nominal Separation NAL and NCL\relax }}{496}{figure.caption.570}%
+\contentsline {figure}{\numberline {355}{\ignorespaces SnaHyp Difference SAL minus SCL for FC10 FC20 FC30 FC40\relax }}{496}{figure.caption.571}%
+\contentsline {figure}{\numberline {356}{\ignorespaces SnaHyp FC10 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{497}{figure.caption.572}%
+\contentsline {figure}{\numberline {357}{\ignorespaces SnaHyp FC20 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{497}{figure.caption.573}%
+\contentsline {figure}{\numberline {358}{\ignorespaces SnaHyp FC25 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{498}{figure.caption.574}%
+\contentsline {figure}{\numberline {359}{\ignorespaces SnaHyp FC28 FrateCmd CurrFrate X-Frate Y-Frate\relax }}{498}{figure.caption.575}%
+\contentsline {figure}{\numberline {360}{\ignorespaces SnaHyp FC10 Four Components FeedrateLimit\relax }}{499}{figure.caption.576}%
+\contentsline {figure}{\numberline {361}{\ignorespaces SnaHyp FC20 Four Components FeedrateLimit\relax }}{499}{figure.caption.577}%
+\contentsline {figure}{\numberline {362}{\ignorespaces SnaHyp FC25 Four Components FeedrateLimit\relax }}{500}{figure.caption.578}%
+\contentsline {figure}{\numberline {363}{\ignorespaces SnaHyp FC28 Four Components FeedrateLimit\relax }}{500}{figure.caption.579}%
+\contentsline {figure}{\numberline {364}{\ignorespaces SnaHyp Histogram Points FC10 FC20 FC30 FC40\relax }}{501}{figure.caption.580}%

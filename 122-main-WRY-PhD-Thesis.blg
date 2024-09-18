@@ -1,0 +1,95 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 122-main-WRY-PhD-Thesis.aux
+A level-1 auxiliary file: Frontmatter/copy.aux
+A level-1 auxiliary file: Frontmatter/letter.aux
+A level-1 auxiliary file: Frontmatter/sv_declaration.aux
+A level-1 auxiliary file: Frontmatter/stud_declaration.aux
+A level-1 auxiliary file: Titlepage/titlepage.aux
+A level-1 auxiliary file: Frontmatter/acknowledgement.aux
+A level-1 auxiliary file: Frontmatter/abstrak_bm.aux
+A level-1 auxiliary file: Frontmatter/abstract_english.aux
+A level-1 auxiliary file: Frontmatter/symbols.aux
+A level-1 auxiliary file: Frontmatter/abbreviations.aux
+A level-1 auxiliary file: Chap1/Introduction-chap1.aux
+A level-1 auxiliary file: Chap2/Literature-Review-chap2.aux
+A level-1 auxiliary file: Chap3/Methodology-chap3.aux
+A level-1 auxiliary file: Chap4/Results-chap4.aux
+A level-1 auxiliary file: Chap5/Conclusion-chap5.aux
+The style file: apacite.bst
+A level-1 auxiliary file: Appendix/Appendix.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: References.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "B Shengzhou, C Han, X Sun, H Zhang and Y Jiang" for entry Shengzhou-etal:2020
+while executing---line 5079 of file apacite.bst
+You've used 44 entries,
+            6951 wiz_defined-function locations,
+            1570 strings with 19939 characters,
+and the built_in function-call counts, 89379 in all, are:
+= -- 11209
+> -- 707
+< -- 4317
++ -- 4664
+- -- 92
+* -- 5659
+:= -- 16335
+add.period$ -- 191
+call.type$ -- 44
+change.case$ -- 748
+chr.to.int$ -- 0
+cite$ -- 88
+duplicate$ -- 2468
+empty$ -- 3399
+format.name$ -- 1211
+if$ -- 16927
+int.to.chr$ -- 0
+int.to.str$ -- 132
+missing$ -- 0
+newline$ -- 1157
+num.names$ -- 352
+pop$ -- 1404
+preamble$ -- 1
+purify$ -- 176
+quote$ -- 0
+skip$ -- 5830
+stack$ -- 0
+substring$ -- 5176
+swap$ -- 1289
+text.length$ -- 108
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 3840
+warning$ -- 0
+while$ -- 419
+width$ -- 0
+write$ -- 1435
+(There were 11 error messages)

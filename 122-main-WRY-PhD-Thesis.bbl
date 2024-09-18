@@ -1,0 +1,1279 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Abdelgader%
+\ \BBA {} Yusoff%
+}{%
+Abdelgader%
+\ \BBA {} Yusoff%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Abdelgader:2014}
+\APACinsertmetastar {%
+Abdelgader:2014}%
+\begin{APACrefauthors}%
+Abdelgader, M\BPBI S\BPBI A.%
+\BCBT {}\ \BBA {} Yusoff, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {Driving {C}omputer {N}umerical {C}ontrolled {(CNC)} {M}achine
+  {U}sing {PC}, {H}eber X10i, and {R}aspberry Pi 2} {Driving {C}omputer
+  {N}umerical {C}ontrolled {(CNC)} {M}achine {U}sing {PC}, {H}eber x10i, and
+  {R}aspberry pi 2}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{Faculty of Computing and Informatics}{Final Year
+  Project, Multimedia University, Cyberjaya}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ahmad%
+\ \BBA {} Yusoff%
+}{%
+Ahmad%
+\ \BBA {} Yusoff%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Ahmad:2017}
+\APACinsertmetastar {%
+Ahmad:2017}%
+\begin{APACrefauthors}%
+Ahmad, A\BPBI H.%
+\BCBT {}\ \BBA {} Yusoff, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Using {R}aspberry {P}i 3 {M}odel {B} to drive a {CNC} System in
+  {R}eal {T}ime} {Using {R}aspberry {P}i 3 {M}odel {B} to drive a {CNC} system
+  in {R}eal {T}ime}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{Faculty of Computing and Informatics}{Final Year
+  Project, Multimedia University, Cyberjaya}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ariffin%
+\ \BBA {} Yusoff%
+}{%
+Ariffin%
+\ \BBA {} Yusoff%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Ariffin:2014}
+\APACinsertmetastar {%
+Ariffin:2014}%
+\begin{APACrefauthors}%
+Ariffin, H.%
+\BCBT {}\ \BBA {} Yusoff, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {Using {A}rduino {D}ue to drive a {CNC} System} {Using {A}rduino
+  {D}ue to drive a {CNC} system}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{Faculty of Computing and Informatics}{Final Year
+  Project, Multimedia University, Cyberjaya}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bhattacharjee%
+, Azeem%
+, Ali%
+\BCBL {}\ \BBA {} Paul%
+}{%
+Bhattacharjee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Bhattacharjee:2012}
+\APACinsertmetastar {%
+Bhattacharjee:2012}%
+\begin{APACrefauthors}%
+Bhattacharjee, B.%
+, Azeem, A.%
+, Ali, S\BPBI M.%
+\BCBL {}\ \BBA {} Paul, S\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Development of a {CNC} interpolation scheme for {CNC}
+  controller based on {R}unge-{K}utta method} {Development of a {CNC}
+  interpolation scheme for {CNC} controller based on {R}unge-{K}utta
+  method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer Aided Engineering and
+  Technology Vol 4 No 5}{}{}{445-464}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bingol%
+\ \BBA {} Krishnamurty%
+}{%
+Bingol%
+\ \BBA {} Krishnamurty%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Bingol-etal:2018}
+\APACinsertmetastar {%
+Bingol-etal:2018}%
+\begin{APACrefauthors}%
+Bingol, O\BPBI R.%
+\BCBT {}\ \BBA {} Krishnamurty, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{NURBS}-{P}ython: {A}n open-source object-oriented
+  {NURBS} modeling framework in {P}ython} {{NURBS}-{P}ython: {A}n open-source
+  object-oriented {NURBS} modeling framework in {P}ython}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SoftwareX 9 - Elsevier}{}{}{85-94}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.softx.2018.12.005} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+B~Shengzhou%
+\ \BBA {} Jiang%
+}{%
+B~Shengzhou%
+\ \BBA {} Jiang%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Shengzhou-etal:2020}
+\APACinsertmetastar {%
+Shengzhou-etal:2020}%
+\begin{APACrefauthors}%
+B~Shengzhou, X\BPBI S\BPBI H\BPBI Z., C~Han%
+\BCBT {}\ \BBA {} Jiang, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{T}eardrop hovering formation for elliptical orbit
+  considering {J}2 perturbation} {{T}eardrop hovering formation for elliptical
+  orbit considering {J}2 perturbation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Aerospace Science and Technology, Vol. 106,
+  106098}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J.~Chen%
+\ \BBA {} Guo%
+}{%
+J.~Chen%
+\ \BBA {} Guo%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Chen:2023}
+\APACinsertmetastar {%
+Chen:2023}%
+\begin{APACrefauthors}%
+Chen, J.%
+\BCBT {}\ \BBA {} Guo, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stack and {H}eap {M}emory, {N}otes of data structures
+  and {C}++ concepts} {Stack and {H}eap {M}emory, {N}otes of data structures
+  and {C}++ concepts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Course Notes, Last retrieved: 17 September 2023}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+M.~Chen%
+\ \BBA {} Sun%
+}{%
+M.~Chen%
+\ \BBA {} Sun%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Chen-etal:2019}
+\APACinsertmetastar {%
+Chen-etal:2019}%
+\begin{APACrefauthors}%
+Chen, M.%
+\BCBT {}\ \BBA {} Sun, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Contour error–bounded parametric interpolator with
+  minimum feedrate fluctuation for five-axis {CNC} machine tools} {Contour
+  error–bounded parametric interpolator with minimum feedrate fluctuation for
+  five-axis {CNC} machine tools}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Manufacturing
+  Technology 103}{}{}{567-584}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00170-019-03586-5} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cheng%
+, Tsai%
+\BCBL {}\ \BBA {} Kuo%
+}{%
+Cheng%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+Cheng-etal:2002}
+\APACinsertmetastar {%
+Cheng-etal:2002}%
+\begin{APACrefauthors}%
+Cheng, M\BHBI Y.%
+, Tsai, M\BPBI C.%
+\BCBL {}\ \BBA {} Kuo, J\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Real-time {NURBS} command generators for {CNC} {S}ervo
+  {C}ontrollers} {Real-time {NURBS} command generators for {CNC} {S}ervo
+  {C}ontrollers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Machine Tools and Manufacture
+  42(7)}{}{}{801-813}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0890-6955(02)00015-9} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+A\BPBI A.~CollabCNC%
+}{%
+A\BPBI A.~CollabCNC%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+CollabCNC:2023A}
+\APACinsertmetastar {%
+CollabCNC:2023A}%
+\begin{APACrefauthors}%
+CollabCNC, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How do you integrate {NURBS} with other {CNC}
+  programming methods and techniques} {How do you integrate {NURBS} with other
+  {CNC} programming methods and techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linkedin.com, Last updated on Jul 27, 2023}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.linkedin.com/advice/3/how-do-you-integrate-nurbs-other-cnc-programming}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+B\BPBI A.~CollabCNC%
+}{%
+B\BPBI A.~CollabCNC%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+CollabCNC:2023B}
+\APACinsertmetastar {%
+CollabCNC:2023B}%
+\begin{APACrefauthors}%
+CollabCNC, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How do you evaluate the accuracy and quality of {NURBS}
+  machining results} {How do you evaluate the accuracy and quality of {NURBS}
+  machining results}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linkedi.com, Last updated on Jul 27, 2023}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.linkedin.com/advice/3/how-do-you-evaluate-accuracy-quality-nurbs-machining}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Farouki%
+\ \BBA {} Tsai%
+}{%
+R.~Farouki%
+\ \BBA {} Tsai%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Farouki-etal:2001}
+\APACinsertmetastar {%
+Farouki-etal:2001}%
+\begin{APACrefauthors}%
+Farouki, R.%
+\BCBT {}\ \BBA {} Tsai, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Exact {T}aylor series coefﬁcients for
+  variable-feedrate {CNC} curve interpolators} {Exact {T}aylor series
+  coefﬁcients for variable-feedrate {CNC} curve interpolators}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer-Aided Design 33}{}{}{155-165}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0010-4485(00)00085-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R\BPBI T.~Farouki%
+}{%
+R\BPBI T.~Farouki%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+Farouki:2021}
+\APACinsertmetastar {%
+Farouki:2021}%
+\begin{APACrefauthors}%
+Farouki, R\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Accurate {R}eal-time {CNC} {C}urve {I}nterpolators
+  {B}ased {U}pon {R}ichardson {E}xtrapolation} {Accurate {R}eal-time {CNC}
+  {C}urve {I}nterpolators {B}ased {U}pon {R}ichardson {E}xtrapolation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer-Aided Design 135}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{0.1016/j.cad.2021.103005} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fu%
+, Li%
+\BCBL {}\ \BBA {} Fu%
+}{%
+Fu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Fu:2016}
+\APACinsertmetastar {%
+Fu:2016}%
+\begin{APACrefauthors}%
+Fu, H.%
+, Li, C.%
+\BCBL {}\ \BBA {} Fu, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A parallel {CNC} system architecture based on
+  {S}ymmetric {M}ulti-processor} {A parallel {CNC} system architecture based on
+  {S}ymmetric {M}ulti-processor}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sixth International Conference on Instrumentation and
+  Measurement, Computer, Communication and Control}{}{}{634-637}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/IMCCC.2016.74} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hu%
+\ \protect \BOthers {.}}{%
+Hu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Hu-etal:2023}
+\APACinsertmetastar {%
+Hu-etal:2023}%
+\begin{APACrefauthors}%
+Hu, Y.%
+, Jiang, X.%
+, Huo, G.%
+, Su, C.%
+, Li, H.%
+\BCBL {}\ \BBA {} and, Z\BPBI Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A novel method for calculating interpolation points of
+  {NURBS} curves based on chord length-parameter ratio} {A novel method for
+  calculating interpolation points of {NURBS} curves based on chord
+  length-parameter ratio}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Research Square}{}{}{155-165}.
+\newblock
+\begin{APACrefDOI} \doi{10.21203/rs.3.rs-3155656/v} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jia%
+, Ma%
+, Song%
+, Wang%
+\BCBL {}\ \BBA {} Liu%
+}{%
+Jia%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Jia-etal:2018}
+\APACinsertmetastar {%
+Jia-etal:2018}%
+\begin{APACrefauthors}%
+Jia, Z\BPBI Y.%
+, Ma, J\BPBI W.%
+, Song, D\BPBI N.%
+, Wang, F\BPBI J.%
+\BCBL {}\ \BBA {} Liu, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of contouring-error reduction method in
+  multi-axis {CNC} machining} {A review of contouring-error reduction method in
+  multi-axis {CNC} machining}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Machine Tools and Manufacture
+  125}{}{}{34-54}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.ijmachtools.2017.10.008} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jin%
+, He%
+, Fu%
+, Lin%
+\BCBL {}\ \BBA {} Gan%
+}{%
+Jin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Jin-etal:2014}
+\APACinsertmetastar {%
+Jin-etal:2014}%
+\begin{APACrefauthors}%
+Jin, Y.%
+, He, Y.%
+, Fu, J\BHBI Z.%
+, Lin, Z\BHBI W.%
+\BCBL {}\ \BBA {} Gan, W\BHBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A fine-interpolation-based parametric interpolation
+  method with a novel real-time look-ahead algorithm} {A
+  fine-interpolation-based parametric interpolation method with a novel
+  real-time look-ahead algorithm}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer-Aided Design 55}{}{}{37-48}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.cad.2014.05.002} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kalimbetov%
+\ \BBA {} Yusoff%
+}{%
+Kalimbetov%
+\ \BBA {} Yusoff%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Kalimbetov:2012}
+\APACinsertmetastar {%
+Kalimbetov:2012}%
+\begin{APACrefauthors}%
+Kalimbetov, A.%
+\BCBT {}\ \BBA {} Yusoff, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {{C/C++} and {P}ython for {L}inux {R}ealtime {P}arallel {P}ort
+  {S}oftware Driver} {{C/C++} and {P}ython for {L}inux {R}ealtime {P}arallel
+  {P}ort {S}oftware driver}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{Faculty of Computing and Informatics}{Final Year
+  Project, Multimedia University, Cyberjaya}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Koren%
+}{%
+Koren%
+}{%
+{\protect \APACyear {1976}}%
+}]{%
+Koren:1976}
+\APACinsertmetastar {%
+Koren:1976}%
+\begin{APACrefauthors}%
+Koren, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1976}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Interpolator for a {CNC} System} {Interpolator for a
+  {CNC} system}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Computers, Vol. C 25}{}{}{32-37}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Koren%
+, Lo%
+\BCBL {}\ \BBA {} Shpitalni%
+}{%
+Koren%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+Koren-etal:1993}
+\APACinsertmetastar {%
+Koren-etal:1993}%
+\begin{APACrefauthors}%
+Koren, Y.%
+, Lo, C\BPBI C.%
+\BCBL {}\ \BBA {} Shpitalni.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{CNA INTERPOLATORS: ALGORITHMS AND ANALYSIS}} {{CNA
+  INTERPOLATORS: ALGORITHMS AND ANALYSIS}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Manufacturing Science and Engineering PED Vol.
+  64}{}{}{83-92}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lee%
+\ \protect \BOthers {.}}{%
+Lee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Lee-etal:2018}
+\APACinsertmetastar {%
+Lee-etal:2018}%
+\begin{APACrefauthors}%
+Lee, C\BHBI Y.%
+, Kim, S\BPBI H.%
+, Ha, T\BPBI I.%
+, Min, J.%
+, Hwang, S\BHBI H.%
+\BCBL {}\ \BBA {} Min, B\BHBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{CNC} {A}lgorithms for {P}recision {M}achining: {S}tate
+  of the {A}rt {R}eview} {{CNC} {A}lgorithms for {P}recision {M}achining:
+  {S}tate of the {A}rt {R}eview}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the Korean Society for Precision
+  Engineering, vol. 35}{}{}{279-291}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nam%
+\ \BBA {} Yang%
+}{%
+Nam%
+\ \BBA {} Yang%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+Nam-etal:2004}
+\APACinsertmetastar {%
+Nam-etal:2004}%
+\begin{APACrefauthors}%
+Nam, S\BHBI H.%
+\BCBT {}\ \BBA {} Yang, M\BHBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A study on a generalized parametric interpolator with
+  real-time jerk-limited acceleration} {A study on a generalized parametric
+  interpolator with real-time jerk-limited acceleration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer-Aided Design 36}{}{}{27-36}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ni%
+, Zhang%
+, Chen%
+, Hu%
+\BCBL {}\ \BBA {} Liu%
+}{%
+Ni%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Ni-etal:2019}
+\APACinsertmetastar {%
+Ni-etal:2019}%
+\begin{APACrefauthors}%
+Ni, H.%
+, Zhang, C.%
+, Chen, C.%
+, Hu, T.%
+\BCBL {}\ \BBA {} Liu, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A parametric interpolation method based on prediction
+  and iterative compensation.} {A parametric interpolation method based on
+  prediction and iterative compensation.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Robotic
+  Systems}{}{}{1-10}.
+\newblock
+\begin{APACrefDOI} \doi{10.1177/1729881419828188} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Piegl%
+\ \BBA {} Tiller%
+}{%
+Piegl%
+\ \BBA {} Tiller%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Piegl-etal:1997}
+\APACinsertmetastar {%
+Piegl-etal:1997}%
+\begin{APACrefauthors}%
+Piegl, L.%
+\BCBT {}\ \BBA {} Tiller, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {NURBS} {B}ook, 2nd edition} {The {NURBS} {B}ook,
+  2nd edition}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-43).
+\newblock
+\APACaddressPublisher{}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Quang%
+\ \BBA {} Long%
+}{%
+Quang%
+\ \BBA {} Long%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Nguyen-etal:2017}
+\APACinsertmetastar {%
+Nguyen-etal:2017}%
+\begin{APACrefauthors}%
+Quang, N\BPBI H.%
+\BCBT {}\ \BBA {} Long, B\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A {M}ethod of {R}eal-{T}ime {NURBS} {I}nterpolation with
+  {C}onfined {C}hord {E}rror for {CNC} {S}ystems} {A {M}ethod of {R}eal-{T}ime
+  {NURBS} {I}nterpolation with {C}onfined {C}hord {E}rror for {CNC}
+  {S}ystems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Vietnam Journal of Science and Technology 55
+  (5)}{}{}{650-657}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramesh%
+, Mannan%
+\BCBL {}\ \BBA {} Poo%
+}{%
+Ramesh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Ramesh-etal:2005}
+\APACinsertmetastar {%
+Ramesh-etal:2005}%
+\begin{APACrefauthors}%
+Ramesh, R.%
+, Mannan, M\BPBI A.%
+\BCBL {}\ \BBA {} Poo, A\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tracking and contour error control in {CNC} servo
+  systems} {Tracking and contour error control in {CNC} servo systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Machine Tools and Manufacture
+  45}{}{}{301-326}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.ijmachtools.2004.08.008} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rob%
+}{%
+Rob%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Rob:2022}
+\APACinsertmetastar {%
+Rob:2022}%
+\begin{APACrefauthors}%
+Rob, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2022}.
+\unskip\
+\newblock
+\APACrefbtitle {{S}mooth {T}rajectory {G}eneration for 5-{A}xis {CNC} {M}achine
+  {T}ools} {{S}mooth {T}rajectory {G}eneration for 5-{A}xis {CNC} {M}achine
+  {T}ools}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Ph. D Thesis of University of Sheffield, U.K}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rogers%
+}{%
+Rogers%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Rogers:2001}
+\APACinsertmetastar {%
+Rogers:2001}%
+\begin{APACrefauthors}%
+Rogers, D\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An {I}ntroduction to {NURBS} with {H}istorical
+  {P}erspective} {An {I}ntroduction to {NURBS} with {H}istorical
+  {P}erspective}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-11).
+\newblock
+\APACaddressPublisher{}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Selvarajah%
+\ \BBA {} Yusoff%
+}{%
+Selvarajah%
+\ \BBA {} Yusoff%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Selvarajah:2015}
+\APACinsertmetastar {%
+Selvarajah:2015}%
+\begin{APACrefauthors}%
+Selvarajah, R.%
+\BCBT {}\ \BBA {} Yusoff, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Using the {B}eagle {B}oard x{M} {SBC} to drive a {CNC} System}
+  {Using the {B}eagle {B}oard x{M} {SBC} to drive a {CNC} system}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{Faculty of Computing and Informatics}{Final Year
+  Project, Multimedia University, Cyberjaya}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shpitalni%
+, Koren%
+\BCBL {}\ \BBA {} Lo%
+}{%
+Shpitalni%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1994}}%
+}]{%
+Shpitalni-etal:1994}
+\APACinsertmetastar {%
+Shpitalni-etal:1994}%
+\begin{APACrefauthors}%
+Shpitalni, H.%
+, Koren, Y.%
+\BCBL {}\ \BBA {} Lo, C\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Realtime curve interpolators} {Realtime curve
+  interpolators}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Aided Design Vol 26 No 11}{}{}{832-838}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+S.H.~Suh%
+\ \BBA {} Stroud%
+}{%
+S.H.~Suh%
+\ \BBA {} Stroud%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Suh-etal:2008}
+\APACinsertmetastar {%
+Suh-etal:2008}%
+\begin{APACrefauthors}%
+S.H.~Suh, D\BPBI C., S.K.~Kang%
+\BCBT {}\ \BBA {} Stroud, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Theory and design of {CNC} systems} {Theory and design
+  of {CNC} systems}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-454).
+\newblock
+\APACaddressPublisher{}{Springer Sciences and Business Media}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+S.~Sun%
+\ \BBA {} Xie%
+}{%
+S.~Sun%
+\ \BBA {} Xie%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Sun-etal:2018}
+\APACinsertmetastar {%
+Sun-etal:2018}%
+\begin{APACrefauthors}%
+S.~Sun, C\BPBI W., D.~Yu%
+\BCBT {}\ \BBA {} Xie, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A smooth tool path generation and real-time
+  interpolation algorithm based on {B}-spline curves} {A smooth tool path
+  generation and real-time interpolation algorithm based on {B}-spline
+  curves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Mechanical
+  Engineering.vol.10(1)}{}{}{650-657}.
+\newblock
+\begin{APACrefDOI} \doi{10.1177/1687814017750281} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sun%
+, Wang%
+\BCBL {}\ \BBA {} Guo%
+}{%
+Sun%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+Sun-etal:2006}
+\APACinsertmetastar {%
+Sun-etal:2006}%
+\begin{APACrefauthors}%
+Sun, Y.%
+, Wang, J.%
+\BCBL {}\ \BBA {} Guo, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Guide curve based interpolation scheme of parametric
+  curves for precision {CNC} machining} {Guide curve based interpolation scheme
+  of parametric curves for precision {CNC} machining}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Machine Tools and Manufacture
+  46}{}{}{235-242}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.ijmachtools.2005.05.024} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Teh%
+\ \BBA {} Yusoff%
+}{%
+Teh%
+\ \BBA {} Yusoff%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Teh:2016}
+\APACinsertmetastar {%
+Teh:2016}%
+\begin{APACrefauthors}%
+Teh, C.%
+\BCBT {}\ \BBA {} Yusoff, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Using the {N}exys-3 {S}partan-6 {FPGA} board to develop a
+  closed-loop feedback {CNC} system} {Using the {N}exys-3 {S}partan-6 {FPGA}
+  board to develop a closed-loop feedback {CNC} system}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{Faculty of Computing and Informatics}{Final Year
+  Project, Multimedia University, Cyberjaya}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thomas R.~Kramer%
+\ \BBA {} Messina%
+}{%
+Thomas R.~Kramer%
+\ \BBA {} Messina%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Kramer-etal:2000}
+\APACinsertmetastar {%
+Kramer-etal:2000}%
+\begin{APACrefauthors}%
+Thomas R.~Kramer, F\BPBI M\BPBI P.%
+\BCBT {}\ \BBA {} Messina, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {NIST-RS274NGC-I}ntrepreter-{V}ersion 3} {The
+  {NIST-RS274NGC-I}ntrepreter-{V}ersion 3}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-121).
+\newblock
+\APACaddressPublisher{}{National Institute of Standards and Technology}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+TitanCNC%
+}{%
+TitanCNC%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+TitanCNC:2021}
+\APACinsertmetastar {%
+TitanCNC:2021}%
+\begin{APACrefauthors}%
+TitanCNC, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Incredible 9 {A}xis {M}achining on {DN} Solutions PUMA
+  {SMX3100ST} [video]} {Incredible 9 {A}xis {M}achining on {DN} solutions puma
+  {SMX3100ST} [video]}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{You {T}ube {C}hannel, dated 13 April, 2021}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.youtube.com/watch?v=HH9FdfMcpI0}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+A\BPBI A.~Wikipedia%
+}{%
+A\BPBI A.~Wikipedia%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Wikipedia:2023A}
+\APACinsertmetastar {%
+Wikipedia:2023A}%
+\begin{APACrefauthors}%
+Wikipedia, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stack and {H}eap {M}emory, {N}otes of data structures
+  and {C}++ concepts} {Stack and {H}eap {M}emory, {N}otes of data structures
+  and {C}++ concepts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Wikipedia, Last retrieved: 17 September 2023}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/wiki/Stack-based_memory_allocation}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+B\BPBI A.~Wikipedia%
+}{%
+B\BPBI A.~Wikipedia%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Wikipedia:2023B}
+\APACinsertmetastar {%
+Wikipedia:2023B}%
+\begin{APACrefauthors}%
+Wikipedia, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine epsilon (computer science)} {Machine epsilon
+  (computer science)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Wikipedia, Last edited: 04 September 2023}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Machine_epsilon}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+C\BPBI A.~Wikipedia%
+}{%
+C\BPBI A.~Wikipedia%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Wikipedia:2023C}
+\APACinsertmetastar {%
+Wikipedia:2023C}%
+\begin{APACrefauthors}%
+Wikipedia, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Side effect (computer science)} {Side effect (computer
+  science)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Wikipedia, Last edited: 03 July 2023}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://en.wikipedia.org/wiki/Side_effect_(computer_science)}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yeh%
+}{%
+Yeh%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Yeh:2019}
+\APACinsertmetastar {%
+Yeh:2019}%
+\begin{APACrefauthors}%
+Yeh, S\BHBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{F}eed {R}ate {D}etermination {M}ethod for {T}ool {P}ath
+  {I}terpolation {C}onsidering {P}iecewise-{C}ontinued {M}achining {S}egments
+  with {C}ornering {E}rrors and {K}inematic {C}onstraints} {{F}eed {R}ate
+  {D}etermination {M}ethod for {T}ool {P}ath {I}terpolation {C}onsidering
+  {P}iecewise-{C}ontinued {M}achining {S}egments with {C}ornering {E}rrors and
+  {K}inematic {C}onstraints}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Mechanical Engineering and
+  Robotics Research Vol. 8, No. 3}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yeh%
+\ \BBA {} Hsu%
+}{%
+Yeh%
+\ \BBA {} Hsu%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+Yeh-etal:1999}
+\APACinsertmetastar {%
+Yeh-etal:1999}%
+\begin{APACrefauthors}%
+Yeh, S\BPBI S.%
+\BCBT {}\ \BBA {} Hsu, P\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The speed-controlled interpolator for machining
+  parametric curves} {The speed-controlled interpolator for machining
+  parametric curves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer-Aided Design 31}{}{}{349-357}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yeh%
+\ \BBA {} Hsu%
+}{%
+Yeh%
+\ \BBA {} Hsu%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Yeh-etal:2002}
+\APACinsertmetastar {%
+Yeh-etal:2002}%
+\begin{APACrefauthors}%
+Yeh, S\BHBI S.%
+\BCBT {}\ \BBA {} Hsu, P\BHBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Adaptive-feedrate interpolation for parametric curves
+  with a confined chord error} {Adaptive-feedrate interpolation for parametric
+  curves with a confined chord error}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer-Aided Design 34}{}{}{229-237}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu~B-F%
+\ \BBA {} Yu%
+}{%
+Yu~B-F%
+\ \BBA {} Yu%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Yu-etal:2020}
+\APACinsertmetastar {%
+Yu-etal:2020}%
+\begin{APACrefauthors}%
+Yu~B-F, C\BPBI J\BHBI S.%
+\BCBT {}\ \BBA {} Yu.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{D}evelopment of an {A}nalyzing and {T}uning
+  {M}ethodology for the {CNC} {P}arameters {B}ased on {M}achining
+  {P}erformance} {{D}evelopment of an {A}nalyzing and {T}uning {M}ethodology
+  for the {CNC} {P}arameters {B}ased on {M}achining {P}erformance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Sciences. Vol. 10(8):2702}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/app10082702} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhong%
+, Luo%
+, Chang%
+, Ding%
+\BCBL {}\ \BBA {} Cai%
+}{%
+Zhong%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Zhong-etal:2018}
+\APACinsertmetastar {%
+Zhong-etal:2018}%
+\begin{APACrefauthors}%
+Zhong, W.%
+, Luo, X.%
+, Chang, W.%
+, Ding, F.%
+\BCBL {}\ \BBA {} Cai, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A real-time interpolator for parametric curves} {A
+  real-time interpolator for parametric curves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Machine Tools and Manufacture
+  125}{}{}{133-145}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.ijmachtools.2017.11.010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

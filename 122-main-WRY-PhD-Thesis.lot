@@ -1,0 +1,95 @@
+\addvspace {10\p@ }
+\contentsline {xchapter}{ACKNOWLEDGEMENTS}{i}{chapter*.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{ABSTRAK}{iii}{chapter*.4}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{ABSTRACT}{iv}{chapter*.5}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{LIST OF ABBREVIATIONS}{xlvii}{chapter*.8}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{INTRODUCTION}{1}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{LITERATURE REVIEW}{11}{chapter.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{METHODOLOGY}{30}{chapter.3}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces List of ten(10) selected parametric curves\relax }}{30}{table.caption.22}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Teardrop curve parametric equation\relax }}{36}{table.caption.25}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Butterfly curve parametric equation\relax }}{38}{table.caption.28}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Ellipse curve parametric equation\relax }}{40}{table.caption.32}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces SkewedAstroid curve parametric equation\relax }}{41}{table.caption.34}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Circle parametric equation\relax }}{42}{table.caption.36}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces AstEpi curve parametric equation\relax }}{43}{table.caption.38}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Snailshell curve parametric equation\relax }}{44}{table.caption.40}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces SnaHyp curve parametric equation\relax }}{45}{table.caption.42}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Ribbon10L curve parametric equation\relax }}{46}{table.caption.44}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Ribbon100L curve parametric equation\relax }}{47}{table.caption.46}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Feedrate limit function parameters\relax }}{62}{table.caption.57}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Calculation for fratelimit\_1\relax }}{63}{table.caption.58}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Calculation for fratelimit\_2\relax }}{63}{table.caption.59}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Calculation for fratelimit\_3\relax }}{64}{table.caption.60}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Calculation for fratelimit\_4\relax }}{65}{table.caption.61}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Rising S-curve parameters\relax }}{66}{table.caption.62}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Falling S-curve parameters\relax }}{80}{table.caption.73}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Acceleration safety factor (lambda)\relax }}{81}{table.caption.74}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Definitions of SAL(u), SCL(u), SAT(u), SAA(u) and SCE(u)\relax }}{83}{table.caption.75}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Definitions of Total SAL, Total SCL, Total SAT, Total SAA, and Total SCE\relax }}{83}{table.caption.76}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Algorithm and runtime parameters\relax }}{95}{table.caption.79}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces System Hardware Specifications\relax }}{98}{table.caption.80}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Operating Systems\relax }}{99}{table.caption.81}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Programming Software Languages\relax }}{99}{table.caption.82}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Reporting Software Applications\relax }}{100}{table.caption.83}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Specialized Software Applications\relax }}{100}{table.caption.84}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{RESULTS AND DISCUSSIONS}{110}{chapter.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Results for finding acceptable lamda\relax }}{131}{table.caption.104}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results for rechecking acceptable lamda\relax }}{132}{table.caption.105}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Teardrop Table distribution of interpolated points\relax }}{164}{table.caption.132}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Terms used in Curve Performance data\relax }}{173}{table.caption.143}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Teardrop Table FC10-20-30-40 Run Performance data\relax }}{177}{table.caption.144}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Teardrop SCE/TIP Table FC10-20-30-40 Run Performance data\relax }}{179}{table.caption.146}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Teardrop SCE/SCL Table FC10-20-30-40 Run Performance data\relax }}{180}{table.caption.148}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Teardrop SAA/SCL Table FC10-20-30-40 Run Performance data\relax }}{181}{table.caption.150}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Teardrop (SAL-SCL)/SAL Table FC10-20-30-40 Run Performance data\relax }}{182}{table.caption.152}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Circle Table FC10-20-30-40 Run Performance data\relax }}{190}{table.caption.158}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Ellipse Table FC10-20-30-40 Run Performance data\relax }}{191}{table.caption.159}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Butterfly Table FC10-20-30-40 Run Performance data\relax }}{192}{table.caption.160}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Snailshell Table FC10-20-30-40 Run Performance data\relax }}{193}{table.caption.161}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Skewed-Astroid Table FC10-20-30-40 Run Performance data\relax }}{194}{table.caption.162}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Ribbon-10L Table FC10-20-30-40 Run Performance data\relax }}{195}{table.caption.163}%
+\contentsline {table}{\numberline {4.16}{\ignorespaces Ribbon-100L Table FC10-20-30-40 Run Performance data\relax }}{196}{table.caption.164}%
+\contentsline {table}{\numberline {4.17}{\ignorespaces AstEpi Table FC10-20-30-40 Run Performance data\relax }}{197}{table.caption.165}%
+\contentsline {table}{\numberline {4.18}{\ignorespaces SnaHyp Table FC10-20-30-40 Run Performance data\relax }}{198}{table.caption.166}%
+\contentsline {table}{\numberline {4.19}{\ignorespaces Circle - Algorithm Validation and Verification\relax }}{199}{table.caption.167}%
+\contentsline {table}{\numberline {4.20}{\ignorespaces Ellipse - Algorithm Validation and Verification\relax }}{200}{table.caption.168}%
+\contentsline {table}{\numberline {4.21}{\ignorespaces Anomaly at FC30 Teardrop Table FC10-20-30-40 Run Performance data\relax }}{204}{table.caption.169}%
+\contentsline {table}{\numberline {4.22}{\ignorespaces Overall Total Interpolated Points Data TIP\relax }}{223}{table.caption.179}%
+\contentsline {table}{\numberline {4.23}{\ignorespaces Overall Total Sum-Arc-Length Data SAL\relax }}{226}{table.caption.181}%
+\contentsline {table}{\numberline {4.24}{\ignorespaces Overall Total Sum-Chord-Length SCL\relax }}{229}{table.caption.183}%
+\contentsline {table}{\numberline {4.25}{\ignorespaces Overall Percentage Difference between SAL and SCL\relax }}{233}{table.caption.186}%
+\contentsline {table}{\numberline {4.26}{\ignorespaces Overall Sum-Chord-Error Data SCE\relax }}{236}{table.caption.188}%
+\contentsline {table}{\numberline {4.27}{\ignorespaces Overall Performance 2 Chord-Error-Efficiency CEE\relax }}{239}{table.caption.190}%
+\contentsline {table}{\numberline {4.28}{\ignorespaces Overall Sum-Arc-Area SAA\relax }}{243}{table.caption.193}%
+\contentsline {table}{\numberline {4.29}{\ignorespaces Overall Arc-Area-Efficiency AAE\relax }}{246}{table.caption.195}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{CONCLUSION}{250}{chapter.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Chord-error per unit length curve traversed (ratio) CEE\relax }}{251}{table.caption.196}%
+\contentsline {table}{\numberline {2}{\ignorespaces Circle Table distribution of interpolated points\relax }}{303}{table.caption.248}%
+\contentsline {table}{\numberline {3}{\ignorespaces Circle Table FC10-20-30-40 Run Performance data\relax }}{304}{table.caption.249}%
+\contentsline {table}{\numberline {4}{\ignorespaces Ellipse Table distribution of interpolated points\relax }}{325}{table.caption.285}%
+\contentsline {table}{\numberline {5}{\ignorespaces Ellipse Table FC10-20-30-40 Run Performance data\relax }}{326}{table.caption.286}%
+\contentsline {table}{\numberline {6}{\ignorespaces Teardrop Table distribution of interpolated points\relax }}{347}{table.caption.322}%
+\contentsline {table}{\numberline {7}{\ignorespaces Teardrop Table FC10-20-30-40 Run Performance data\relax }}{348}{table.caption.323}%
+\contentsline {table}{\numberline {8}{\ignorespaces Butterfly Table distribution of interpolated points\relax }}{369}{table.caption.359}%
+\contentsline {table}{\numberline {9}{\ignorespaces Butterfly Table FC10-20-30-40 Run Performance data\relax }}{370}{table.caption.360}%
+\contentsline {table}{\numberline {10}{\ignorespaces Snailshell Table distribution of interpolated points\relax }}{391}{table.caption.396}%
+\contentsline {table}{\numberline {11}{\ignorespaces Snailshell Table FC10-20-30-40 Run Performance data\relax }}{392}{table.caption.397}%
+\contentsline {table}{\numberline {12}{\ignorespaces SkwAstroid Table distribution of interpolated points\relax }}{413}{table.caption.433}%
+\contentsline {table}{\numberline {13}{\ignorespaces SkwAstroid Table FC10-20-30-40 Run Performance data\relax }}{414}{table.caption.434}%
+\contentsline {table}{\numberline {14}{\ignorespaces Ribbon-10L Table distribution of interpolated points\relax }}{435}{table.caption.470}%
+\contentsline {table}{\numberline {15}{\ignorespaces Ribbon-10L Table FC10-20-30-40 Run Performance data\relax }}{436}{table.caption.471}%
+\contentsline {table}{\numberline {16}{\ignorespaces Ribbon-100L Table distribution of interpolated points\relax }}{457}{table.caption.507}%
+\contentsline {table}{\numberline {17}{\ignorespaces Ribbon-100L Table FC10-20-30-40 Run Performance data\relax }}{458}{table.caption.508}%
+\contentsline {table}{\numberline {18}{\ignorespaces AstEpi Table distribution of interpolated points\relax }}{479}{table.caption.544}%
+\contentsline {table}{\numberline {19}{\ignorespaces AstEpi Table FC10-20-30-40 Run Performance data\relax }}{480}{table.caption.545}%
+\contentsline {table}{\numberline {20}{\ignorespaces SnaHyp Table distribution of interpolated points\relax }}{501}{table.caption.581}%
+\contentsline {table}{\numberline {21}{\ignorespaces SnaHyp Table FC10-20-30-40 Run Performance data\relax }}{502}{table.caption.582}%

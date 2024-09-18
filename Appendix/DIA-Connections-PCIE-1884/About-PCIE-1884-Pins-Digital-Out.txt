@@ -1,0 +1,23 @@
+Something to think about.
+
+(1) Total pins 37 in PCIE-1884
+(2) There are 5 GND (Ground pins)
+(3) Remaining 32 pins.
+(4) Each axis uses 6 pins = 3 axes x 6 = 18 pins.
+(5) Remaining 14 pins.
+(6) Can use 4 pins for digital out (x-axis 2 (CW, CCW) pins and y-axis 2 pins (Cw, CCW)) = 4 pins
+(7) Remaining 10 pins.
+(8) We need 2 more pins for digital out (z-axis CW, CCW). Where to find this?
+(9) The rest are all digital input pins, not output.
+(10) Balance 10 pins for now cannot be used.
+
+QUESTION 1: Now if we have x-axis and y-axis only sending out digital outputs, where does it go?
+It goes back to the parallel ports pins D0, D1 (x-axis) and D2, D3 (y-axis) correct for closed loop.
+Forget about the z-axis. Hahaha.  
+
+QUESTION 2: How do we send the loopback digital signal to the parallel port (D0, D1, D2 and D3) ?
+We must do Qt6 programming to receive encoder counter inputs, use it, calculate and send "parallel digital signals" to  the four pins D0, D1 (x-axis) and D2, D3 (y-axis).
+
+Hahaha. Am I right?
+
+

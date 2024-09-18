@@ -1,0 +1,37 @@
+\clearpage
+\pagebreak
+\begin{landscape}
+	
+\lstset{backgroundcolor=\color{white}, basicstyle=\footnotesize, frame={topline, bottomline, leftline, rightline}}	
+\begin{lstlisting}[caption={App Realtime Latency Test for HP-Notebook}, label=App Realtime Latency Test for HP-Notebook]	
+
+Ubuntu 20.04.6 LTS SMP PREEMPT Kernel: 5.15.0-83-lowlatency (HP-Notebook)
+================================================================================
+Execute cyclictest V 2.4
+$ sudo cyclictest --mlockall --smp --priority=80 --interval=200 --distance=0
+# /dev/cpu_dma_latency set to 0us
+T: 0 ( 4328) P:80 I:200 C: 513285 Min:      3 Act:    8 Avg:    7 Max:      50
+T: 1 ( 4329) P:80 I:200 C: 513272 Min:      3 Act:    8 Avg:    7 Max:      39
+T: 2 ( 4330) P:80 I:200 C: 513260 Min:      3 Act:   11 Avg:    7 Max:     191
+T: 3 ( 4331) P:80 I:200 C: 513247 Min:      3 Act:    8 Avg:    8 Max:      93
+T: 4 ( 4332) P:80 I:200 C: 513234 Min:      3 Act:   13 Avg:    7 Max:      43
+T: 5 ( 4333) P:80 I:200 C: 513222 Min:      3 Act:   11 Avg:    7 Max:      39
+T: 6 ( 4334) P:80 I:200 C: 513207 Min:      3 Act:    8 Avg:    7 Max:     114
+T: 7 ( 4335) P:80 I:200 C: 513195 Min:      3 Act:    8 Avg:    7 Max:      58
+
+Debian 10 (Buster) SMP PREEMPT Kernel: 4.19.0-25-rt-amd64 x86_64 (HP-Notebook)
+================================================================================
+$ sudo cyclictest --mlockall --smp --priority=80 --interval=200 --distance=0
+# /dev/cpu_dma_latency set to 0us
+T: 0 ( 2413) P:80 I:200 C: 511312 Min:      2 Act:    2 Avg:    2 Max:      14
+T: 1 ( 2414) P:80 I:200 C: 511290 Min:      2 Act:    2 Avg:    2 Max:      14
+T: 2 ( 2415) P:80 I:200 C: 511268 Min:      2 Act:    2 Avg:    2 Max:      24
+T: 3 ( 2416) P:80 I:200 C: 511232 Min:      2 Act:    3 Avg:    2 Max:      23
+T: 4 ( 2417) P:80 I:200 C: 511227 Min:      2 Act:    2 Avg:    2 Max:      14
+T: 5 ( 2418) P:80 I:200 C: 511206 Min:      2 Act:    2 Avg:    2 Max:      18
+T: 6 ( 2419) P:80 I:200 C: 511184 Min:      2 Act:    2 Avg:    2 Max:      14
+T: 7 ( 2420) P:80 I:200 C: 511163 Min:      2 Act:    2 Avg:    2 Max:      17
+\end{lstlisting}
+
+\end{landscape}
+

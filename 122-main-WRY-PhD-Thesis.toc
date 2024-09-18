@@ -1,0 +1,560 @@
+\contentsline {chapter}{\textbf {DECLARATION}}{}{figure.caption.2}%
+\vskip -10pt
+\contentsline {chapter}{\textbf {TITLE PAGE}}{}{figure.caption.2}%
+\vskip -10pt
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{i}{chapter*.3}%
+\vskip -10pt
+\contentsline {chapter}{ABSTRAK}{iii}{chapter*.4}%
+\vskip -10pt
+\contentsline {chapter}{ABSTRACT}{iv}{chapter*.5}%
+\vskip -10pt
+\contentsline {chapter}{TABLE OF CONTENTS}{v}{chapter*.5}%
+\vskip -10pt
+\contentsline {chapter}{\textbf {LIST OF TABLES}}{xxv}{section*.6}%
+\vskip -10pt
+\contentsline {chapter}{\textbf {LIST OF FIGURES}}{xxviii}{section*.7}%
+\vskip -10pt
+\vskip -10pt
+\vskip -10pt
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{xlvii}{chapter*.8}%
+\vskip -10pt
+\vskip -10pt
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem statement}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Motivation}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Brief description of this thesis}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}About end results of this thesis}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Scope of work for this thesis}{7}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Organization of this thesis document}{9}{section.1.7}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Parametric Representation of curves and surfaces}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Continuity of curves and surfaces}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Computerized Numerical Control (CNC) Systems}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Advantages of Parametric Representations in CNC}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Interpolation of parametric curves}{19}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Previous works on parametric interpolation}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Related CNC work by the author}{22}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Comparisons previous works with this thesis}{26}{section.2.8}%
+\contentsline {section}{\numberline {2.9}NURBS and G-Code programming}{27}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Programming Languages for NURBS}{28}{section.2.10}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Parametric Curve Interpolation}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Selection of parametric curves}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Computing challenges in the algorithm}{31}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Characteristics of selected curves}{32}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Curve shapes and curve equations}{33}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Links to parametric curves}{35}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Direction of travel in parametric curves}{49}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Chord-error concept}{51}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Chord-error minimization}{51}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Feedrate maximization}{52}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Chord-error and feedrate constraints}{52}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Brief on algorithm strategy and design}{52}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Radius of Curvature $\textbf {rho(u)}$}{55}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Chord-error $\textbf {eps(u)}$}{55}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Feedrate or Velocity $ \textbf {V(u)} $}{57}{section.3.15}%
+\contentsline {section}{\numberline {3.16}First order Taylor's approximation u\_next(u)}{58}{section.3.16}%
+\contentsline {section}{\numberline {3.17}Second order Taylor's approximation u\_next(u)}{59}{section.3.17}%
+\contentsline {section}{\numberline {3.18}Next interpolation point calculation}{61}{section.3.18}%
+\contentsline {section}{\numberline {3.19}Feedrate limit calculations}{62}{section.3.19}%
+\contentsline {subsection}{\numberline {3.19.1}Feedrate Limit 1}{63}{subsection.3.19.1}%
+\contentsline {subsection}{\numberline {3.19.2}Feedrate Limit 2}{63}{subsection.3.19.2}%
+\contentsline {subsection}{\numberline {3.19.3}Feedrate Limit 3}{64}{subsection.3.19.3}%
+\contentsline {subsection}{\numberline {3.19.4}Feedrate Limit 4}{65}{subsection.3.19.4}%
+\contentsline {section}{\numberline {3.20}Feedrate rising S-curve}{66}{section.3.20}%
+\contentsline {section}{\numberline {3.21}Flowchart of main interpolation program}{67}{section.3.21}%
+\contentsline {section}{\numberline {3.22}Feedrate Limit algorithm regions}{70}{section.3.22}%
+\contentsline {section}{\numberline {3.23}Feedrate falling S-curve}{80}{section.3.23}%
+\contentsline {section}{\numberline {3.24}Acceleration constraint lambda safety factor}{81}{section.3.24}%
+\contentsline {section}{\numberline {3.25}Four(4) Algorithm Performance Metrics}{82}{section.3.25}%
+\contentsline {subsection}{\numberline {3.25.1}Arc-Length Approximate calculation}{84}{subsection.3.25.1}%
+\contentsline {subsection}{\numberline {3.25.2}Chord-Length Exact calculation}{85}{subsection.3.25.2}%
+\contentsline {subsection}{\numberline {3.25.3}Arc-Theta Approximate calculation}{86}{subsection.3.25.3}%
+\contentsline {subsection}{\numberline {3.25.4}Arc-Area Approximate calculation}{87}{subsection.3.25.4}%
+\contentsline {section}{\numberline {3.26}Software engineering practice}{88}{section.3.26}%
+\contentsline {section}{\numberline {3.27}Design of Algorithm Codes}{89}{section.3.27}%
+\contentsline {subsection}{\numberline {3.27.1}Algorithm Text Reports}{89}{subsection.3.27.1}%
+\contentsline {subsection}{\numberline {3.27.2}Algorithm Functional Organization}{91}{subsection.3.27.2}%
+\contentsline {subsection}{\numberline {3.27.3}Algorithm and runtime parameters}{95}{subsection.3.27.3}%
+\contentsline {section}{\numberline {3.28}Working environment setup}{97}{section.3.28}%
+\contentsline {section}{\numberline {3.29}System Hardware Environment}{98}{section.3.29}%
+\contentsline {section}{\numberline {3.30}Software Environment}{99}{section.3.30}%
+\contentsline {subsection}{\numberline {3.30.1}Operating System}{99}{subsection.3.30.1}%
+\contentsline {subsection}{\numberline {3.30.2}Programming Software Languages}{99}{subsection.3.30.2}%
+\contentsline {subsection}{\numberline {3.30.3}Reporting Software Applications}{100}{subsection.3.30.3}%
+\contentsline {subsection}{\numberline {3.30.4}Specialized Software Applications}{100}{subsection.3.30.4}%
+\contentsline {section}{\numberline {3.31}CNC System Setup}{101}{section.3.31}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSIONS}{110}{chapter.4}%
+\contentsline {section}{\numberline {4.1}CHAPTER ORGANIZATION}{110}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Result comparisons with Published Reference Paper}{110}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Algorithm Executions}{110}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Teardrop Curve for Illustration}{111}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Results of Teardrop curve}{111}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Notable Results for Rest of Curves}{111}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}Overall Execution Results}{111}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Summary of Results Chapter}{112}{subsection.4.1.7}%
+\contentsline {section}{\numberline {4.2}COMPARISONS AGAINST PUBLISHED PAPER}{113}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Result comparisons with Published Reference Paper}{113}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Display comparison results}{114}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Discussion on comparative results}{114}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Validation of Teardrop curve on CNC machine}{120}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}ALGORITHM EXECUTIONS}{122}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Total algorithm executions}{122}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Algorithm revisions}{122}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Illustrative example Teardrop curve execution}{123}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Determination of acceptable lamda}{124}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Examples of acceleration jitters (landscape)}{126}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Results for finding acceptable lamda}{131}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Rechecking acceptable lamda}{132}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}TEARDROP CURVE FOR ILLUSTRATION}{147}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Teardrop parametric curve}{147}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Rest of other nine(9) parametric curves}{147}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}RESULTS OF TEARDROP CURVE}{151}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Plot of Teardrop curve}{151}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Teardrop Direction of Travel}{151}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Teardrop Perspective View 3D in LinuxCNC-Axis}{153}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Teardrop Radius of Curvature}{154}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Teardrop 1st and 2nd Order Taylor's Approximation}{156}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Teardrop (1st minus 2nd) Order Taylor's Approximation}{156}{subsection.4.5.6}%
+\contentsline {subsection}{\numberline {4.5.7}Teardrop Chord-Error Absolute Constraint}{158}{subsection.4.5.7}%
+\contentsline {subsection}{\numberline {4.5.8}Teardrop Four(4) Feedrate Limit Components Profile}{158}{subsection.4.5.8}%
+\contentsline {subsection}{\numberline {4.5.9}Teardrop FRate Command, FRate Limit, Current FRate}{161}{subsection.4.5.9}%
+\contentsline {subsection}{\numberline {4.5.10}Teardrop Current Feedrate Absolute Constraint}{161}{subsection.4.5.10}%
+\contentsline {subsection}{\numberline {4.5.11}Teardrop Histogram distribution of interpolated points}{163}{subsection.4.5.11}%
+\contentsline {subsection}{\numberline {4.5.12}Teardrop Table distribution of interpolated points}{163}{subsection.4.5.12}%
+\contentsline {subsection}{\numberline {4.5.13}Teardrop Rising Current Feedrate Profile}{165}{subsection.4.5.13}%
+\contentsline {subsection}{\numberline {4.5.14}Teardrop Falling Current Feedrate Profile}{165}{subsection.4.5.14}%
+\contentsline {subsection}{\numberline {4.5.15}Teardrop FC10, FC20, TC30 \& FC40 Running Feedrates}{167}{subsection.4.5.15}%
+\contentsline {subsection}{\numberline {4.5.16}Teardrop Color-coded Running Feedrates}{170}{subsection.4.5.16}%
+\contentsline {subsection}{\numberline {4.5.17}Teardrop-Table FC 10, 20, 30 \& 40 Performance data}{173}{subsection.4.5.17}%
+\contentsline {subsection}{\numberline {4.5.18}Teardrop Algorithm Performance and its metrics}{178}{subsection.4.5.18}%
+\contentsline {subsection}{\numberline {4.5.19}Teardrop Tangential Acceleration Run Profiles}{183}{subsection.4.5.19}%
+\contentsline {section}{\numberline {4.6}PERFORMANCE SUMMARY REST OF CURVES}{189}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Circle-Table Summary Performance data link [\ref {tab-chap4-Circle-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Ellipse-Table Summary Performance data link [\ref {tab-chap4-Ellipse-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Butterfly-Table Summary Performance data link [\ref {tab-chap4-Butterfly-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Snailshell-Table Summary Performance data link [\ref {tab-chap4-Snailshell-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Skewed-Astroid-Table Summary Performance data link [\ref {tab-chap4-Skewed-Astroid-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}Ribbon-10L-Table Summary Performance data link [\ref {tab-chap4-Ribbon-10L-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.7}Ribbon-100L-Table Summary Performance data link [\ref {tab-chap4-Ribbon-100L-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.7}%
+\contentsline {subsection}{\numberline {4.6.8}AstEpi-Table Summary Performance data link [\ref {tab-chap4-AstEpi-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.8}%
+\contentsline {subsection}{\numberline {4.6.9}SnaHyp-Table Summary Performance data link [\ref {tab-chap4-SnaHyp-Table-FC10-20-30-40-Run-Performance-data}] }{189}{subsection.4.6.9}%
+\contentsline {section}{\numberline {4.7}NOTABLE RESULTS REST OF CURVES}{199}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Algorithm validation and verification of Circle curve}{199}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Algorithm validation and verification of Ellipse curve}{200}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Case Sum-Arc-Length (SAL) less than Sum-Chord-Length (SCL)}{202}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}SnaHyp curve algorithm machine epsilon problems}{210}{subsection.4.7.4}%
+\contentsline {section}{\numberline {4.8}OVERALL EXECUTION RESULTS}{216}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Feedrate Command (FC) and Lamda safety factor (LSF)}{216}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Algorithm Validation and Verification (V \& V)}{217}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}LinuxCNC-Axis Simulation Run Validation (SRV)}{218}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}LinuxCNC-Axis Real Run Validation (RRV)}{219}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Overall Total Interpolated Points (TIP)}{221}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}Overall Total Sum-Arc-Length (SAL)}{224}{subsection.4.8.6}%
+\contentsline {subsection}{\numberline {4.8.7}Overall Total Sum-Chord-Length (SCL)}{227}{subsection.4.8.7}%
+\contentsline {subsection}{\numberline {4.8.8}Overall Percentage Difference between SAL and SCL}{230}{subsection.4.8.8}%
+\contentsline {subsection}{\numberline {4.8.9}Overall Total Sum-Chord-Error (SCE)}{234}{subsection.4.8.9}%
+\contentsline {subsection}{\numberline {4.8.10}Overall Chord-Error-Efficiency (CEE) }{237}{subsection.4.8.10}%
+\contentsline {subsection}{\numberline {4.8.11}Overall Total Sum-Arc-Area (SAA)}{240}{subsection.4.8.11}%
+\contentsline {subsection}{\numberline {4.8.12}Overall Arc-Area-Efficiency (AAE)}{244}{subsection.4.8.12}%
+\contentsline {section}{\numberline {4.9}SUMMARY OF RESULTS CHAPTER}{247}{section.4.9}%
+\contentsline {chapter}{\numberline {5}CONCLUSION}{250}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusions of the research}{250}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Performance accuracy of the algorithm}{251}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Knowledge contributions}{252}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Recommendations for future work}{252}{section.5.4}%
+\contentsline {chapter}{REFERENCES}{253}{chapter*.197}%
+\contentsline {chapter}{APPENDICES}{257}{section*.198}%
+\contentsline {section}{\numberline {.1}APPENDIX CHAPTER 3}{258}{section.Alph0.1}%
+\contentsline {subsection}{\numberline {.1.1}About Side Effects in Computations}{258}{subsection.Alph0.1.1}%
+\contentsline {subsection}{\numberline {.1.2}Realtime Computing Environment}{260}{subsection.Alph0.1.2}%
+\contentsline {subsection}{\numberline {.1.3}Cyclictest for computer latency measurements}{262}{subsection.Alph0.1.3}%
+\contentsline {subsection}{\numberline {.1.4}CPU Latency Performance Summary}{265}{subsection.Alph0.1.4}%
+\contentsline {section}{\numberline {.2}APPENDIX CHAPTER 4}{266}{section.Alph0.2}%
+\contentsline {subsection}{\numberline {.2.1}Ellipse Perimeter using Ramanujan Approximation}{266}{subsection.Alph0.2.1}%
+\contentsline {subsection}{\numberline {.2.2}Calculation of machine epsilon C code}{268}{subsection.Alph0.2.2}%
+\contentsline {subsection}{\numberline {.2.3}Ranges of floating-point numbers in C code}{269}{subsection.Alph0.2.3}%
+\contentsline {subsection}{\numberline {.2.4}Machine epsilon affecting addition and subtraction operations}{270}{subsection.Alph0.2.4}%
+\contentsline {subsection}{\numberline {.2.5}Resolving machine epsilon issue}{271}{subsection.Alph0.2.5}%
+\contentsline {subsection}{\numberline {.2.6}LinuxCNC Validation of Curves}{272}{subsection.Alph0.2.6}%
+\contentsline {section}{\numberline {.3}\textbf {APPENDIX CIRCLE CURVE}}{284}{section.Alph0.3}%
+\contentsline {subsection}{\numberline {.3.1}Plot of Circle curve [\ref {01-img-Plot of Circle curve.pdf} ] }{284}{subsection.Alph0.3.1}%
+\contentsline {subsection}{\numberline {.3.2}Circle Radius of Curvature [\ref {02-img-Circle Radius of Curvature.pdf}] }{284}{subsection.Alph0.3.2}%
+\contentsline {subsection}{\numberline {.3.3}Circle Validation in LinuxCNC [\ref {03-img-Circle-Validation-in-LinuxCNC.png} ] }{284}{subsection.Alph0.3.3}%
+\contentsline {subsection}{\numberline {.3.4}Circle Direction of Travel 3D [\ref {04-img-Circle Direction of Travel 3D.pdf} ] }{284}{subsection.Alph0.3.4}%
+\contentsline {subsection}{\numberline {.3.5}Circle First and Second Order Taylor's Approx [\ref {05-img-Circle-First-and-Second-Order-Taylors-Approx.pdf}] }{284}{subsection.Alph0.3.5}%
+\contentsline {subsection}{\numberline {.3.6}Circle First minus Second Order Taylor's Approx [\ref {06-img-Circle-First-minus-Second-Order-Taylors-Approx.pdf}] }{284}{subsection.Alph0.3.6}%
+\contentsline {subsection}{\numberline {.3.7}Circle Separate First and Second Order Taylor's Approx [\ref {07-img-Circle-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{284}{subsection.Alph0.3.7}%
+\contentsline {subsection}{\numberline {.3.8}Circle Separation SAL and SCL [\ref {08-img-Circle-Separation-SAL-and-SCL.pdf}] }{284}{subsection.Alph0.3.8}%
+\contentsline {subsection}{\numberline {.3.9}Circle Chord-error in close view 2 scales [\ref {09-img-Circle-Chord-error-in-close-view-2-scales.pdf}] }{284}{subsection.Alph0.3.9}%
+\contentsline {subsection}{\numberline {.3.10}Circle Four Components Feedrate Limit [\ref {10-img-Circle-Four-Components-Feedrate-Limit.pdf} ] }{284}{subsection.Alph0.3.10}%
+\contentsline {subsection}{\numberline {.3.11}Circle FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Circle-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{284}{subsection.Alph0.3.11}%
+\contentsline {subsection}{\numberline {.3.12}Circle FeedRateLimit minus CurrFeedRate [\ref {12-img-Circle-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{284}{subsection.Alph0.3.12}%
+\contentsline {subsection}{\numberline {.3.13}Circle FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Circle-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{284}{subsection.Alph0.3.13}%
+\contentsline {subsection}{\numberline {.3.14}Circle FC20 Nominal Tangential Acceleration [\ref {14-img-Circle-FC20-Nominal-Tangential-Acceleration.pdf} ] }{284}{subsection.Alph0.3.14}%
+\contentsline {subsection}{\numberline {.3.15}Circle FC20 Nominal Rising S-Curve Profile [\ref {15-img-Circle-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{284}{subsection.Alph0.3.15}%
+\contentsline {subsection}{\numberline {.3.16}Circle FC20 Nominal Falling S-Curve Profile [\ref {16-img-Circle-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{284}{subsection.Alph0.3.16}%
+\contentsline {subsection}{\numberline {.3.17}Circle FC10 Colored Feedrate Profile data ngcode [\ref {17-img-Circle-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{284}{subsection.Alph0.3.17}%
+\contentsline {subsection}{\numberline {.3.18}Circle FC20 Colored Feedrate Profile data ngcode [\ref {18-img-Circle-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{284}{subsection.Alph0.3.18}%
+\contentsline {subsection}{\numberline {.3.19}Circle FC30 Colored Feedrate Profile data ngcode [\ref {19-img-Circle-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{285}{subsection.Alph0.3.19}%
+\contentsline {subsection}{\numberline {.3.20}Circle FC40 Colored Feedrate Profile data ngcode [\ref {20-img-Circle-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{285}{subsection.Alph0.3.20}%
+\contentsline {subsection}{\numberline {.3.21}Circle FC10 Tangential Acceleration [\ref {21-img-Circle-FC10-Tangential-Acceleration.pdf}] }{285}{subsection.Alph0.3.21}%
+\contentsline {subsection}{\numberline {.3.22}Circle FC20 Tangential Acceleration [\ref {22-img-Circle-FC20-Tangential-Acceleration.pdf}] }{285}{subsection.Alph0.3.22}%
+\contentsline {subsection}{\numberline {.3.23}Circle FC30 Tangential Acceleration [\ref {23-img-Circle-FC30-Tangential-Acceleration.pdf}] }{285}{subsection.Alph0.3.23}%
+\contentsline {subsection}{\numberline {.3.24}Circle FC40 Tangential Acceleration [\ref {24-img-Circle-FC40-Tangential-Acceleration.pdf}] }{285}{subsection.Alph0.3.24}%
+\contentsline {subsection}{\numberline {.3.25}Circle FC20 Nominal Separation NAL and NCL [\ref {25-img-Circle-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{285}{subsection.Alph0.3.25}%
+\contentsline {subsection}{\numberline {.3.26}Circle SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-Circle-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{285}{subsection.Alph0.3.26}%
+\contentsline {subsection}{\numberline {.3.27}Circle FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Circle-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{285}{subsection.Alph0.3.27}%
+\contentsline {subsection}{\numberline {.3.28}Circle FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Circle-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{285}{subsection.Alph0.3.28}%
+\contentsline {subsection}{\numberline {.3.29}Circle FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Circle-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{285}{subsection.Alph0.3.29}%
+\contentsline {subsection}{\numberline {.3.30}Circle FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Circle-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{285}{subsection.Alph0.3.30}%
+\contentsline {subsection}{\numberline {.3.31}Circle FC10 Four Components FeedrateLimit [\ref {31-img-Circle-FC10-Four-Components-FeedrateLimit.pdf}] }{285}{subsection.Alph0.3.31}%
+\contentsline {subsection}{\numberline {.3.32}Circle FC20 Four Components FeedrateLimit [\ref {32-img-Circle-FC20-Four-Components-FeedrateLimit.pdf}] }{285}{subsection.Alph0.3.32}%
+\contentsline {subsection}{\numberline {.3.33}Circle FC30 Four Components FeedrateLimit [\ref {33-img-Circle-FC30-Four-Components-FeedrateLimit.pdf}] }{285}{subsection.Alph0.3.33}%
+\contentsline {subsection}{\numberline {.3.34}Circle FC40 Four Components FeedrateLimit [\ref {34-img-Circle-FC40-Four-Components-FeedrateLimit.pdf}]}{285}{subsection.Alph0.3.34}%
+\contentsline {subsection}{\numberline {.3.35}Circle Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Circle-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{285}{subsection.Alph0.3.35}%
+\contentsline {subsection}{\numberline {.3.36}Circle Table distribution of interpolated points [\ref {tab-Circle Table distribution of interpolated points}] }{285}{subsection.Alph0.3.36}%
+\contentsline {subsection}{\numberline {.3.37}Circle Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Circle-Table-FC10-20-30-40-Run-Performance-data} ] }{285}{subsection.Alph0.3.37}%
+\contentsline {section}{\numberline {.4}\textbf {APPENDIX ELLIPSE CURVE}}{306}{section.Alph0.4}%
+\contentsline {subsection}{\numberline {.4.1}Plot of Ellipse curve [\ref {01-img-Plot of Ellipse curve.pdf} ] }{306}{subsection.Alph0.4.1}%
+\contentsline {subsection}{\numberline {.4.2}Ellipse Radius of Curvature [\ref {02-img-Ellipse Radius of Curvature.pdf}] }{306}{subsection.Alph0.4.2}%
+\contentsline {subsection}{\numberline {.4.3}Ellipse Validation in LinuxCNC [\ref {03-img-Ellipse-Validation-in-LinuxCNC.png} ] }{306}{subsection.Alph0.4.3}%
+\contentsline {subsection}{\numberline {.4.4}Ellipse Direction of Travel 3D [\ref {04-img-Ellipse Direction of Travel 3D.pdf} ] }{306}{subsection.Alph0.4.4}%
+\contentsline {subsection}{\numberline {.4.5}Ellipse First and Second Order Taylor's Approx [\ref {05-img-Ellipse-First-and-Second-Order-Taylors-Approx.pdf}] }{306}{subsection.Alph0.4.5}%
+\contentsline {subsection}{\numberline {.4.6}Ellipse First minus Second Order Taylor's Approx [\ref {06-img-Ellipse-First-minus-Second-Order-Taylors-Approx.pdf}] }{306}{subsection.Alph0.4.6}%
+\contentsline {subsection}{\numberline {.4.7}Ellipse Separate First and Second Order Taylor's Approx [\ref {07-img-Ellipse-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{306}{subsection.Alph0.4.7}%
+\contentsline {subsection}{\numberline {.4.8}Ellipse Separation SAL and SCL [\ref {08-img-Ellipse-Separation-SAL-and-SCL.pdf}] }{306}{subsection.Alph0.4.8}%
+\contentsline {subsection}{\numberline {.4.9}Ellipse Chord-error in close view 2 scales [\ref {09-img-Ellipse-Chord-error-in-close-view-2-scales.pdf}] }{306}{subsection.Alph0.4.9}%
+\contentsline {subsection}{\numberline {.4.10}Ellipse Four Components Feedrate Limit [\ref {10-img-Ellipse-Four-Components-Feedrate-Limit.pdf} ] }{306}{subsection.Alph0.4.10}%
+\contentsline {subsection}{\numberline {.4.11}Ellipse FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Ellipse-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{306}{subsection.Alph0.4.11}%
+\contentsline {subsection}{\numberline {.4.12}Ellipse FeedRateLimit minus CurrFeedRate [\ref {12-img-Ellipse-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{306}{subsection.Alph0.4.12}%
+\contentsline {subsection}{\numberline {.4.13}Ellipse FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Ellipse-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{306}{subsection.Alph0.4.13}%
+\contentsline {subsection}{\numberline {.4.14}Ellipse FC20 Nominal Tangential Acceleration [\ref {14-img-Ellipse-FC20-Nominal-Tangential-Acceleration.pdf} ] }{306}{subsection.Alph0.4.14}%
+\contentsline {subsection}{\numberline {.4.15}Ellipse FC20 Nominal Rising S-Curve Profile [\ref {15-img-Ellipse-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{306}{subsection.Alph0.4.15}%
+\contentsline {subsection}{\numberline {.4.16}Ellipse FC20 Nominal Falling S-Curve Profile [\ref {16-img-Ellipse-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{306}{subsection.Alph0.4.16}%
+\contentsline {subsection}{\numberline {.4.17}Ellipse FC10 Colored Feedrate Profile data ngcode [\ref {17-img-Ellipse-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{306}{subsection.Alph0.4.17}%
+\contentsline {subsection}{\numberline {.4.18}Ellipse FC20 Colored Feedrate Profile data ngcode [\ref {18-img-Ellipse-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{306}{subsection.Alph0.4.18}%
+\contentsline {subsection}{\numberline {.4.19}Ellipse FC30 Colored Feedrate Profile data ngcode [\ref {19-img-Ellipse-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{307}{subsection.Alph0.4.19}%
+\contentsline {subsection}{\numberline {.4.20}Ellipse FC40 Colored Feedrate Profile data ngcode [\ref {20-img-Ellipse-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{307}{subsection.Alph0.4.20}%
+\contentsline {subsection}{\numberline {.4.21}Ellipse FC10 Tangential Acceleration [\ref {21-img-Ellipse-FC10-Tangential-Acceleration.pdf}] }{307}{subsection.Alph0.4.21}%
+\contentsline {subsection}{\numberline {.4.22}Ellipse FC20 Tangential Acceleration [\ref {22-img-Ellipse-FC20-Tangential-Acceleration.pdf}] }{307}{subsection.Alph0.4.22}%
+\contentsline {subsection}{\numberline {.4.23}Ellipse FC30 Tangential Acceleration [\ref {23-img-Ellipse-FC30-Tangential-Acceleration.pdf}] }{307}{subsection.Alph0.4.23}%
+\contentsline {subsection}{\numberline {.4.24}Ellipse FC40 Tangential Acceleration [\ref {24-img-Ellipse-FC40-Tangential-Acceleration.pdf}] }{307}{subsection.Alph0.4.24}%
+\contentsline {subsection}{\numberline {.4.25}Ellipse FC20 Nominal Separation NAL and NCL [\ref {25-img-Ellipse-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{307}{subsection.Alph0.4.25}%
+\contentsline {subsection}{\numberline {.4.26}Ellipse SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-Ellipse-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{307}{subsection.Alph0.4.26}%
+\contentsline {subsection}{\numberline {.4.27}Ellipse FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Ellipse-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{307}{subsection.Alph0.4.27}%
+\contentsline {subsection}{\numberline {.4.28}Ellipse FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Ellipse-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{307}{subsection.Alph0.4.28}%
+\contentsline {subsection}{\numberline {.4.29}Ellipse FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Ellipse-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{307}{subsection.Alph0.4.29}%
+\contentsline {subsection}{\numberline {.4.30}Ellipse FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Ellipse-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{307}{subsection.Alph0.4.30}%
+\contentsline {subsection}{\numberline {.4.31}Ellipse FC10 Four Components FeedrateLimit [\ref {31-img-Ellipse-FC10-Four-Components-FeedrateLimit.pdf}] }{307}{subsection.Alph0.4.31}%
+\contentsline {subsection}{\numberline {.4.32}Ellipse FC20 Four Components FeedrateLimit [\ref {32-img-Ellipse-FC20-Four-Components-FeedrateLimit.pdf}] }{307}{subsection.Alph0.4.32}%
+\contentsline {subsection}{\numberline {.4.33}Ellipse FC30 Four Components FeedrateLimit [\ref {33-img-Ellipse-FC30-Four-Components-FeedrateLimit.pdf}] }{307}{subsection.Alph0.4.33}%
+\contentsline {subsection}{\numberline {.4.34}Ellipse FC40 Four Components FeedrateLimit [\ref {34-img-Ellipse-FC40-Four-Components-FeedrateLimit.pdf}]}{307}{subsection.Alph0.4.34}%
+\contentsline {subsection}{\numberline {.4.35}Ellipse Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Ellipse-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{307}{subsection.Alph0.4.35}%
+\contentsline {subsection}{\numberline {.4.36}Ellipse Table distribution of interpolated points [\ref {tab-Ellipse Table distribution of interpolated points}] }{307}{subsection.Alph0.4.36}%
+\contentsline {subsection}{\numberline {.4.37}Ellipse Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Ellipse-Table-FC10-20-30-40-Run-Performance-data}] }{307}{subsection.Alph0.4.37}%
+\contentsline {section}{\numberline {.5}\textbf {APPENDIX TEARDROP CURVE}}{328}{section.Alph0.5}%
+\contentsline {subsection}{\numberline {.5.1}Plot of Teardrop curve [\ref {01-img-Plot of Teardrop curve.pdf} ] }{328}{subsection.Alph0.5.1}%
+\contentsline {subsection}{\numberline {.5.2}Teardrop Radius of Curvature [\ref {02-img-Teardrop Radius of Curvature.pdf}] }{328}{subsection.Alph0.5.2}%
+\contentsline {subsection}{\numberline {.5.3}Teardrop Validation in LinuxCNC [\ref {03-img-Teardrop-Validation-in-LinuxCNC.png} ] }{328}{subsection.Alph0.5.3}%
+\contentsline {subsection}{\numberline {.5.4}Teardrop Direction of Travel 3D [\ref {04-img-Teardrop Direction of Travel 3D.pdf} ] }{328}{subsection.Alph0.5.4}%
+\contentsline {subsection}{\numberline {.5.5}Teardrop First and Second Order Taylor's Approx [\ref {05-img-Teardrop-First-and-Second-Order-Taylors-Approx.pdf}] }{328}{subsection.Alph0.5.5}%
+\contentsline {subsection}{\numberline {.5.6}Teardrop First minus Second Order Taylor's Approx [\ref {06-img-Teardrop-First-minus-Second-Order-Taylors-Approx.pdf}] }{328}{subsection.Alph0.5.6}%
+\contentsline {subsection}{\numberline {.5.7}Teardrop Separate First Second Order Taylor's Approx [\ref {07-img-Teardrop-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{328}{subsection.Alph0.5.7}%
+\contentsline {subsection}{\numberline {.5.8}Teardrop Separation SAL and SCL [\ref {08-img-Teardrop-Separation-SAL-and-SCL.pdf}] }{328}{subsection.Alph0.5.8}%
+\contentsline {subsection}{\numberline {.5.9}Teardrop Chord-error in close view 2 scales [\ref {09-img-Teardrop-Chord-error-in-close-view-2-scales.pdf}] }{328}{subsection.Alph0.5.9}%
+\contentsline {subsection}{\numberline {.5.10}Teardrop Four Components Feedrate Limit [\ref {10-img-Teardrop-Four-Components-Feedrate-Limit.pdf} ] }{328}{subsection.Alph0.5.10}%
+\contentsline {subsection}{\numberline {.5.11}Teardrop FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Teardrop-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{328}{subsection.Alph0.5.11}%
+\contentsline {subsection}{\numberline {.5.12}Teardrop FeedRateLimit minus CurrFeedRate [\ref {12-img-Teardrop-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{328}{subsection.Alph0.5.12}%
+\contentsline {subsection}{\numberline {.5.13}Teardrop FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Teardrop-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{328}{subsection.Alph0.5.13}%
+\contentsline {subsection}{\numberline {.5.14}Teardrop FC20 Nominal Tangential Acceleration [\ref {14-img-Teardrop-FC20-Nominal-Tangential-Acceleration.pdf} ] }{328}{subsection.Alph0.5.14}%
+\contentsline {subsection}{\numberline {.5.15}Teardrop FC20 Nominal Rising S-Curve Profile [\ref {15-img-Teardrop-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{328}{subsection.Alph0.5.15}%
+\contentsline {subsection}{\numberline {.5.16}Teardrop FC20 Nominal Falling S-Curve Profile [\ref {16-img-Teardrop-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{328}{subsection.Alph0.5.16}%
+\contentsline {subsection}{\numberline {.5.17}Teardrop FC10 Colored Feedrate Profile data ngcode [\ref {17-img-Teardrop-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{328}{subsection.Alph0.5.17}%
+\contentsline {subsection}{\numberline {.5.18}Teardrop FC20 Colored Feedrate Profile data ngcode [\ref {18-img-Teardrop-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{328}{subsection.Alph0.5.18}%
+\contentsline {subsection}{\numberline {.5.19}Teardrop FC30 Colored Feedrate Profile data ngcode [\ref {19-img-Teardrop-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{329}{subsection.Alph0.5.19}%
+\contentsline {subsection}{\numberline {.5.20}Teardrop FC40 Colored Feedrate Profile data ngcode [\ref {20-img-Teardrop-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{329}{subsection.Alph0.5.20}%
+\contentsline {subsection}{\numberline {.5.21}Teardrop FC10 Tangential Acceleration [\ref {21-img-Teardrop-FC10-Tangential-Acceleration.pdf}] }{329}{subsection.Alph0.5.21}%
+\contentsline {subsection}{\numberline {.5.22}Teardrop FC20 Tangential Acceleration [\ref {22-img-Teardrop-FC20-Tangential-Acceleration.pdf}] }{329}{subsection.Alph0.5.22}%
+\contentsline {subsection}{\numberline {.5.23}Teardrop FC30 Tangential Acceleration [\ref {23-img-Teardrop-FC30-Tangential-Acceleration.pdf}] }{329}{subsection.Alph0.5.23}%
+\contentsline {subsection}{\numberline {.5.24}Teardrop FC40 Tangential Acceleration [\ref {24-img-Teardrop-FC40-Tangential-Acceleration.pdf}] }{329}{subsection.Alph0.5.24}%
+\contentsline {subsection}{\numberline {.5.25}Teardrop FC20 Nominal Separation NAL and NCL [\ref {25-img-Teardrop-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{329}{subsection.Alph0.5.25}%
+\contentsline {subsection}{\numberline {.5.26}Teardrop SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-Teardrop-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{329}{subsection.Alph0.5.26}%
+\contentsline {subsection}{\numberline {.5.27}Teardrop FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Teardrop-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{329}{subsection.Alph0.5.27}%
+\contentsline {subsection}{\numberline {.5.28}Teardrop FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Teardrop-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{329}{subsection.Alph0.5.28}%
+\contentsline {subsection}{\numberline {.5.29}Teardrop FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Teardrop-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{329}{subsection.Alph0.5.29}%
+\contentsline {subsection}{\numberline {.5.30}Teardrop FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Teardrop-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{329}{subsection.Alph0.5.30}%
+\contentsline {subsection}{\numberline {.5.31}Teardrop FC10 Four Components FeedrateLimit [\ref {31-img-Teardrop-FC10-Four-Components-FeedrateLimit.pdf}] }{329}{subsection.Alph0.5.31}%
+\contentsline {subsection}{\numberline {.5.32}Teardrop FC20 Four Components FeedrateLimit [\ref {32-img-Teardrop-FC20-Four-Components-FeedrateLimit.pdf}] }{329}{subsection.Alph0.5.32}%
+\contentsline {subsection}{\numberline {.5.33}Teardrop FC30 Four Components FeedrateLimit [\ref {33-img-Teardrop-FC30-Four-Components-FeedrateLimit.pdf}] }{329}{subsection.Alph0.5.33}%
+\contentsline {subsection}{\numberline {.5.34}Teardrop FC40 Four Components FeedrateLimit [\ref {34-img-Teardrop-FC40-Four-Components-FeedrateLimit.pdf}]}{329}{subsection.Alph0.5.34}%
+\contentsline {subsection}{\numberline {.5.35}Teardrop Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Teardrop-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{329}{subsection.Alph0.5.35}%
+\contentsline {subsection}{\numberline {.5.36}Teardrop Table distribution of interpolated points [\ref {tab-Teardrop Table distribution of interpolated points}] }{329}{subsection.Alph0.5.36}%
+\contentsline {subsection}{\numberline {.5.37}Teardrop Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Teardrop-Table-FC10-20-30-40-Run-Performance-data}] }{329}{subsection.Alph0.5.37}%
+\contentsline {section}{\numberline {.6}\textbf {APPENDIX BUTTERFLY CURVE}}{350}{section.Alph0.6}%
+\contentsline {subsection}{\numberline {.6.1}Plot of Butterfly curve [\ref {01-img-Plot of Butterfly curve.pdf} ] }{350}{subsection.Alph0.6.1}%
+\contentsline {subsection}{\numberline {.6.2}Butterfly Radius of Curvature [\ref {02-img-Butterfly Radius of Curvature.pdf}] }{350}{subsection.Alph0.6.2}%
+\contentsline {subsection}{\numberline {.6.3}Butterfly Validation in LinuxCNC [\ref {03-img-Butterfly-Validation-in-LinuxCNC.png} ] }{350}{subsection.Alph0.6.3}%
+\contentsline {subsection}{\numberline {.6.4}Butterfly Direction of Travel 3D [\ref {04-img-Butterfly Direction of Travel 3D.pdf} ] }{350}{subsection.Alph0.6.4}%
+\contentsline {subsection}{\numberline {.6.5}Butterfly First and Second Order Taylor's Approx [\ref {05-img-Butterfly-First-and-Second-Order-Taylors-Approx.pdf}] }{350}{subsection.Alph0.6.5}%
+\contentsline {subsection}{\numberline {.6.6}Butterfly First minus Second Order Taylor's Approx [\ref {06-img-Butterfly-First-minus-Second-Order-Taylors-Approx.pdf}] }{350}{subsection.Alph0.6.6}%
+\contentsline {subsection}{\numberline {.6.7}Butterfly Separate First Second Order Taylor's Approx [\ref {07-img-Butterfly-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{350}{subsection.Alph0.6.7}%
+\contentsline {subsection}{\numberline {.6.8}Butterfly Separation SAL and SCL [\ref {08-img-Butterfly-Separation-SAL-and-SCL.pdf}] }{350}{subsection.Alph0.6.8}%
+\contentsline {subsection}{\numberline {.6.9}Butterfly Chord-error in close view 2 scales [\ref {09-img-Butterfly-Chord-error-in-close-view-2-scales.pdf}] }{350}{subsection.Alph0.6.9}%
+\contentsline {subsection}{\numberline {.6.10}Butterfly Four Components Feedrate Limit [\ref {10-img-Butterfly-Four-Components-Feedrate-Limit.pdf} ] }{350}{subsection.Alph0.6.10}%
+\contentsline {subsection}{\numberline {.6.11}Butterfly FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Butterfly-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{350}{subsection.Alph0.6.11}%
+\contentsline {subsection}{\numberline {.6.12}Butterfly FeedRateLimit minus CurrFeedRate [\ref {12-img-Butterfly-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{350}{subsection.Alph0.6.12}%
+\contentsline {subsection}{\numberline {.6.13}Butterfly FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Butterfly-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{350}{subsection.Alph0.6.13}%
+\contentsline {subsection}{\numberline {.6.14}Butterfly FC20 Nominal Tangential Acceleration [\ref {14-img-Butterfly-FC20-Nominal-Tangential-Acceleration.pdf} ] }{350}{subsection.Alph0.6.14}%
+\contentsline {subsection}{\numberline {.6.15}Butterfly FC20 Nominal Rising S-Curve Profile [\ref {15-img-Butterfly-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{350}{subsection.Alph0.6.15}%
+\contentsline {subsection}{\numberline {.6.16}Butterfly FC20 Nominal Falling S-Curve Profile [\ref {16-img-Butterfly-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{350}{subsection.Alph0.6.16}%
+\contentsline {subsection}{\numberline {.6.17}Butterfly FC10 Colored Feedrate Profile data ngcode [\ref {17-img-Butterfly-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{350}{subsection.Alph0.6.17}%
+\contentsline {subsection}{\numberline {.6.18}Butterfly FC20 Colored Feedrate Profile data ngcode [\ref {18-img-Butterfly-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{350}{subsection.Alph0.6.18}%
+\contentsline {subsection}{\numberline {.6.19}Butterfly FC30 Colored Feedrate Profile data ngcode [\ref {19-img-Butterfly-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{351}{subsection.Alph0.6.19}%
+\contentsline {subsection}{\numberline {.6.20}Butterfly FC40 Colored Feedrate Profile data ngcode [\ref {20-img-Butterfly-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{351}{subsection.Alph0.6.20}%
+\contentsline {subsection}{\numberline {.6.21}Butterfly FC10 Tangential Acceleration [\ref {21-img-Butterfly-FC10-Tangential-Acceleration.pdf}] }{351}{subsection.Alph0.6.21}%
+\contentsline {subsection}{\numberline {.6.22}Butterfly FC20 Tangential Acceleration [\ref {22-img-Butterfly-FC20-Tangential-Acceleration.pdf}] }{351}{subsection.Alph0.6.22}%
+\contentsline {subsection}{\numberline {.6.23}Butterfly FC30 Tangential Acceleration [\ref {23-img-Butterfly-FC30-Tangential-Acceleration.pdf}] }{351}{subsection.Alph0.6.23}%
+\contentsline {subsection}{\numberline {.6.24}Butterfly FC40 Tangential Acceleration [\ref {24-img-Butterfly-FC40-Tangential-Acceleration.pdf}] }{351}{subsection.Alph0.6.24}%
+\contentsline {subsection}{\numberline {.6.25}Butterfly FC20 Nominal Separation NAL and NCL [\ref {25-img-Butterfly-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{351}{subsection.Alph0.6.25}%
+\contentsline {subsection}{\numberline {.6.26}Butterfly SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-Butterfly-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{351}{subsection.Alph0.6.26}%
+\contentsline {subsection}{\numberline {.6.27}Butterfly FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Butterfly-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{351}{subsection.Alph0.6.27}%
+\contentsline {subsection}{\numberline {.6.28}Butterfly FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Butterfly-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{351}{subsection.Alph0.6.28}%
+\contentsline {subsection}{\numberline {.6.29}Butterfly FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Butterfly-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{351}{subsection.Alph0.6.29}%
+\contentsline {subsection}{\numberline {.6.30}Butterfly FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Butterfly-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{351}{subsection.Alph0.6.30}%
+\contentsline {subsection}{\numberline {.6.31}Butterfly FC10 Four Components FeedrateLimit [\ref {31-img-Butterfly-FC10-Four-Components-FeedrateLimit.pdf}] }{351}{subsection.Alph0.6.31}%
+\contentsline {subsection}{\numberline {.6.32}Butterfly FC20 Four Components FeedrateLimit [\ref {32-img-Butterfly-FC20-Four-Components-FeedrateLimit.pdf}] }{351}{subsection.Alph0.6.32}%
+\contentsline {subsection}{\numberline {.6.33}Butterfly FC30 Four Components FeedrateLimit [\ref {33-img-Butterfly-FC30-Four-Components-FeedrateLimit.pdf}] }{351}{subsection.Alph0.6.33}%
+\contentsline {subsection}{\numberline {.6.34}Butterfly FC40 Four Components FeedrateLimit [\ref {34-img-Butterfly-FC40-Four-Components-FeedrateLimit.pdf}]}{351}{subsection.Alph0.6.34}%
+\contentsline {subsection}{\numberline {.6.35}Butterfly Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Butterfly-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{351}{subsection.Alph0.6.35}%
+\contentsline {subsection}{\numberline {.6.36}Butterfly Table distribution of interpolated points [\ref {tab-Butterfly Table distribution of interpolated points}] }{351}{subsection.Alph0.6.36}%
+\contentsline {subsection}{\numberline {.6.37}Butterfly Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Butterfly-Table-FC10-20-30-40-Run-Performance-data}] }{351}{subsection.Alph0.6.37}%
+\contentsline {section}{\numberline {.7}\textbf {APPENDIX SNAILSHELL CURVE}}{372}{section.Alph0.7}%
+\contentsline {subsection}{\numberline {.7.1}Plot of Snailshell curve [\ref {01-img-Plot of Snailshell curve.pdf} ] }{372}{subsection.Alph0.7.1}%
+\contentsline {subsection}{\numberline {.7.2}Snailshell Radius of Curvature [\ref {02-img-Snailshell Radius of Curvature.pdf}] }{372}{subsection.Alph0.7.2}%
+\contentsline {subsection}{\numberline {.7.3}Snailshell Validation in LinuxCNC [\ref {03-img-Snailshell-Validation-in-LinuxCNC.png} ] }{372}{subsection.Alph0.7.3}%
+\contentsline {subsection}{\numberline {.7.4}Snailshell Direction of Travel 3D [\ref {04-img-Snailshell Direction of Travel 3D.pdf} ] }{372}{subsection.Alph0.7.4}%
+\contentsline {subsection}{\numberline {.7.5}Snailshell First and Second Order Taylor's Approx [\ref {05-img-Snailshell-First-and-Second-Order-Taylors-Approx.pdf}] }{372}{subsection.Alph0.7.5}%
+\contentsline {subsection}{\numberline {.7.6}Snailshell First minus Second Order Taylor's Approx [\ref {06-img-Snailshell-First-minus-Second-Order-Taylors-Approx.pdf}] }{372}{subsection.Alph0.7.6}%
+\contentsline {subsection}{\numberline {.7.7}Snailshell Separate First Second Order Taylor's Approx [\ref {07-img-Snailshell-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{372}{subsection.Alph0.7.7}%
+\contentsline {subsection}{\numberline {.7.8}Snailshell Separation SAL and SCL [\ref {08-img-Snailshell-Separation-SAL-and-SCL.pdf}] }{372}{subsection.Alph0.7.8}%
+\contentsline {subsection}{\numberline {.7.9}Snailshell Chord-error in close view 2 scales [\ref {09-img-Snailshell-Chord-error-in-close-view-2-scales.pdf}] }{372}{subsection.Alph0.7.9}%
+\contentsline {subsection}{\numberline {.7.10}Snailshell Four Components Feedrate Limit [\ref {10-img-Snailshell-Four-Components-Feedrate-Limit.pdf} ] }{372}{subsection.Alph0.7.10}%
+\contentsline {subsection}{\numberline {.7.11}Snailshell FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Snailshell-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{372}{subsection.Alph0.7.11}%
+\contentsline {subsection}{\numberline {.7.12}Snailshell FeedRateLimit minus CurrFeedRate [\ref {12-img-Snailshell-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{372}{subsection.Alph0.7.12}%
+\contentsline {subsection}{\numberline {.7.13}Snailshell FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Snailshell-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{372}{subsection.Alph0.7.13}%
+\contentsline {subsection}{\numberline {.7.14}Snailshell FC20 Nominal Tangential Acceleration [\ref {14-img-Snailshell-FC20-Nominal-Tangential-Acceleration.pdf} ] }{372}{subsection.Alph0.7.14}%
+\contentsline {subsection}{\numberline {.7.15}Snailshell FC20 Nominal Rising S-Curve Profile [\ref {15-img-Snailshell-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{372}{subsection.Alph0.7.15}%
+\contentsline {subsection}{\numberline {.7.16}Snailshell FC20 Nominal Falling S-Curve Profile [\ref {16-img-Snailshell-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{372}{subsection.Alph0.7.16}%
+\contentsline {subsection}{\numberline {.7.17}Snailshell FC10 Colored Feedrate Profile data ngcode [\ref {17-img-Snailshell-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{372}{subsection.Alph0.7.17}%
+\contentsline {subsection}{\numberline {.7.18}Snailshell FC20 Colored Feedrate Profile data ngcode [\ref {18-img-Snailshell-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{372}{subsection.Alph0.7.18}%
+\contentsline {subsection}{\numberline {.7.19}Snailshell FC30 Colored Feedrate Profile data ngcode [\ref {19-img-Snailshell-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{373}{subsection.Alph0.7.19}%
+\contentsline {subsection}{\numberline {.7.20}Snailshell FC40 Colored Feedrate Profile data ngcode [\ref {20-img-Snailshell-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{373}{subsection.Alph0.7.20}%
+\contentsline {subsection}{\numberline {.7.21}Snailshell FC10 Tangential Acceleration [\ref {21-img-Snailshell-FC10-Tangential-Acceleration.pdf}] }{373}{subsection.Alph0.7.21}%
+\contentsline {subsection}{\numberline {.7.22}Snailshell FC20 Tangential Acceleration [\ref {22-img-Snailshell-FC20-Tangential-Acceleration.pdf}] }{373}{subsection.Alph0.7.22}%
+\contentsline {subsection}{\numberline {.7.23}Snailshell FC30 Tangential Acceleration [\ref {23-img-Snailshell-FC30-Tangential-Acceleration.pdf}] }{373}{subsection.Alph0.7.23}%
+\contentsline {subsection}{\numberline {.7.24}Snailshell FC40 Tangential Acceleration [\ref {24-img-Snailshell-FC40-Tangential-Acceleration.pdf}] }{373}{subsection.Alph0.7.24}%
+\contentsline {subsection}{\numberline {.7.25}Snailshell FC20 Nominal Separation NAL and NCL [\ref {25-img-Snailshell-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{373}{subsection.Alph0.7.25}%
+\contentsline {subsection}{\numberline {.7.26}Snailshell SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-Snailshell-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{373}{subsection.Alph0.7.26}%
+\contentsline {subsection}{\numberline {.7.27}Snailshell FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Snailshell-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{373}{subsection.Alph0.7.27}%
+\contentsline {subsection}{\numberline {.7.28}Snailshell FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Snailshell-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{373}{subsection.Alph0.7.28}%
+\contentsline {subsection}{\numberline {.7.29}Snailshell FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Snailshell-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{373}{subsection.Alph0.7.29}%
+\contentsline {subsection}{\numberline {.7.30}Snailshell FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Snailshell-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{373}{subsection.Alph0.7.30}%
+\contentsline {subsection}{\numberline {.7.31}Snailshell FC10 Four Components FeedrateLimit [\ref {31-img-Snailshell-FC10-Four-Components-FeedrateLimit.pdf}] }{373}{subsection.Alph0.7.31}%
+\contentsline {subsection}{\numberline {.7.32}Snailshell FC20 Four Components FeedrateLimit [\ref {32-img-Snailshell-FC20-Four-Components-FeedrateLimit.pdf}] }{373}{subsection.Alph0.7.32}%
+\contentsline {subsection}{\numberline {.7.33}Snailshell FC30 Four Components FeedrateLimit [\ref {33-img-Snailshell-FC30-Four-Components-FeedrateLimit.pdf}] }{373}{subsection.Alph0.7.33}%
+\contentsline {subsection}{\numberline {.7.34}Snailshell FC40 Four Components FeedrateLimit [\ref {34-img-Snailshell-FC40-Four-Components-FeedrateLimit.pdf}]}{373}{subsection.Alph0.7.34}%
+\contentsline {subsection}{\numberline {.7.35}Snailshell Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Snailshell-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{373}{subsection.Alph0.7.35}%
+\contentsline {subsection}{\numberline {.7.36}Snailshell Table distribution of interpolated points [\ref {tab-Snailshell Table distribution of interpolated points}] }{373}{subsection.Alph0.7.36}%
+\contentsline {subsection}{\numberline {.7.37}Snailshell Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Snailshell-Table-FC10-20-30-40-Run-Performance-data}] }{373}{subsection.Alph0.7.37}%
+\contentsline {section}{\numberline {.8}\textbf {APPENDIX SKEWED-ASTROID CURVE}}{394}{section.Alph0.8}%
+\contentsline {subsection}{\numberline {.8.1}Plot of SkwAstroid curve [\ref {01-img-Plot of SkwAstroid curve.pdf} ] }{394}{subsection.Alph0.8.1}%
+\contentsline {subsection}{\numberline {.8.2}SkwAstroid Radius of Curvature [\ref {02-img-SkwAstroid Radius of Curvature.pdf}] }{394}{subsection.Alph0.8.2}%
+\contentsline {subsection}{\numberline {.8.3}SkwAstroid Validation in LinuxCNC [\ref {03-img-SkwAstroid-Validation-in-LinuxCNC.png} ] }{394}{subsection.Alph0.8.3}%
+\contentsline {subsection}{\numberline {.8.4}SkwAstroid Direction of Travel 3D [\ref {04-img-SkwAstroid Direction of Travel 3D.pdf} ] }{394}{subsection.Alph0.8.4}%
+\contentsline {subsection}{\numberline {.8.5}SkwAstroid First and Second Order Taylors App [\ref {05-img-SkwAstroid-First-and-Second-Order-Taylors-Approx.pdf}] }{394}{subsection.Alph0.8.5}%
+\contentsline {subsection}{\numberline {.8.6}SkwAstroid First minus Second Order Taylors App [\ref {06-img-SkwAstroid-First-minus-Second-Order-Taylors-Approx.pdf}] }{394}{subsection.Alph0.8.6}%
+\contentsline {subsection}{\numberline {.8.7}SkwAstroid Separate First Second Order Taylors App [\ref {07-img-SkwAstroid-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{394}{subsection.Alph0.8.7}%
+\contentsline {subsection}{\numberline {.8.8}SkwAstroid Separation SAL and SCL [\ref {08-img-SkwAstroid-Separation-SAL-and-SCL.pdf}] }{394}{subsection.Alph0.8.8}%
+\contentsline {subsection}{\numberline {.8.9}SkwAstroid Chord-error in close view 2 scales [\ref {09-img-SkwAstroid-Chord-error-in-close-view-2-scales.pdf}] }{394}{subsection.Alph0.8.9}%
+\contentsline {subsection}{\numberline {.8.10}SkwAstroid Four Components Feedrate Limit [\ref {10-img-SkwAstroid-Four-Components-Feedrate-Limit.pdf} ] }{394}{subsection.Alph0.8.10}%
+\contentsline {subsection}{\numberline {.8.11}SkwAstroid FrateCommand FrateLimit and Curr-Frate [\ref {11-img-SkwAstroid-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{394}{subsection.Alph0.8.11}%
+\contentsline {subsection}{\numberline {.8.12}SkwAstroid FeedRateLimit minus CurrFeedRate [\ref {12-img-SkwAstroid-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{394}{subsection.Alph0.8.12}%
+\contentsline {subsection}{\numberline {.8.13}SkwAstroid FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-SkwAstroid-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{394}{subsection.Alph0.8.13}%
+\contentsline {subsection}{\numberline {.8.14}SkwAstroid FC20 Nominal Tangential Acceleration [\ref {14-img-SkwAstroid-FC20-Nominal-Tangential-Acceleration.pdf} ] }{394}{subsection.Alph0.8.14}%
+\contentsline {subsection}{\numberline {.8.15}SkwAstroid FC20 Nominal Rising S-Curve Profile [\ref {15-img-SkwAstroid-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{394}{subsection.Alph0.8.15}%
+\contentsline {subsection}{\numberline {.8.16}SkwAstroid FC20 Nominal Falling S-Curve Profile [\ref {16-img-SkwAstroid-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{394}{subsection.Alph0.8.16}%
+\contentsline {subsection}{\numberline {.8.17}SkwAstroid FC10 Colored Feedrate Profile ngcode [\ref {17-img-SkwAstroid-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{394}{subsection.Alph0.8.17}%
+\contentsline {subsection}{\numberline {.8.18}SkwAstroid FC20 Colored Feedrate Profile ngcode [\ref {18-img-SkwAstroid-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{394}{subsection.Alph0.8.18}%
+\contentsline {subsection}{\numberline {.8.19}SkwAstroid FC30 Colored Feedrate Profile ngcode [\ref {19-img-SkwAstroid-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{395}{subsection.Alph0.8.19}%
+\contentsline {subsection}{\numberline {.8.20}SkwAstroid FC40 Colored Feedrate Profile ngcode [\ref {20-img-SkwAstroid-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{395}{subsection.Alph0.8.20}%
+\contentsline {subsection}{\numberline {.8.21}SkwAstroid FC10 Tangential Acceleration [\ref {21-img-SkwAstroid-FC10-Tangential-Acceleration.pdf}] }{395}{subsection.Alph0.8.21}%
+\contentsline {subsection}{\numberline {.8.22}SkwAstroid FC20 Tangential Acceleration [\ref {22-img-SkwAstroid-FC20-Tangential-Acceleration.pdf}] }{395}{subsection.Alph0.8.22}%
+\contentsline {subsection}{\numberline {.8.23}SkwAstroid FC30 Tangential Acceleration [\ref {23-img-SkwAstroid-FC30-Tangential-Acceleration.pdf}] }{395}{subsection.Alph0.8.23}%
+\contentsline {subsection}{\numberline {.8.24}SkwAstroid FC40 Tangential Acceleration [\ref {24-img-SkwAstroid-FC40-Tangential-Acceleration.pdf}] }{395}{subsection.Alph0.8.24}%
+\contentsline {subsection}{\numberline {.8.25}SkwAstroid FC20 Nominal Separation NAL and NCL [\ref {25-img-SkwAstroid-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{395}{subsection.Alph0.8.25}%
+\contentsline {subsection}{\numberline {.8.26}SkwAstroid SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-SkwAstroid-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{395}{subsection.Alph0.8.26}%
+\contentsline {subsection}{\numberline {.8.27}SkwAstroid FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-SkwAstroid-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{395}{subsection.Alph0.8.27}%
+\contentsline {subsection}{\numberline {.8.28}SkwAstroid FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-SkwAstroid-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{395}{subsection.Alph0.8.28}%
+\contentsline {subsection}{\numberline {.8.29}SkwAstroid FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-SkwAstroid-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{395}{subsection.Alph0.8.29}%
+\contentsline {subsection}{\numberline {.8.30}SkwAstroid FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-SkwAstroid-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{395}{subsection.Alph0.8.30}%
+\contentsline {subsection}{\numberline {.8.31}SkwAstroid FC10 Four Components FeedrateLimit [\ref {31-img-SkwAstroid-FC10-Four-Components-FeedrateLimit.pdf}] }{395}{subsection.Alph0.8.31}%
+\contentsline {subsection}{\numberline {.8.32}SkwAstroid FC20 Four Components FeedrateLimit [\ref {32-img-SkwAstroid-FC20-Four-Components-FeedrateLimit.pdf}] }{395}{subsection.Alph0.8.32}%
+\contentsline {subsection}{\numberline {.8.33}SkwAstroid FC30 Four Components FeedrateLimit [\ref {33-img-SkwAstroid-FC30-Four-Components-FeedrateLimit.pdf}] }{395}{subsection.Alph0.8.33}%
+\contentsline {subsection}{\numberline {.8.34}SkwAstroid FC40 Four Components FeedrateLimit [\ref {34-img-SkwAstroid-FC40-Four-Components-FeedrateLimit.pdf}]}{395}{subsection.Alph0.8.34}%
+\contentsline {subsection}{\numberline {.8.35}SkwAstroid Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-SkwAstroid-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{395}{subsection.Alph0.8.35}%
+\contentsline {subsection}{\numberline {.8.36}SkwAstroid Table distribution of interpolated points [\ref {tab-SkwAstroid Table distribution of interpolated points}] }{395}{subsection.Alph0.8.36}%
+\contentsline {subsection}{\numberline {.8.37}SkwAstroid Table FC10-20-30-40 Run Performance data [\ref {tab-app4-SkwAstroid-Table-FC10-20-30-40-Run-Performance-data}] }{395}{subsection.Alph0.8.37}%
+\contentsline {section}{\numberline {.9}\textbf {APPENDIX RIBBON-10L CURVE}}{416}{section.Alph0.9}%
+\contentsline {subsection}{\numberline {.9.1}Plot of Ribbon-10L curve [\ref {01-img-Plot of Ribbon-10L curve.pdf} ] }{416}{subsection.Alph0.9.1}%
+\contentsline {subsection}{\numberline {.9.2}Ribbon-10L Radius of Curvature [\ref {02-img-Ribbon-10L Radius of Curvature.pdf}] }{416}{subsection.Alph0.9.2}%
+\contentsline {subsection}{\numberline {.9.3}Ribbon-10L Validation in LinuxCNC [\ref {03-img-Ribbon-10L-Validation-in-LinuxCNC.png} ] }{416}{subsection.Alph0.9.3}%
+\contentsline {subsection}{\numberline {.9.4}Ribbon-10L Direction of Travel 3D [\ref {04-img-Ribbon-10L Direction of Travel 3D.pdf} ] }{416}{subsection.Alph0.9.4}%
+\contentsline {subsection}{\numberline {.9.5}Ribbon-10L First and Second Order Taylors App [\ref {05-img-Ribbon-10L-First-and-Second-Order-Taylors-Approx.pdf}] }{416}{subsection.Alph0.9.5}%
+\contentsline {subsection}{\numberline {.9.6}Ribbon-10L First minus Second Order Taylors App [\ref {06-img-Ribbon-10L-First-minus-Second-Order-Taylors-Approx.pdf}] }{416}{subsection.Alph0.9.6}%
+\contentsline {subsection}{\numberline {.9.7}Ribbon-10L Separate First Second Order Taylors App [\ref {07-img-Ribbon-10L-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{416}{subsection.Alph0.9.7}%
+\contentsline {subsection}{\numberline {.9.8}Ribbon-10L Separation SAL and SCL [\ref {08-img-Ribbon-10L-Separation-SAL-and-SCL.pdf}] }{416}{subsection.Alph0.9.8}%
+\contentsline {subsection}{\numberline {.9.9}Ribbon-10L Chord-error in close view 2 scales [\ref {09-img-Ribbon-10L-Chord-error-in-close-view-2-scales.pdf}] }{416}{subsection.Alph0.9.9}%
+\contentsline {subsection}{\numberline {.9.10}Ribbon-10L Four Components Feedrate Limit [\ref {10-img-Ribbon-10L-Four-Components-Feedrate-Limit.pdf} ] }{416}{subsection.Alph0.9.10}%
+\contentsline {subsection}{\numberline {.9.11}Ribbon-10L FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Ribbon-10L-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{416}{subsection.Alph0.9.11}%
+\contentsline {subsection}{\numberline {.9.12}Ribbon-10L FeedRateLimit minus CurrFeedRate [\ref {12-img-Ribbon-10L-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{416}{subsection.Alph0.9.12}%
+\contentsline {subsection}{\numberline {.9.13}Ribbon-10L FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Ribbon-10L-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{416}{subsection.Alph0.9.13}%
+\contentsline {subsection}{\numberline {.9.14}Ribbon-10L FC20 Nominal Tangential Acceleration [\ref {14-img-Ribbon-10L-FC20-Nominal-Tangential-Acceleration.pdf} ] }{416}{subsection.Alph0.9.14}%
+\contentsline {subsection}{\numberline {.9.15}Ribbon-10L FC20 Nominal Rising S-Curve Profile [\ref {15-img-Ribbon-10L-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{416}{subsection.Alph0.9.15}%
+\contentsline {subsection}{\numberline {.9.16}Ribbon-10L FC20 Nominal Falling S-Curve Profile [\ref {16-img-Ribbon-10L-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{416}{subsection.Alph0.9.16}%
+\contentsline {subsection}{\numberline {.9.17}Ribbon-10L FC10 Colored Feedrate Profile ngcode [\ref {17-img-Ribbon-10L-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{416}{subsection.Alph0.9.17}%
+\contentsline {subsection}{\numberline {.9.18}Ribbon-10L FC20 Colored Feedrate Profile ngcode [\ref {18-img-Ribbon-10L-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{416}{subsection.Alph0.9.18}%
+\contentsline {subsection}{\numberline {.9.19}Ribbon-10L FC30 Colored Feedrate Profile ngcode [\ref {19-img-Ribbon-10L-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{417}{subsection.Alph0.9.19}%
+\contentsline {subsection}{\numberline {.9.20}Ribbon-10L FC40 Colored Feedrate Profile ngcode [\ref {20-img-Ribbon-10L-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{417}{subsection.Alph0.9.20}%
+\contentsline {subsection}{\numberline {.9.21}Ribbon-10L FC10 Tangential Acceleration [\ref {21-img-Ribbon-10L-FC10-Tangential-Acceleration.pdf}] }{417}{subsection.Alph0.9.21}%
+\contentsline {subsection}{\numberline {.9.22}Ribbon-10L FC20 Tangential Acceleration [\ref {22-img-Ribbon-10L-FC20-Tangential-Acceleration.pdf}] }{417}{subsection.Alph0.9.22}%
+\contentsline {subsection}{\numberline {.9.23}Ribbon-10L FC30 Tangential Acceleration [\ref {23-img-Ribbon-10L-FC30-Tangential-Acceleration.pdf}] }{417}{subsection.Alph0.9.23}%
+\contentsline {subsection}{\numberline {.9.24}Ribbon-10L FC40 Tangential Acceleration [\ref {24-img-Ribbon-10L-FC40-Tangential-Acceleration.pdf}] }{417}{subsection.Alph0.9.24}%
+\contentsline {subsection}{\numberline {.9.25}Ribbon-10L FC20 Nominal Separation NAL and NCL [\ref {25-img-Ribbon-10L-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{417}{subsection.Alph0.9.25}%
+\contentsline {subsection}{\numberline {.9.26}Ribbon-10L SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-Ribbon-10L-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{417}{subsection.Alph0.9.26}%
+\contentsline {subsection}{\numberline {.9.27}Ribbon-10L FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Ribbon-10L-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{417}{subsection.Alph0.9.27}%
+\contentsline {subsection}{\numberline {.9.28}Ribbon-10L FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Ribbon-10L-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{417}{subsection.Alph0.9.28}%
+\contentsline {subsection}{\numberline {.9.29}Ribbon-10L FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Ribbon-10L-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{417}{subsection.Alph0.9.29}%
+\contentsline {subsection}{\numberline {.9.30}Ribbon-10L FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Ribbon-10L-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{417}{subsection.Alph0.9.30}%
+\contentsline {subsection}{\numberline {.9.31}Ribbon-10L FC10 Four Components FeedrateLimit [\ref {31-img-Ribbon-10L-FC10-Four-Components-FeedrateLimit.pdf}] }{417}{subsection.Alph0.9.31}%
+\contentsline {subsection}{\numberline {.9.32}Ribbon-10L FC20 Four Components FeedrateLimit [\ref {32-img-Ribbon-10L-FC20-Four-Components-FeedrateLimit.pdf}] }{417}{subsection.Alph0.9.32}%
+\contentsline {subsection}{\numberline {.9.33}Ribbon-10L FC30 Four Components FeedrateLimit [\ref {33-img-Ribbon-10L-FC30-Four-Components-FeedrateLimit.pdf}] }{417}{subsection.Alph0.9.33}%
+\contentsline {subsection}{\numberline {.9.34}Ribbon-10L FC40 Four Components FeedrateLimit [\ref {34-img-Ribbon-10L-FC40-Four-Components-FeedrateLimit.pdf}]}{417}{subsection.Alph0.9.34}%
+\contentsline {subsection}{\numberline {.9.35}Ribbon-10L Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Ribbon-10L-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{417}{subsection.Alph0.9.35}%
+\contentsline {subsection}{\numberline {.9.36}Ribbon-10L Table distribution of interpolated points [\ref {tab-Ribbon-10L Table distribution of interpolated points}] }{417}{subsection.Alph0.9.36}%
+\contentsline {subsection}{\numberline {.9.37}Ribbon-10L Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Ribbon-10L-Table-FC10-20-30-40-Run-Performance-data}] }{417}{subsection.Alph0.9.37}%
+\contentsline {section}{\numberline {.10}\textbf {APPENDIX RIBBON-100L CURVE}}{438}{section.Alph0.10}%
+\contentsline {subsection}{\numberline {.10.1}Plot of Ribbon-100L curve [\ref {01-img-Plot of Ribbon-100L curve.pdf} ] }{438}{subsection.Alph0.10.1}%
+\contentsline {subsection}{\numberline {.10.2}Ribbon-100L Radius of Curvature [\ref {02-img-Ribbon-100L Radius of Curvature.pdf}] }{438}{subsection.Alph0.10.2}%
+\contentsline {subsection}{\numberline {.10.3}Ribbon-100L Validation in LinuxCNC [\ref {03-img-Ribbon-100L-Validation-in-LinuxCNC.png} ] }{438}{subsection.Alph0.10.3}%
+\contentsline {subsection}{\numberline {.10.4}Ribbon-100L Direction of Travel 3D [\ref {04-img-Ribbon-100L Direction of Travel 3D.pdf} ] }{438}{subsection.Alph0.10.4}%
+\contentsline {subsection}{\numberline {.10.5}Ribbon-100L First and Second Order Taylors App [\ref {05-img-Ribbon-100L-First-and-Second-Order-Taylors-Approx.pdf}] }{438}{subsection.Alph0.10.5}%
+\contentsline {subsection}{\numberline {.10.6}Ribbon-100L First minus Second Order Taylors App [\ref {06-img-Ribbon-100L-First-minus-Second-Order-Taylors-Approx.pdf}] }{438}{subsection.Alph0.10.6}%
+\contentsline {subsection}{\numberline {.10.7}Ribbon-100L Separate First Second Order Taylors App [\ref {07-img-Ribbon-100L-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{438}{subsection.Alph0.10.7}%
+\contentsline {subsection}{\numberline {.10.8}Ribbon-100L Separation SAL and SCL [\ref {08-img-Ribbon-100L-Separation-SAL-and-SCL.pdf}] }{438}{subsection.Alph0.10.8}%
+\contentsline {subsection}{\numberline {.10.9}Ribbon-100L Chord-error in close view 2 scales [\ref {09-img-Ribbon-100L-Chord-error-in-close-view-2-scales.pdf}] }{438}{subsection.Alph0.10.9}%
+\contentsline {subsection}{\numberline {.10.10}Ribbon-100L Four Components Feedrate Limit [\ref {10-img-Ribbon-100L-Four-Components-Feedrate-Limit.pdf} ] }{438}{subsection.Alph0.10.10}%
+\contentsline {subsection}{\numberline {.10.11}Ribbon-100L FrateCommand FrateLimit and Curr-Frate [\ref {11-img-Ribbon-100L-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{438}{subsection.Alph0.10.11}%
+\contentsline {subsection}{\numberline {.10.12}Ribbon-100L FeedRateLimit minus CurrFeedRate [\ref {12-img-Ribbon-100L-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{438}{subsection.Alph0.10.12}%
+\contentsline {subsection}{\numberline {.10.13}Ribbon-100L FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-Ribbon-100L-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{438}{subsection.Alph0.10.13}%
+\contentsline {subsection}{\numberline {.10.14}Ribbon-100L FC20 Nominal Tangential Acceleration [\ref {14-img-Ribbon-100L-FC20-Nominal-Tangential-Acceleration.pdf} ] }{438}{subsection.Alph0.10.14}%
+\contentsline {subsection}{\numberline {.10.15}Ribbon-100L FC20 Nominal Rising S-Curve Profile [\ref {15-img-Ribbon-100L-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{438}{subsection.Alph0.10.15}%
+\contentsline {subsection}{\numberline {.10.16}Ribbon-100L FC20 Nominal Falling S-Curve Profile [\ref {16-img-Ribbon-100L-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{438}{subsection.Alph0.10.16}%
+\contentsline {subsection}{\numberline {.10.17}Ribbon-100L FC10 Colored Feedrate Profile ngcode [\ref {17-img-Ribbon-100L-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{438}{subsection.Alph0.10.17}%
+\contentsline {subsection}{\numberline {.10.18}Ribbon-100L FC20 Colored Feedrate Profile ngcode [\ref {18-img-Ribbon-100L-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{438}{subsection.Alph0.10.18}%
+\contentsline {subsection}{\numberline {.10.19}Ribbon-100L FC30 Colored Feedrate Profile ngcode [\ref {19-img-Ribbon-100L-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{439}{subsection.Alph0.10.19}%
+\contentsline {subsection}{\numberline {.10.20}Ribbon-100L FC40 Colored Feedrate Profile ngcode [\ref {20-img-Ribbon-100L-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{439}{subsection.Alph0.10.20}%
+\contentsline {subsection}{\numberline {.10.21}Ribbon-100L FC10 Tangential Acceleration [\ref {21-img-Ribbon-100L-FC10-Tangential-Acceleration.pdf}] }{439}{subsection.Alph0.10.21}%
+\contentsline {subsection}{\numberline {.10.22}Ribbon-100L FC20 Tangential Acceleration [\ref {22-img-Ribbon-100L-FC20-Tangential-Acceleration.pdf}] }{439}{subsection.Alph0.10.22}%
+\contentsline {subsection}{\numberline {.10.23}Ribbon-100L FC30 Tangential Acceleration [\ref {23-img-Ribbon-100L-FC30-Tangential-Acceleration.pdf}] }{439}{subsection.Alph0.10.23}%
+\contentsline {subsection}{\numberline {.10.24}Ribbon-100L FC40 Tangential Acceleration [\ref {24-img-Ribbon-100L-FC40-Tangential-Acceleration.pdf}] }{439}{subsection.Alph0.10.24}%
+\contentsline {subsection}{\numberline {.10.25}Ribbon-100L FC20 Nominal Separation NAL and NCL [\ref {25-img-Ribbon-100L-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{439}{subsection.Alph0.10.25}%
+\contentsline {subsection}{\numberline {.10.26}Ribbon-100L SAL minus SCL FC10 FC20 FC30 FC40 [\ref {26-img-Ribbon-100L-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{439}{subsection.Alph0.10.26}%
+\contentsline {subsection}{\numberline {.10.27}Ribbon-100L FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-Ribbon-100L-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{439}{subsection.Alph0.10.27}%
+\contentsline {subsection}{\numberline {.10.28}Ribbon-100L FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-Ribbon-100L-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{439}{subsection.Alph0.10.28}%
+\contentsline {subsection}{\numberline {.10.29}Ribbon-100L FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-Ribbon-100L-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{439}{subsection.Alph0.10.29}%
+\contentsline {subsection}{\numberline {.10.30}Ribbon-100L FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-Ribbon-100L-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{439}{subsection.Alph0.10.30}%
+\contentsline {subsection}{\numberline {.10.31}Ribbon-100L FC10 Four Components FeedrateLimit [\ref {31-img-Ribbon-100L-FC10-Four-Components-FeedrateLimit.pdf}] }{439}{subsection.Alph0.10.31}%
+\contentsline {subsection}{\numberline {.10.32}Ribbon-100L FC20 Four Components FeedrateLimit [\ref {32-img-Ribbon-100L-FC20-Four-Components-FeedrateLimit.pdf}] }{439}{subsection.Alph0.10.32}%
+\contentsline {subsection}{\numberline {.10.33}Ribbon-100L FC30 Four Components FeedrateLimit [\ref {33-img-Ribbon-100L-FC30-Four-Components-FeedrateLimit.pdf}] }{439}{subsection.Alph0.10.33}%
+\contentsline {subsection}{\numberline {.10.34}Ribbon-100L FC40 Four Components FeedrateLimit [\ref {34-img-Ribbon-100L-FC40-Four-Components-FeedrateLimit.pdf}]}{439}{subsection.Alph0.10.34}%
+\contentsline {subsection}{\numberline {.10.35}Ribbon-100L Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-Ribbon-100L-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{439}{subsection.Alph0.10.35}%
+\contentsline {subsection}{\numberline {.10.36}Ribbon-100L Table distribution of interpolated points [\ref {tab-Ribbon-100L Table distribution of interpolated points}] }{439}{subsection.Alph0.10.36}%
+\contentsline {subsection}{\numberline {.10.37}Ribbon-100L Table FC10-20-30-40 Run Performance data [\ref {tab-app4-Ribbon-100L-Table-FC10-20-30-40-Run-Performance-data}] }{439}{subsection.Alph0.10.37}%
+\contentsline {section}{\numberline {.11}\textbf {APPENDIX ASTEPI CURVE}}{460}{section.Alph0.11}%
+\contentsline {subsection}{\numberline {.11.1}Plot of AstEpi curve [\ref {01-img-Plot of AstEpi curve.pdf} ] }{460}{subsection.Alph0.11.1}%
+\contentsline {subsection}{\numberline {.11.2}AstEpi Radius of Curvature [\ref {02-img-AstEpi Radius of Curvature.pdf}] }{460}{subsection.Alph0.11.2}%
+\contentsline {subsection}{\numberline {.11.3}AstEpi Validation in LinuxCNC [\ref {03-img-AstEpi-Validation-in-LinuxCNC.png} ] }{460}{subsection.Alph0.11.3}%
+\contentsline {subsection}{\numberline {.11.4}AstEpi Direction of Travel 3D [\ref {04-img-AstEpi Direction of Travel 3D.pdf} ] }{460}{subsection.Alph0.11.4}%
+\contentsline {subsection}{\numberline {.11.5}AstEpi First and Second Order Taylors App [\ref {05-img-AstEpi-First-and-Second-Order-Taylors-Approx.pdf}] }{460}{subsection.Alph0.11.5}%
+\contentsline {subsection}{\numberline {.11.6}AstEpi First minus Second Order Taylors App [\ref {06-img-AstEpi-First-minus-Second-Order-Taylors-Approx.pdf}] }{460}{subsection.Alph0.11.6}%
+\contentsline {subsection}{\numberline {.11.7}AstEpi Separate First Second Order Taylors App [\ref {07-img-AstEpi-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{460}{subsection.Alph0.11.7}%
+\contentsline {subsection}{\numberline {.11.8}AstEpi Separation SAL and SCL [\ref {08-img-AstEpi-Separation-SAL-and-SCL.pdf}] }{460}{subsection.Alph0.11.8}%
+\contentsline {subsection}{\numberline {.11.9}AstEpi Chord-error in close view 2 scales [\ref {09-img-AstEpi-Chord-error-in-close-view-2-scales.pdf}] }{460}{subsection.Alph0.11.9}%
+\contentsline {subsection}{\numberline {.11.10}AstEpi Four Components Feedrate Limit [\ref {10-img-AstEpi-Four-Components-Feedrate-Limit.pdf} ] }{460}{subsection.Alph0.11.10}%
+\contentsline {subsection}{\numberline {.11.11}AstEpi FrateCommand FrateLimit and Curr-Frate [\ref {11-img-AstEpi-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{460}{subsection.Alph0.11.11}%
+\contentsline {subsection}{\numberline {.11.12}AstEpi FeedRateLimit minus CurrFeedRate [\ref {12-img-AstEpi-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{460}{subsection.Alph0.11.12}%
+\contentsline {subsection}{\numberline {.11.13}AstEpi FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-AstEpi-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{460}{subsection.Alph0.11.13}%
+\contentsline {subsection}{\numberline {.11.14}AstEpi FC20 Nominal Tangential Acceleration [\ref {14-img-AstEpi-FC20-Nominal-Tangential-Acceleration.pdf} ] }{460}{subsection.Alph0.11.14}%
+\contentsline {subsection}{\numberline {.11.15}AstEpi FC20 Nominal Rising S-Curve Profile [\ref {15-img-AstEpi-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{460}{subsection.Alph0.11.15}%
+\contentsline {subsection}{\numberline {.11.16}AstEpi FC20 Nominal Falling S-Curve Profile [\ref {16-img-AstEpi-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{460}{subsection.Alph0.11.16}%
+\contentsline {subsection}{\numberline {.11.17}AstEpi FC10 Colored Feedrate Profile ngcode [\ref {17-img-AstEpi-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{460}{subsection.Alph0.11.17}%
+\contentsline {subsection}{\numberline {.11.18}AstEpi FC20 Colored Feedrate Profile ngcode [\ref {18-img-AstEpi-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{460}{subsection.Alph0.11.18}%
+\contentsline {subsection}{\numberline {.11.19}AstEpi FC30 Colored Feedrate Profile ngcode [\ref {19-img-AstEpi-FC30-Colored-Feedrate-Profile-data_ngcode.png} ] }{461}{subsection.Alph0.11.19}%
+\contentsline {subsection}{\numberline {.11.20}AstEpi FC40 Colored Feedrate Profile ngcode [\ref {20-img-AstEpi-FC40-Colored-Feedrate-Profile-data_ngcode.png} ] }{461}{subsection.Alph0.11.20}%
+\contentsline {subsection}{\numberline {.11.21}AstEpi FC10 Tangential Acceleration [\ref {21-img-AstEpi-FC10-Tangential-Acceleration.pdf}] }{461}{subsection.Alph0.11.21}%
+\contentsline {subsection}{\numberline {.11.22}AstEpi FC20 Tangential Acceleration [\ref {22-img-AstEpi-FC20-Tangential-Acceleration.pdf}] }{461}{subsection.Alph0.11.22}%
+\contentsline {subsection}{\numberline {.11.23}AstEpi FC30 Tangential Acceleration [\ref {23-img-AstEpi-FC30-Tangential-Acceleration.pdf}] }{461}{subsection.Alph0.11.23}%
+\contentsline {subsection}{\numberline {.11.24}AstEpi FC40 Tangential Acceleration [\ref {24-img-AstEpi-FC40-Tangential-Acceleration.pdf}] }{461}{subsection.Alph0.11.24}%
+\contentsline {subsection}{\numberline {.11.25}AstEpi FC20 Nominal Separation NAL and NCL [\ref {25-img-AstEpi-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{461}{subsection.Alph0.11.25}%
+\contentsline {subsection}{\numberline {.11.26}AstEpi SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-AstEpi-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{461}{subsection.Alph0.11.26}%
+\contentsline {subsection}{\numberline {.11.27}AstEpi FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-AstEpi-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{461}{subsection.Alph0.11.27}%
+\contentsline {subsection}{\numberline {.11.28}AstEpi FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-AstEpi-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{461}{subsection.Alph0.11.28}%
+\contentsline {subsection}{\numberline {.11.29}AstEpi FC30 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-AstEpi-FC30-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{461}{subsection.Alph0.11.29}%
+\contentsline {subsection}{\numberline {.11.30}AstEpi FC40 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-AstEpi-FC40-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{461}{subsection.Alph0.11.30}%
+\contentsline {subsection}{\numberline {.11.31}AstEpi FC10 Four Components FeedrateLimit [\ref {31-img-AstEpi-FC10-Four-Components-FeedrateLimit.pdf}] }{461}{subsection.Alph0.11.31}%
+\contentsline {subsection}{\numberline {.11.32}AstEpi FC20 Four Components FeedrateLimit [\ref {32-img-AstEpi-FC20-Four-Components-FeedrateLimit.pdf}] }{461}{subsection.Alph0.11.32}%
+\contentsline {subsection}{\numberline {.11.33}AstEpi FC30 Four Components FeedrateLimit [\ref {33-img-AstEpi-FC30-Four-Components-FeedrateLimit.pdf}] }{461}{subsection.Alph0.11.33}%
+\contentsline {subsection}{\numberline {.11.34}AstEpi FC40 Four Components FeedrateLimit [\ref {34-img-AstEpi-FC40-Four-Components-FeedrateLimit.pdf}]}{461}{subsection.Alph0.11.34}%
+\contentsline {subsection}{\numberline {.11.35}AstEpi Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-AstEpi-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{461}{subsection.Alph0.11.35}%
+\contentsline {subsection}{\numberline {.11.36}AstEpi Table distribution of interpolated points [\ref {tab-AstEpi Table distribution of interpolated points}] }{461}{subsection.Alph0.11.36}%
+\contentsline {subsection}{\numberline {.11.37}AstEpi Table FC10-20-30-40 Run Performance data [\ref {tab-app4-AstEpi-Table-FC10-20-30-40-Run-Performance-data}] }{461}{subsection.Alph0.11.37}%
+\contentsline {section}{\numberline {.12}\textbf {APPENDIX SNAHYP CURVE}}{482}{section.Alph0.12}%
+\contentsline {subsection}{\numberline {.12.1}Plot of SnaHyp curve [\ref {01-img-Plot of SnaHyp curve.pdf} ] }{482}{subsection.Alph0.12.1}%
+\contentsline {subsection}{\numberline {.12.2}SnaHyp Radius of Curvature [\ref {02-img-SnaHyp Radius of Curvature.pdf}] }{482}{subsection.Alph0.12.2}%
+\contentsline {subsection}{\numberline {.12.3}SnaHyp Validation in LinuxCNC [\ref {03-img-SnaHyp-Validation-in-LinuxCNC.png} ] }{482}{subsection.Alph0.12.3}%
+\contentsline {subsection}{\numberline {.12.4}SnaHyp Direction of Travel 3D [\ref {04-img-SnaHyp Direction of Travel 3D.pdf} ] }{482}{subsection.Alph0.12.4}%
+\contentsline {subsection}{\numberline {.12.5}SnaHyp First and Second Order Taylors App [\ref {05-img-SnaHyp-First-and-Second-Order-Taylors-Approx.pdf}] }{482}{subsection.Alph0.12.5}%
+\contentsline {subsection}{\numberline {.12.6}SnaHyp First minus Second Order Taylors App [\ref {06-img-SnaHyp-First-minus-Second-Order-Taylors-Approx.pdf}] }{482}{subsection.Alph0.12.6}%
+\contentsline {subsection}{\numberline {.12.7}SnaHyp Separate First Second Order Taylors App [\ref {07-img-SnaHyp-Separation-First-and-Second-Order-Taylors-Approx.pdf} ] }{482}{subsection.Alph0.12.7}%
+\contentsline {subsection}{\numberline {.12.8}SnaHyp Separation SAL and SCL [\ref {08-img-SnaHyp-Separation-SAL-and-SCL.pdf}] }{482}{subsection.Alph0.12.8}%
+\contentsline {subsection}{\numberline {.12.9}SnaHyp Chord-error in close view 2 scales [\ref {09-img-SnaHyp-Chord-error-in-close-view-2-scales.pdf}] }{482}{subsection.Alph0.12.9}%
+\contentsline {subsection}{\numberline {.12.10}SnaHyp Four Components Feedrate Limit [\ref {10-img-SnaHyp-Four-Components-Feedrate-Limit.pdf} ] }{482}{subsection.Alph0.12.10}%
+\contentsline {subsection}{\numberline {.12.11}SnaHyp FrateCommand FrateLimit and Curr-Frate [\ref {11-img-SnaHyp-FrateCommand-FrateLimit-and-Curr-Frate.pdf}] }{482}{subsection.Alph0.12.11}%
+\contentsline {subsection}{\numberline {.12.12}SnaHyp FeedRateLimit minus CurrFeedRate [\ref {12-img-SnaHyp-FeedRateLimit-minus-CurrFeedRate.pdf} ] }{482}{subsection.Alph0.12.12}%
+\contentsline {subsection}{\numberline {.12.13}SnaHyp FC20-Nominal X and Y Feedrate Profiles [\ref {13-img-SnaHyp-FC20-Nominal-X-and-Y-Feedrate-Profiles.pdf} ] }{482}{subsection.Alph0.12.13}%
+\contentsline {subsection}{\numberline {.12.14}SnaHyp FC20 Nominal Tangential Acceleration [\ref {14-img-SnaHyp-FC20-Nominal-Tangential-Acceleration.pdf} ] }{482}{subsection.Alph0.12.14}%
+\contentsline {subsection}{\numberline {.12.15}SnaHyp FC20 Nominal Rising S-Curve Profile [\ref {15-img-SnaHyp-FC20-Nominal-Rising-S-Curve-Profile.pdf} ] }{482}{subsection.Alph0.12.15}%
+\contentsline {subsection}{\numberline {.12.16}SnaHyp FC20 Nominal Falling S-Curve Profile [\ref {16-img-SnaHyp-FC20-Nominal-Falling-S-Curve-Profile.pdf}] }{482}{subsection.Alph0.12.16}%
+\contentsline {subsection}{\numberline {.12.17}SnaHyp FC10 Colored Feedrate Profile ngcode [\ref {17-img-SnaHyp-FC10-Colored-Feedrate-Profile-data_ngcode.png} ] }{482}{subsection.Alph0.12.17}%
+\contentsline {subsection}{\numberline {.12.18}SnaHyp FC20 Colored Feedrate Profile ngcode [\ref {18-img-SnaHyp-FC20-Colored-Feedrate-Profile-data_ngcode.png} ] }{482}{subsection.Alph0.12.18}%
+\contentsline {subsection}{\numberline {.12.19}SnaHyp FC25 Colored Feedrate Profile ngcode [\ref {19-img-SnaHyp-FC25-Colored-Feedrate-Profile-data_ngcode.png} ] }{483}{subsection.Alph0.12.19}%
+\contentsline {subsection}{\numberline {.12.20}SnaHyp FC28 Colored Feedrate Profile ngcode [\ref {20-img-SnaHyp-FC28-Colored-Feedrate-Profile-data_ngcode.png} ] }{483}{subsection.Alph0.12.20}%
+\contentsline {subsection}{\numberline {.12.21}SnaHyp FC10 Tangential Acceleration [\ref {21-img-SnaHyp-FC10-Tangential-Acceleration.pdf}] }{483}{subsection.Alph0.12.21}%
+\contentsline {subsection}{\numberline {.12.22}SnaHyp FC20 Tangential Acceleration [\ref {22-img-SnaHyp-FC20-Tangential-Acceleration.pdf}] }{483}{subsection.Alph0.12.22}%
+\contentsline {subsection}{\numberline {.12.23}SnaHyp FC30 Tangential Acceleration [\ref {23-img-SnaHyp-FC30-Tangential-Acceleration.pdf}] }{483}{subsection.Alph0.12.23}%
+\contentsline {subsection}{\numberline {.12.24}SnaHyp FC40 Tangential Acceleration [\ref {24-img-SnaHyp-FC40-Tangential-Acceleration.pdf}] }{483}{subsection.Alph0.12.24}%
+\contentsline {subsection}{\numberline {.12.25}SnaHyp FC20 Nominal Separation NAL and NCL [\ref {25-img-SnaHyp-FC20-Nominal-Separation-NAL-and-NCL.pdf}] }{483}{subsection.Alph0.12.25}%
+\contentsline {subsection}{\numberline {.12.26}SnaHyp SAL minus SCL for FC10 FC20 FC30 FC40 [\ref {26-img-SnaHyp-Difference-SAL-minus-SCL-for-FC10-FC20-FC30-FC40.pdf}] }{483}{subsection.Alph0.12.26}%
+\contentsline {subsection}{\numberline {.12.27}SnaHyp FC10 FrateCmd CurrFrate X-Frate Y-Frate [\ref {27-img-SnaHyp-FC10-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{483}{subsection.Alph0.12.27}%
+\contentsline {subsection}{\numberline {.12.28}SnaHyp FC20 FrateCmd CurrFrate X-Frate Y-Frate [\ref {28-img-SnaHyp-FC20-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{483}{subsection.Alph0.12.28}%
+\contentsline {subsection}{\numberline {.12.29}SnaHyp FC25 FrateCmd CurrFrate X-Frate Y-Frate [\ref {29-img-SnaHyp-FC25-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{483}{subsection.Alph0.12.29}%
+\contentsline {subsection}{\numberline {.12.30}SnaHyp FC28 FrateCmd CurrFrate X-Frate Y-Frate [\ref {30-img-SnaHyp-FC28-FrateCmd-CurrFrate-X-Frate-Y-Frate.pdf}] }{483}{subsection.Alph0.12.30}%
+\contentsline {subsection}{\numberline {.12.31}SnaHyp FC10 Four Components FeedrateLimit [\ref {31-img-SnaHyp-FC10-Four-Components-FeedrateLimit.pdf}] }{483}{subsection.Alph0.12.31}%
+\contentsline {subsection}{\numberline {.12.32}SnaHyp FC20 Four Components FeedrateLimit [\ref {32-img-SnaHyp-FC20-Four-Components-FeedrateLimit.pdf}] }{483}{subsection.Alph0.12.32}%
+\contentsline {subsection}{\numberline {.12.33}SnaHyp FC25 Four Components FeedrateLimit [\ref {33-img-SnaHyp-FC25-Four-Components-FeedrateLimit.pdf}] }{483}{subsection.Alph0.12.33}%
+\contentsline {subsection}{\numberline {.12.34}SnaHyp FC28 Four Components FeedrateLimit [\ref {34-img-SnaHyp-FC28-Four-Components-FeedrateLimit.pdf}]}{483}{subsection.Alph0.12.34}%
+\contentsline {subsection}{\numberline {.12.35}SnaHyp Histogram Points FC10 FC20 FC30 FC40 [\ref {35-img-SnaHyp-Histogram-Points-FC10-FC20-FC30-FC40.pdf}] }{483}{subsection.Alph0.12.35}%
+\contentsline {subsection}{\numberline {.12.36}SnaHyp Table distribution of interpolated points [\ref {tab-SnaHyp Table distribution of interpolated points}] }{483}{subsection.Alph0.12.36}%
+\contentsline {subsection}{\numberline {.12.37}SnaHyp Table FC10-20-30-40 Run Performance data [\ref {tab-app4-SnaHyp-Table-FC10-20-30-40-Run-Performance-data}] }{483}{subsection.Alph0.12.37}%

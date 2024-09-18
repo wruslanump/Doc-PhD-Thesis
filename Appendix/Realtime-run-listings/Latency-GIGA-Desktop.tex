@@ -1,0 +1,29 @@
+\clearpage
+\pagebreak
+\begin{landscape}
+	
+\lstset{backgroundcolor=\color{white}, basicstyle=\footnotesize, frame={topline, bottomline, leftline, rightline}}	
+\begin{lstlisting}[caption={App Realtime Latency Test for GIGA Desktop}, label=App Realtime Latency Test for GIGA Desktop]	
+
+Ubuntu 20.04.6 LTS SMP PREEMPT Kernel: 5.15.0-73-lowlatency (GIGA Desktop)
+================================================================================
+Execute cyclictest V 2.4
+$ sudo ./cyclictest --mlockall --smp --priority=80 --interval=200 --distance=0
+# /dev/cpu_dma_latency set to 0us
+T: 0 ( 5858) P:80 I:200 C: 514007 Min:      2 Act:    8 Avg:    3 Max:     312
+T: 1 ( 5860) P:80 I:200 C: 513881 Min:      2 Act:    3 Avg:    3 Max:     447
+T: 2 ( 5861) P:80 I:200 C: 513966 Min:      2 Act:    5 Avg:    4 Max:     247
+T: 3 ( 5862) P:80 I:200 C: 513971 Min:      2 Act:    5 Avg:    5 Max:     301
+
+Debian 10 (Buster) SMP PREEMPT Kernel: 4.19.0-25-rt-amd64 x86_64 (GIGA-Desktop)
+================================================================================
+$ sudo ./cyclictest --mlockall --smp --priority=80 --interval=200 --distance=0
+# /dev/cpu_dma_latency set to 0us
+T: 0 ( 2254) P:80 I:200 C: 515465 Min:      2 Act:    2 Avg:    2 Max:       8
+T: 1 ( 2255) P:80 I:200 C: 515462 Min:      2 Act:    2 Avg:    2 Max:       7
+T: 2 ( 2256) P:80 I:200 C: 515427 Min:      2 Act:    2 Avg:    2 Max:      27
+T: 3 ( 2257) P:80 I:200 C: 515428 Min:      2 Act:    2 Avg:    2 Max:       7
+\end{lstlisting}
+
+\end{landscape}
+
