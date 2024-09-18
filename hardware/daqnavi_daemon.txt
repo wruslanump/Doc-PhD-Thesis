@@ -1,0 +1,123 @@
+/opt/advantech/daqnavi_daemon
+
+
+wruslan@HPElBk8570w-rtwork1:~$ ps -ef | grep daqnavi_daem
+root        1046       1  0 19:43 ?        00:00:00 /opt/advantech/daqnavi_daemon/daqnavi_daemon
+wruslan     5500    3071  0 19:56 pts/0    00:00:00 grep --color=auto daqnavi_daem
+wruslan@HPElBk8570w-rtwork1:~$ 
+
+
+REF: https://linuxconfig.org/ubuntu-20-04-list-services
+ 
+wruslan@HPElBk8570w-rtwork1:~$ systemctl list-units --all --type=service | grep running
+  accounts-daemon.service                          loaded    active   running Accounts Service                                                                
+  acpid.service                                    loaded    active   running ACPI event daemon                                                               
+  apache2.service                                  loaded    active   running The Apache HTTP Server                                                          
+  atd.service                                      loaded    active   running Deferred execution scheduler                                                    
+  avahi-daemon.service                             loaded    active   running Avahi mDNS/DNS-SD Stack                                                         
+  bluetooth.service                                loaded    active   running Bluetooth service                                                               
+  clamav-daemon.service                            loaded    active   running Clam AntiVirus userspace daemon                                                 
+  clamav-freshclam.service                         loaded    active   running ClamAV virus database updater                                                   
+  colord.service                                   loaded    active   running Manage, Install and Generate Color Profiles                                     
+  containerd.service                               loaded    active   running containerd container runtime                                                    
+  cron.service                                     loaded    active   running Regular background program processing daemon                                    
+  cups-browsed.service                             loaded    active   running Make remote CUPS printers available locally                                     
+  cups.service                                     loaded    active   running CUPS Scheduler                                                                  
+  daqnavi_daemon.service                           loaded    active   running DAQNavi4 Device Monitor Daemon       <======== HERE WE WANT                                             
+  dbus.service                                     loaded    active   running D-Bus System Message Bus                                                        
+  dictd.service                                    loaded    active   running LSB: Start and stop dictionary server daemon                                    
+  docker.service                                   loaded    active   running Docker Application Container Engine                                             
+  fwupd.service                                    loaded    active   running Firmware update daemon                                                          
+  getty@tty1.service                               loaded    active   running Getty on tty1                                                                   
+  gpm.service                                      loaded    active   running LSB: gpm sysv init script                                                       
+  irqbalance.service                               loaded    active   running irqbalance daemon                                                               
+  kerneloops.service                               loaded    active   running Tool to automatically collect and submit kernel crash signatures                
+  libvirtd.service                                 loaded    active   running Virtualization daemon                                                           
+  lightdm.service                                  loaded    active   running Light Display Manager                                                           
+  mariadb.service                                  loaded    active   running MariaDB 10.3.38 database server                                                 
+  ModemManager.service                             loaded    active   running Modem Manager                                                                   
+  networkd-dispatcher.service                      loaded    active   running Dispatcher daemon for systemd-networkd                                          
+  NetworkManager.service                           loaded    active   running Network Manager                                                                 
+  osspd.service                                    loaded    active   running OSS Proxy Daemon                                                                
+  packagekit.service                               loaded    active   running PackageKit Daemon                                                               
+  polkit.service                                   loaded    active   running Authorization Manager                                                           
+  postgresql@12-main.service                       loaded    active   running PostgreSQL Cluster 12-main                                                      
+  rsyslog.service                                  loaded    active   running System Logging Service                                                          
+  rtkit-daemon.service                             loaded    active   running RealtimeKit Scheduling Policy Service                                           
+  smartmontools.service                            loaded    active   running Self Monitoring and Reporting Technology (SMART) Daemon                         
+  snapd.service                                    loaded    active   running Snap Daemon                                                                     
+  sndiod.service                                   loaded    active   running sndio audio and MIDI server                                                     
+  switcheroo-control.service                       loaded    active   running Switcheroo Control Proxy service                                                
+  systemd-journald.service                         loaded    active   running Journal Service                                                                 
+  systemd-logind.service                           loaded    active   running Login Service                                                                   
+  systemd-machined.service                         loaded    active   running Virtual Machine and Container Registration Service                              
+  systemd-resolved.service                         loaded    active   running Network Name Resolution                                                         
+  systemd-timesyncd.service                        loaded    active   running Network Time Synchronization                                                    
+  systemd-udevd.service                            loaded    active   running udev Kernel Device Manager                                                      
+  teamviewerd.service                              loaded    active   running TeamViewer remote control daemon                                                
+  thermald.service                                 loaded    active   running Thermal Daemon Service                                                          
+  ua-timer.service                                 loaded    inactive dead    Ubuntu Advantage Timer for running repeated jobs                                
+  udisks2.service                                  loaded    active   running Disk Manager                                                                    
+  unattended-upgrades.service                      loaded    active   running Unattended Upgrades Shutdown                                                    
+  upower.service                                   loaded    active   running Daemon for power management                                                     
+  user@1000.service                                loaded    active   running User Manager for UID 1000                                                       
+  whoopsie.service                                 loaded    active   running crash report submission daemon                                                  
+  winbind.service                                  loaded    active   running Samba Winbind Daemon                                                            
+  wpa_supplicant.service                           loaded    active   running WPA supplicant                                                                  
+wruslan@HPElBk8570w-rtwork1:~$ 
+
+
+
+====================================================
+
+/opt/advantech/daqnavi_daemon
+/opt/advantech/daqnavi_daemon/daqnavi_daemon
+/opt/advantech/daqnavi_daemon/daqnavi_daemon.d
+/opt/advantech/daqnavi_daemon/daqnavi_daemon.service
+/opt/advantech/daqnavi_driver_source_code/linux_driver_source_4.0.8.0_64bit/daqnavi_daemon
+/opt/advantech/daqnavi_driver_source_code/linux_driver_source_4.0.8.0_64bit/daqnavi_daemon/daqnavi_daemon
+/opt/advantech/daqnavi_driver_source_code/linux_driver_source_4.0.8.0_64bit/daqnavi_daemon/daqnavi_daemon.d
+/opt/advantech/daqnavi_driver_source_code/linux_driver_source_4.0.8.0_64bit/daqnavi_daemon/daqnavi_daemon.service
+/opt/advantech-old-2022-12-04/daqnavi_daemon
+/opt/advantech-old-2022-12-04/daqnavi_daemon/daqnavi_daemon
+/opt/advantech-old-2022-12-04/daqnavi_daemon/daqnavi_daemon.d
+/opt/advantech-old-2022-12-04/daqnavi_daemon/daqnavi_daemon.service
+/opt/advantech-old-2022-12-04/daqnavi_driver_source_code/linux_driver_source_4.0.7.0_64bit/daqnavi_daemon
+/opt/advantech-old-2022-12-04/daqnavi_driver_source_code/linux_driver_source_4.0.7.0_64bit/daqnavi_daemon/daqnavi_daemon
+/opt/advantech-old-2022-12-04/daqnavi_driver_source_code/linux_driver_source_4.0.7.0_64bit/daqnavi_daemon/daqnavi_daemon.d
+/opt/advantech-old-2022-12-04/daqnavi_driver_source_code/linux_driver_source_4.0.7.0_64bit/daqnavi_daemon/daqnavi_daemon.service
+
+AS ROOT
+=====================================================================
+root@HPElBk8570w-rtwork1:/home/wruslan# cd /opt/advantech
+root@HPElBk8570w-rtwork1:/opt/advantech# ls -l
+total 1676
+drwxr-xr-x 2 root root    4096 May  1 14:32 daqnavi_daemon
+drwxrwxr-x 4  500  500    4096 Dec 28 16:23 daqnavi_driver_source_code
+-rwxr--r-- 1 root root 1450955 May  1 14:32 DAQNavi_Linux_Driver_request_form.rtf
+drwxr-xr-x 8 root root    4096 May  1 14:32 examples
+drwxr-xr-x 2 root root    4096 May  1 14:32 inc
+drwxr-xr-x 2 root root   12288 May  1 14:34 libs
+-rwxr-xr-x 1 root root  228886 May  1 14:32 readme.txt
+drwxr-xr-x 4 root root    4096 May  1 14:32 tools
+root@HPElBk8570w-rtwork1:/opt/advantech# 
+
+
+root@HPElBk8570w-rtwork1:/opt/advantech# cd daqnavi_daemon/
+root@HPElBk8570w-rtwork1:/opt/advantech/daqnavi_daemon# ls -l
+total 36
+-rwxr-xr-x 1 root root 27631 May  1 14:32 daqnavi_daemon
+-rwxr-xr-x 1 root root  1963 May  1 14:32 daqnavi_daemon.d
+-rw-r--r-- 1 root root   205 May  1 14:32 daqnavi_daemon.service
+root@HPElBk8570w-rtwork1:/opt/advantech/daqnavi_daemon# 
+
+
+root@HPElBk8570w-rtwork1:/opt/advantech/daqnavi_daemon# ps -ef | grep daqnavi_daem
+root       37699       1  0 14:52 ?        00:00:00 /opt/advantech/daqnavi_daemon/daqnavi_daemon
+root       67757   67745  0 19:37 pts/1    00:00:00 grep --color=auto daqnavi_daem
+root@HPElBk8570w-rtwork1:/opt/advantech/daqnavi_daemon# 
+root@HPElBk8570w-rtwork1:/opt/advantech/daqnavi_daemon# lsmod | grep 1884
+bio1884               106496  0
+biokernbase            36864  72 bio1840,bio1784,bio1718,bio1802,bio4716,bio1810,bio1754,bio1716,bio1706,bio1734,bio1762,bio1724,bio1752,ecup1706,bio1780,bio1714,bio4704,bio5801,bioidaq,bio4761b,biogpdc,bio1760,bio4750,bio1750,bio4711a,biogpdcb,bio3718,bio1730,bio1720,bio5800dio,biogpscmf,bio1805,bio1710,bio3810,bio1757,bio1803,bio1747,bio1737,biopcmgpdc,bio4751b,bio1727,bio4750b,bio4716b,bio1753,bio1715,bio3730,biogpdcx,bio4761,bio1733,bio5820,bio1884,bio1761,bio4751,bio1723,bio1751,bio1713,bio1741,bio1882,bio1721,bio1716b,bio1711,bio1715b,bio1824,bio5817,bio1758,bio1842,bio1712b,bio3725,amax5000s,bio4718,bio1812,bio1756
+root@HPElBk8570w-rtwork1:/opt/advantech/daqnavi_daemon# 
+

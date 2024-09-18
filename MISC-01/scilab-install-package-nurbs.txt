@@ -1,0 +1,95 @@
+
+Scilab 2023.1.0
+
+wruslan@HPLaptop-01-ub20:~$ date
+Fri 22 Sep 2023 09:32:58 PM +08
+wruslan@HPLaptop-01-ub20:~$ 
+
+
+Startup execution:
+  loading initial environment
+
+
+LIST OF INSTALLED MODULES
+==========================================
+--> res = getmodules()
+ res  = 
+
+  "core"                  
+  "differential_equations"
+  "elementary_functions"  
+  "functions"             
+  "fileio"                
+  "graphics"              
+  "renderer"              
+  "graphic_export"        
+  "boolean"               
+  "cacsd"                 
+  "data_structures"       
+  "action_binding"        
+  "console"               
+  "completion"            
+  "history_manager"       
+  "gui"                   
+  "dynamic_link"          
+  "integer"               
+  "interpolation"         
+  "io"                    
+  "output_stream"         
+  "jvm"                   
+  "commons"               
+  "linear_algebra"        
+  "localization"          
+  "optimization"          
+  "overloading"           
+  "polynomials"           
+  "signal_processing"     
+  "sparse"                
+  "special_functions"     
+  "string"                
+  "time"                  
+  "statistics"            
+  "arnoldi"               
+  "javasci"               
+  "m2sci"                 
+  "mexlib"                
+  "tclsci"                
+  "sound"                 
+  "randlib"               
+  "development_tools"     
+  "demo_tools"            
+  "spreadsheet"           
+  "call_scilab"           
+  "scicos"                
+  "scicos_blocks"         
+  "fftw"                  
+  "umfpack"               
+  "parameters"            
+  "atoms"                 
+  "matio"                 
+  "types"                 
+  "hdf5"                  
+  "xcos"                  
+  "graphic_objects"       
+  "scinotes"              
+  "ui_data"               
+  "api_scilab"            
+  "helptools"             
+  "graph"                 
+  "modules_manager"       
+  "history_browser"       
+  "preferences"           
+  "xml"                   
+  "external_objects"      
+  "ast"                   
+  "external_objects_java" 
+  "slint"                 
+  "coverage"              
+  "webtools"              
+
+INSTALL NURBS IN SCILAB
+https://atoms.scilab.org/2023.1/TOOLBOXES/64/linux.gz
+===================================================
+--> atomsInstall("nurbs") 
+
+

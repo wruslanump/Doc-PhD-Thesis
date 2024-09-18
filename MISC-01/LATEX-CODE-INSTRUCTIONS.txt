@@ -1,0 +1,61 @@
+
+% FOR LISTING SOFTWARE CODES
+%% AUTOMATIC SOURCE CODE LINE NUMBERING
+%% AVAILABLE PROGRAMMING LANGUAGE LISTINGS
+%% http://tug.ctan.org/tex-archive/macros/latex/contrib/listings/listings.pdf
+\usepackage{listings}
+\usepackage{caption}
+
+
+%% ==================================
+
+\begin{document}
+
+%% AUTOMATIC LIST OF TABLES
+\phantomsection
+%\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\pagebreak
+
+%% AUTOMATIC LIST OF LISTINGS
+\phantomsection
+%\addcontentsline{toc}{chapter}{Listings}
+\lstlistoflistings
+\pagebreak
+
+===================================
+
+% ==========================================================
+\lstset{basicstyle=\footnotesize, numberstyle=\tiny\color{blue}, frame=single, numbers=left, firstnumber=1, stepnumber=1, numbersep=1pt, xleftmargin=2.0em, framexleftmargin=1.5em, xrightmargin=0.0em, breaklines=true, breakatwhitespace=false, breakindent=5pt, prebreak=\space, postbreak=\space }
+
+% ==========================================================
+
+\begin{lstlisting}[caption={App4-Summary main() function C-Code listing for RTAI}, Summary main() function C-Code listing for RTAI]
+
+
+
+
+====================================
+The contents of the appendices are organized according to chapters presented in the main text. The appendices are as listed as follows: The link to directly jump to each appendix is also provided.
+
+\begin{enumerate}[start=1,label={(\bfseries \arabic*):}]
+	\item Chapter-1 Appendices (Introduction) [\ref{sec:App1-Introduction}] 
+	\item Chapter-2 Appendices (Literature Survey)[\ref{sec:App2-Literature-Survey}] 
+	\item Chapter-3 Appendices (Research Methodology)[\ref{sec:App3-Research-Methodology}] 
+	\item Chapter-4 Appendices (Related Research Work)[\ref{sec:App4-Related-Research-Work}] 
+	\item Chapter-5 Appendices (Research Implementation Plan)[\ref{sec:App5-Research-Implementation-Plan}] 
+\end{enumerate}
+
+\clearpage
+\pagebreak
+
+%% SEPARATE FILES AS INPUT
+\input{./02-appendix/Appendix-Chap-1} %% Introduction
+\input{./02-appendix/Appendix-Chap-2} %% Literature Survey
+\input{./02-appendix/Appendix-Chap-3} %% Research Methodology
+\input{./02-appendix/Appendix-Chap-4} %% Related Research Work
+\input{./02-appendix/Appendix-Chap-5} %% Research Implementation Plan
+%\input{./02-appendix/Appendix-Chap-6} %% Conclusion ==> NOT APPLICABLE
+%\input{./02-appendix/Appendix-Chap-7} %% Appendices ==> NOT APPLICABLE
+%\input{./02-appendix/Appendix-Chap-8}  %% Index ADDED TEMPORARILY
+

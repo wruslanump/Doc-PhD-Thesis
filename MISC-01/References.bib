@@ -1,0 +1,235 @@
+%% REFERENCE:  APA STYLE REFERENCES
+ So basically:
+
+
+
+
+
+
+%% ====================================================
+%% ====================================================
+We just use \cite{}
+
+you use \textbackslash\{\}citet\{\} when the authors name(s) are to be read as part of the text
+
+you use \textbackslash\{\}citep\{\} when the entire citation id parenthetical
+
+(1) The format for a book is:
+==============================================
+@book{DoyleOwl:2004, 	
+	Author = {Doyle Owl}, 
+	Title = {My Life}, 	
+	Publisher = {Reed Press}, 
+	Year = {2004}
+} 	
+
+(2) For a Journal Article:
+==============================================
+@article{DoyleOwl:2003, 
+	Author = {Doyle Owl}, 	
+	Title = {The Honor Principle}, 	
+	Journal = {The Quest}, 
+	Year = {2003}
+} 	
+
+(3) For a booklet (unpublished books):
+===============================================
+@booklet{DoyleOwl2002, 	
+	Author = {Doyle Owl}
+} 	
+
+For a chapter or part of a book:
+===============================================
+@inbook{DoyleOwl:2003a, 	
+	Author = {Doyle Owl}, 	
+	Title = {Reed in Space}, 
+	Chapter={Chapter 7: New Frontier},
+	Pages={350-450}, 
+	Publisher = {Macmillan}, 
+	Year = {2003}
+} 
+
+For a chapter or part of a book (NO PAGES):
+===============================================
+@inbook{DoyleOwl:2003b, 	
+	Author = {Doyle Owl}, 	
+	Title = {Reed in Space}, 
+	Chapter={Chapter 7: New Frontier},
+	Publisher = {Macmillan}, 
+	Year = {2003}
+} 
+
+For a edited volume of articles or a collection:
+===============================================
+@incollection{DoyleOwl:1998, 	
+	Author = {Doyle Owl}, 
+	Title = {Owls and Inflation}, 	
+	BookTitle = {Economics of Lawn Ornaments}, 	
+	Publisher = {Reed Press}, 
+	Year = {1998}
+} 
+
+For an article in a book of conference proceedings:
+================================================
+@inproceedings{DoyleOwl:2000, 
+	Author = {Doyle Owl}, 
+	Title = {Owls and the US Debt}, 
+	BookTitle = {Lawn Ornaments Conference}, 
+	Publisher = {Reed Press}, 
+	Year = {2000}
+} 
+
+For a technical manual or documentation:
+================================================
+@manual{Popular, 
+	Title = {How to Become Popular}
+} 
+
+For a Master's thesis:
+================================================
+@mastersthesis{DoyleOwl:1990, 
+	Author = {Doyle Owl}, 
+	Title = {My Life},
+	School = {Reed College}, 
+	Year = {1990}
+} 	
+
+For a source that does not fit into any particular category:
+================================================
+@misc{DoyleOwl:2004,} 	
+none 	<--no Fields required
+
+For a PhD thesis,
+================================================
+@phdthesis{DoyleOwl:1990, 
+	Author = {Doyle Owl}, 
+	Title = {My Life}, 
+	School = {Reed College}, 
+	Year = {1990}
+}
+
+For a conference proceedings,
+================================================
+@proceedings{Mascots:1990, 
+	Title = {School Mascots}, 
+	Year = {1990}
+}
+
+For a report published by a university or other institutions, 
+usually as part of a series,
+=================================================
+@techreport{DoyleOwl:1980, 
+	Author = {Doyle Owl}, 
+	Title = {Sociology of Mascots}, 
+	Institution= {Reed College}, 
+	Year = {1990}
+}
+
+For unpublished sources,
+=================================================
+@unpublished{DoyleOwl:1970, 
+	Author = {Doyle Owl}, 
+	Title = {My Life}, 	
+	Note = {Reed College}
+} 	
+
+=================================================
+https://www.reed.edu/it/help/LaTeX/Manually.html
+=================================================
+There are many other optional fields that you can use in each database entry, 
+such as Volume=, Number=, Abstract=, Series=, Month= . 
+All of the acceptable fields and entry types are listed below.
+
+<tableclass="table" style="margin:0 auto" >
+address 	Address of Publisher
+author 	Names of Authors
+booktitle 	Book Title when part of book is cited
+chapter 	Chapter Number
+edition 	Book Edition
+editor 	Book Editor or translator
+howpublished 	States anything unusual about how it was published
+institution 	Sponsoring Institution of Technical Report
+journal 	Journal Name
+key 	Addition for alphabetizing if author missing
+month 	Month Published
+note 	Any more Info?
+Number 	Number of Journal
+Organization 	Organization that sponsors a conference
+pages 	Page range
+publisher 	Publisher's Name
+school 	Name of school for thesis
+series 	Book Series Name
+title 	Title of work
+type 	Type of Technical Report
+url 	Website Address
+volume 	Volume Number of Book or Journal
+year 	Year of publication
+
+=======================================================
+%%  https://www.workscited4u.com/apa/book.php
+
+
+@article{Jin-etal:2014,
+	Author  = {Yuan Jin and Yong He and Jian-zhong Fu and Zhi-wei Lin and Wen-feng Gan},
+	Title   = {A fine-interpolation-based parametric interpolation method with a novel real-time look-ahead algorithm},
+	Pages   = {37-48},
+	Year    = {2014},
+	Journal = {Computer-Aided Design 55},
+	doi     = {10.1016/j.cad.2014.05.002}
+}
+
+@inbook{Rogers:2001, 	
+	Author    = {Rogers, David F.}, 	
+	Title     = {An {I}ntroduction to {NURBS} with {H}istorical {P}erspective}, 
+	Chapter   = {Chapter 1: Curve and Surface Representation},
+	Pages     = {1-11}, 
+	Publisher = {Academic Press}, 
+	Year      = {2001}
+} 
+
+@inbook{Piegl-etal:1997, 	
+	Author    = {Les Piegl and Wayne Tiller}, 	
+	Title     = {The {NURBS} {B}ook, 2nd edition}, 
+	Chapter   = {Chapter 1: Curve and Surface Basics},
+	Pages     = {1-43}, 
+	Publisher = {Springer-Verlag}, 
+	Year      = {1997}
+} 
+
+@article{Bingol-etal:2018,
+	Author  = {Onur Rauf Bingol and Adarsh Krishnamurty},
+	Title   = {{NURBS}-{P}ython: {A}n open-source object-oriented {NURBS} modeling framework in {P}ython},
+	Pages   = {85-94},
+	Year    = {2018},
+	Journal = {SoftwareX 9 - Elsevier},
+	doi     = {10.1016/j.softx.2018.12.005}
+}
+
+
+@article{Zhong-etal:2018,
+	Author  = {Wenbin Zhong and Xichun Luo and Wenlong Chang and Fei Ding and Yukui Cai},
+	Title   = {A real-time interpolator for parametric curves},
+	Pages   = {133-145},
+	Year    = {2018},
+	Journal = {International Journal of Machine Tools and Manufacture 125},
+	doi     = {10.1016/j.ijmachtools.2017.11.010}
+}
+
+@article{Cheng-etal:2002,
+	Author  = {M.-Y. Cheng and M. C. Tsai and J. C. Kuo},
+	Title   = {Real-time {NURBS} command generators for {CNC} {S}ervo {C}ontrollers},
+	Pages   = {801-813},
+	Year    = {2002},
+	Journal = {International Journal of Machine Tools and Manufacture 42(7)},
+	doi     = {10.1016/S0890-6955(02)00015-9}
+}
+
+
+@phdthesis{Zhong:2018, 
+	Author = {Wenbin Zhong}, 
+	Title  = {Novel {C}ontrol {A}pproaches for the {N}ext {G}eneration {C}omputer {N}umerical {C}ontrol
+	{(CNC)} {S}ystem for {H}ybrid {M}icro-machines.}, 
+	School = {University of Strathclyde}, 
+	Year   = {2018}
+}
+

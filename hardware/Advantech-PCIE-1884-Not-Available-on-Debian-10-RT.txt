@@ -1,0 +1,30 @@
+(base) wruslan@hpelbk8570w-debian10:~$ date
+Sun 30 Apr 2023 01:23:42 PM +08
+(base) wruslan@hpelbk8570w-debian10:~$ uname -a
+Linux hpelbk8570w-debian10 4.19.0-23-rt-amd64 #1 SMP PREEMPT RT Debian 4.19.269-1 (2022-12-20) x86_64 GNU/Linux
+(base) wruslan@hpelbk8570w-debian10:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+(base) wruslan@hpelbk8570w-debian10:~$ 
+
+===========================================================
+(base) wruslan@hpelbk8570w-debian10:~$ sudo updatedb
+[sudo] password for wruslan: 
+(base) wruslan@hpelbk8570w-debian10:~$ sudo ldconfig
+(base) wruslan@hpelbk8570w-debian10:~$ sudo depmod -a
+(base) wruslan@hpelbk8570w-debian10:~$ 
+
+
+(base) wruslan@hpelbk8570w-debian10:~$ locate 1884.ko
+(base) wruslan@hpelbk8570w-debian10:~$ locate bio1884
+/opt/advantech/daqnavi_driver_source_code/linux_driver_source_4.0.7.0_64bit/libs/libbio1884.so
+/opt/advantech/daqnavi_driver_source_code/linux_driver_source_4.0.7.0_64bit/libs/libbio1884.so.4.1.3.0
+/opt/advantech/libs/libbio1884.so
+/opt/advantech/libs/libbio1884.so.4.1.3.0
+(base) wruslan@hpelbk8570w-debian10:~$ 
+
+===========================================================
+

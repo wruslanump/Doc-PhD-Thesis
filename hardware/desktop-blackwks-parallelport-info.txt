@@ -1,0 +1,73 @@
+dmesg | grep par
+
+[   33.742093] ppdev: user-space parallel port driver
+[   33.744900] PCI parallel port detected: 1c00:3050, I/O at 0xd100(0x0), IRQ 16
+[   33.744967] parport0: PC-style at 0xd100, irq 16 [PCSPP,TRISTATE]
+[   33.837383] lp0: using parport0 (interrupt-driven).
+
+
+wruslan@HPElBk8570w-rtwork1:~$ lspci -v | grep par
+	Kernel driver in use: parport_pc
+	Kernel modules: parport_pc, parport_serial
+wruslan@HPElBk8570w-rtwork1:~$ 
+
+=====================================================================
+sudo lspci -v
+
+04:00.0 Serial controller: Device 1c00:3050 (rev 10) (prog-if 05 [16850])
+	Subsystem: Device 1c00:3050
+	Flags: fast devsel, IRQ 16
+	I/O ports at d000 [size=256]
+	Memory at ea100000 (32-bit, prefetchable) [size=32K]
+	I/O ports at d100 [size=4]
+	Expansion ROM at f7800000 [disabled] [size=32K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable- Count=1/32 Maskable+ 64bit+
+	Capabilities: [80] Express Legacy Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Kernel driver in use: parport_pc
+	Kernel modules: parport_pc, parport_serial
+
+wruslan@HPElBk8570w-rtwork1:~$ 
+
+
+=====================================================================
+wruslan@HPElBk8570w-rtwork1:~$ lspci
+00:00.0 Host bridge: Intel Corporation 4th Gen Core Processor DRAM Controller (rev 06)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller (rev 06)
+00:02.0 Display controller: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)
+00:03.0 Audio device: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller (rev 06)
+00:14.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI (rev 04)
+00:16.0 Communication controller: Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1 (rev 04)
+00:16.3 Serial controller: Intel Corporation 8 Series/C220 Series Chipset Family KT Controller (rev 04)
+00:19.0 Ethernet controller: Intel Corporation Ethernet Connection I217-LM (rev 04)
+00:1a.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #2 (rev 04)
+00:1b.0 Audio device: Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #1 (rev d4)
+00:1c.1 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #2 (rev d4)
+00:1c.4 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #5 (rev d4)
+00:1d.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #1 (rev 04)
+00:1f.0 ISA bridge: Intel Corporation Q87 Express LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller (rev 04)
+01:00.0 VGA compatible controller: NVIDIA Corporation GK208B [GeForce GT 710] (rev a1)
+01:00.1 Audio device: NVIDIA Corporation GK208 HDMI/DP Audio Controller (rev a1)
+03:00.0 Signal processing controller: Advantech Co. Ltd Device 0088                    <<<==== WRY HERE PCIE-1884
+04:00.0 Serial controller: Device 1c00:3050 (rev 10)                                   <<<==== WRY HERE PCI PARALLEL PORT 
+wruslan@HPElBk8570w-rtwork1:~$ 
+
+=======================================================================
+03:00.0 Signal processing controller: Advantech Co. Ltd Device 0088
+	Subsystem: Kolter Electronic Device a100
+	Flags: bus master, fast devsel, latency 0, IRQ 10
+	Memory at f7919000 (32-bit, non-prefetchable) [size=128]
+	Memory at f7918000 (32-bit, non-prefetchable) [size=2K]
+	Memory at f7910000 (32-bit, non-prefetchable) [size=32K]
+	Memory at f7900000 (32-bit, non-prefetchable) [size=64K]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [48] MSI: Enable- Count=1/4 Maskable- 64bit+
+	Capabilities: [58] Express Endpoint, MSI 00
+	Capabilities: [100] Device Serial Number 00-00-00-00-00-00-00-00
+	
+	
+	

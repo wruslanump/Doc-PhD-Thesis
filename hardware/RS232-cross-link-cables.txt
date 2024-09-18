@@ -1,0 +1,84 @@
+https://en.wikipedia.org/wiki/RS-232
+
+https://www.avaccess.com/blogs/guides/what-is-rs232/
+https://en.wikipedia.org/wiki/Null_modem
+https://sens4.com/rs232-rs485.html
+
+
+What is RS232 cross cable?
+
+RS232 Serial Null Modem Cable, Crossover - DB9 Cables & DB25 ...
+A null modem serial cable (frequently called a crossover cable) is used to connect two DTE devices together without the use of a DCE device in between. For this to happen, the Transmit (TXD) and Receive (RXD) pins on one of the serial connectors are flipped.
+
+
+Different Types of RS232 Cable
+
+There are several different types of RS232 cables available, including straight-through cables, null-modem cables, and crossover cables.
+
+Straight-through cables are the most common type of RS232 cable and are used to connect a DTE device to a DCE device.
+
+Null-modem cables are used to connect two DTE devices together, while crossover cables are used to connect two DCE devices together.
+
+What is the difference between RS232 and null modem cable?
+
+Null modem, also called crossover, is a term associated with serial (RS-232) cables. A standard serial cable, also called an AT cable, has the wires inside the cable running straight through. Take a DB9 cable as an example. Pin 1 on one end of the cable would be connected to Pin 1 on the other end.4 Apr 2019
+
+
+
+
+What’s the difference between RS232 and RS422?
+
+The main difference between RS232 and RS422 is that RS232 is a single-ended communication standard that uses one signal wire and one ground wire to transmit data, while RS422 is a differential communication standard that uses two signal wires and a ground wire to transmit data.
+
+What’s the difference between RS232 and RS485?
+
+RS232 and RS485 are both serial communication standards, but RS232 is designed for point-to-point communication, while RS485 is designed for multi-drop communication. RS232 uses a single-ended communication scheme, while RS485 uses a differential communication scheme.
+
+Is RS232 straight-through cable?
+
+A null modem cable is a RS-232 serial cable where the transmit and receive lines are crosslinked. In some cables there are also handshake lines crosslinked. In many situations a straight-through serial cable is used, together with a null modem adapter. The adapter contains the necessary crosslinks between the signals.
+
+What is a null modem RS232 cable?
+Null modem - Wikipedia
+
+A null modem cable is a RS-232 serial cable where the transmit and receive lines are crosslinked. In some cables there are also handshake lines crosslinked. In many situations a straight-through serial cable is used, together with a null modem adapter. The adapter contains the necessary crosslinks between the signals.
+
+
+Are all RS232 cables the same?
+
+RS232 Serial Port: 7 Facts You Need to Know before Using
+There are several different types of RS232 cables available, including straight-through cables, null-modem cables, and crossover cables. Straight-through cables are the most common type of RS232 cable and are used to connect a DTE device to a DCE device.16 Mar 2023
+
+Should RS232 wires be twisted?
+
+Although RS-232 doesn't use differential signaling, so that the cables don't use twisted differential pairs, it is nevertheless advantageous to twist the conductors together in order to cancel EMI. The conductors in serial cable are twisted together. Conductors don't have to be twisted in pairs.9 Jul 2013
+
+Is a serial cable straight or cross?
+
+A straight-through serial cable is the most common type of serial cable, used to connect a Data Terminal Equipment (DTE) device (for example, a computer) to a Data Communications Equipment (DCE) device (for example, a modem).
+
+What is the difference between rs232c and RS-232?
+
+In the original RS-232, the signal would flip between positive and negative 25 volts. Since that point there have been three revisions, RS-232A, RS-232B, and RS-232C; these revisions lowered the acceptable voltage from 25 to 12 to 5 volts respectively.28 Jun 2018
+
+Is RS232 balanced or unbalanced?
+
+RS-232 is also an “unbalanced protocol.” It uses a single conductor for each signal and a common ground. The signal level is relative to the common ground. This method is cost effective and easy.
+
+
+What is the purpose of cross cable and straight cable?
+
+Difference Between Straight-Through and Crossover Cable
+Usually, straight-through cables are primarily used for connecting unlike devices. And crossover cables are use for connecting unlike devices alike devices. Use straight-through cable for the following cabling: Switch to router.21 Dec 2016
+
+Is RS-232 and RS485 the same cable? ANSWER: No.
+
+An RS232 Serial Interface is for connecting two devices. There will be one transmitter and one receiver. An RS485 Serial interface can connect up to 32 devices to a single transmitter. Do also take note that RS232 and RS485 are not fixed.
+
+
+
+
+
+
+
+

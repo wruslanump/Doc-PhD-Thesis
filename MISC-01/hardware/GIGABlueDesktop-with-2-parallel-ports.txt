@@ -1,0 +1,905 @@
+(base) wruslan@GIGABlueDesktop-debian10:~$ date
+Fri 02 Jun 2023 02:19:55 PM +08
+(base) wruslan@GIGABlueDesktop-debian10:~$ uname -a
+Linux GIGABlueDesktop-debian10 4.19.0-24-rt-amd64 #1 SMP PREEMPT RT Debian 4.19.282-1 (2023-04-29) x86_64 GNU/Linux
+(base) wruslan@GIGABlueDesktop-debian10:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+
+==================================
+PARALLEL PORT NO 1 ADDRESS: 0xef00 UPPER
+==================================
+[    5.371496] parport1: PC-style at 0xef00, irq 16 [PCSPP,TRISTATE]
+02:00.0 Serial controller: Device 1c00:3250 (rev 10) (prog-if 05 [16850])
+	Subsystem: Device 1c00:3250
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	I/O ports at ec00 [size=256]
+	Memory at fb8f8000 (32-bit, prefetchable) [size=32K]
+	I/O ports at ef00 [size=4]
+	[virtual] Expansion ROM at fb900000 [disabled] [size=32K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable- Count=1/32 Maskable+ 64bit+
+	Capabilities: [80] Express Legacy Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Kernel driver in use: parport_serial
+	Kernel modules: parport_serial
+
+
+==================================
+PARALLEL PORT NO 2 ADDRESS: 0xcff8 LOWER
+==================================
+[    4.787036] parport0: PC-style at 0xcff8 (0xcff0), irq 16 [PCSPP,TRISTATE,EPP]
+06:01.0 Communication controller: MosChip Semiconductor Technology Ltd. PCI 1 port parallel adapter (rev 01)
+	Subsystem: LSI Logic / Symbios Logic PCI 1 port parallel adapter
+	Flags: medium devsel, IRQ 16
+	I/O ports at cff8 [size=8]
+	I/O ports at cff0 [size=8]
+	I/O ports at cfe8 [size=8]
+	I/O ports at cfe0 [size=8]
+	I/O ports at cfd8 [size=8]
+	I/O ports at cfc0 [size=16]
+	Kernel driver in use: parport_pc
+	Kernel modules: parport_pc
+
+(base) wruslan@GIGABlueDesktop-debian10:~$ 
+
+
+ROOT ACCESS TO PARPORT DEVICES
+=====================================================================
+(base) wruslan@GIGABlueDesktop-debian10:~$ ls -al /dev | grep parport
+crw-rw-r--   1 root    lp       99,   0 Feb 14  2019 parport0
+crw-rw-r--   1 root    lp       99,   1 Feb 14  2019 parport1
+(base) wruslan@GIGABlueDesktop-debian10:~$ 
+(base) wruslan@GIGABlueDesktop-debian10:~$ ls -al /dev | grep lp
+crw-rw----   1 root    lp        6,   0 Feb 14  2019 lp0
+crw-rw----   1 root    lp        6,   1 Feb 14  2019 lp1
+crw-rw-r--   1 root    lp       99,   0 Feb 14  2019 parport0
+crw-rw-r--   1 root    lp       99,   1 Feb 14  2019 parport1
+(base) wruslan@GIGABlueDesktop-debian10:~$ 
+
+=====================================================================
+
+
+(base) wruslan@GIGABlueDesktop-debian10:~$ sudo lspci
+00:00.0 Host bridge: Intel Corporation 2nd Generation Core Processor Family DRAM Controller (rev 09)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port (rev 09)
+00:16.0 Communication controller: Intel Corporation 6 Series/C200 Series Chipset Family MEI Controller #1 (rev 04)
+00:1a.0 USB controller: Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2 (rev 05)
+00:1b.0 Audio device: Intel Corporation 6 Series/C200 Series Chipset Family High Definition Audio Controller (rev 05)
+00:1c.0 PCI bridge: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 1 (rev b5)
+00:1c.1 PCI bridge: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 2 (rev b5)
+00:1c.2 PCI bridge: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 3 (rev b5)
+00:1c.3 PCI bridge: Intel Corporation 82801 PCI Bridge (rev b5)
+00:1d.0 USB controller: Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1 (rev 05)
+00:1f.0 ISA bridge: Intel Corporation P67 Express Chipset Family LPC Controller (rev 05)
+00:1f.2 IDE interface: Intel Corporation 6 Series/C200 Series Chipset Family 4 port SATA IDE Controller (rev 05)
+00:1f.3 SMBus: Intel Corporation 6 Series/C200 Series Chipset Family SMBus Controller (rev 05)
+00:1f.5 IDE interface: Intel Corporation 6 Series/C200 Series Chipset Family 2 port SATA IDE Controller (rev 05)
+01:00.0 VGA compatible controller: NVIDIA Corporation GK208 [GeForce GT 710B] (rev a1)
+01:00.1 Audio device: NVIDIA Corporation GK208 HDMI/DP Audio Controller (rev a1)
+02:00.0 Serial controller: Device 1c00:3250 (rev 10)
+03:00.0 USB controller: NEC Corporation uPD720200 USB 3.0 Host Controller (rev 04)
+04:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+05:00.0 PCI bridge: Integrated Technology Express, Inc. IT8892E PCIe to PCI Bridge (rev 10)
+06:00.0 Ethernet controller: Intel Corporation 82557/8/9/0/1 Ethernet Pro 100 (rev 05)
+06:01.0 Communication controller: MosChip Semiconductor Technology Ltd. PCI 1 port parallel adapter (rev 01)
+(base) wruslan@GIGABlueDesktop-debian10:~$ sudo lspci -v
+00:00.0 Host bridge: Intel Corporation 2nd Generation Core Processor Family DRAM Controller (rev 09)
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+	Kernel driver in use: snb_uncore
+
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port (rev 09) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000b000-0000bfff
+	Memory behind bridge: f9000000-faffffff
+	Prefetchable memory behind bridge: 00000000e0000000-00000000efffffff
+	Capabilities: [88] Subsystem: Gigabyte Technology Co., Ltd Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [a0] Express Root Port (Slot+), MSI 00
+	Capabilities: [100] Virtual Channel
+	Capabilities: [140] Root Complex Link
+	Kernel driver in use: pcieport
+
+00:16.0 Communication controller: Intel Corporation 6 Series/C200 Series Chipset Family MEI Controller #1 (rev 04)
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family MEI Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 31
+	Memory at fbfff000 (64-bit, non-prefetchable) [size=16]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:1a.0 USB controller: Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2 (rev 05) (prog-if 20 [EHCI])
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family USB Enhanced Host Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 18
+	Memory at fbffe000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: [50] Power Management version 2
+	Capabilities: [58] Debug port: BAR=1 offset=00a0
+	Capabilities: [98] PCI Advanced Features
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:1b.0 Audio device: Intel Corporation 6 Series/C200 Series Chipset Family High Definition Audio Controller (rev 05)
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family High Definition Audio Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 32
+	Memory at fbff8000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [50] Power Management version 2
+	Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [100] Virtual Channel
+	Capabilities: [130] Root Complex Link
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1c.0 PCI bridge: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 1 (rev b5) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	I/O behind bridge: 0000e000-0000efff
+	Memory behind bridge: fb900000-fb9fffff
+	Prefetchable memory behind bridge: 00000000fb800000-00000000fb8fffff
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family PCI Express Root Port 1
+	Capabilities: [a0] Power Management version 2
+	Kernel driver in use: pcieport
+
+00:1c.1 PCI bridge: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 2 (rev b5) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+	Memory behind bridge: fbe00000-fbefffff
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family PCI Express Root Port 2
+	Capabilities: [a0] Power Management version 2
+	Kernel driver in use: pcieport
+
+00:1c.2 PCI bridge: Intel Corporation 6 Series/C200 Series Chipset Family PCI Express Root Port 3 (rev b5) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff
+	Prefetchable memory behind bridge: 00000000fbd00000-00000000fbdfffff
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family PCI Express Root Port 3
+	Capabilities: [a0] Power Management version 2
+	Kernel driver in use: pcieport
+
+00:1c.3 PCI bridge: Intel Corporation 82801 PCI Bridge (rev b5) (prog-if 01 [Subtractive decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 19
+	Bus: primary=00, secondary=05, subordinate=06, sec-latency=0
+	I/O behind bridge: 0000c000-0000cfff
+	Memory behind bridge: fbb00000-fbcfffff
+	Prefetchable memory behind bridge: 00000000fba00000-00000000fbafffff
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Gigabyte Technology Co., Ltd 82801 PCI Bridge
+	Capabilities: [a0] Power Management version 2
+
+00:1d.0 USB controller: Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1 (rev 05) (prog-if 20 [EHCI])
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family USB Enhanced Host Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 23
+	Memory at fbffd000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: [50] Power Management version 2
+	Capabilities: [58] Debug port: BAR=1 offset=00a0
+	Capabilities: [98] PCI Advanced Features
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:1f.0 ISA bridge: Intel Corporation P67 Express Chipset Family LPC Controller (rev 05)
+	Subsystem: Gigabyte Technology Co., Ltd P67 Express Chipset LPC Controller
+	Flags: bus master, medium devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+	Kernel driver in use: lpc_ich
+	Kernel modules: lpc_ich
+
+00:1f.2 IDE interface: Intel Corporation 6 Series/C200 Series Chipset Family 4 port SATA IDE Controller (rev 05) (prog-if 8f [PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering])
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 0-3)
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 19
+	I/O ports at ff00 [size=8]
+	I/O ports at fe00 [size=4]
+	I/O ports at fd00 [size=8]
+	I/O ports at fc00 [size=4]
+	I/O ports at fb00 [size=16]
+	I/O ports at fa00 [size=16]
+	Capabilities: [70] Power Management version 3
+	Capabilities: [b0] PCI Advanced Features
+	Kernel driver in use: ata_piix
+	Kernel modules: ata_piix, ata_generic
+
+00:1f.3 SMBus: Intel Corporation 6 Series/C200 Series Chipset Family SMBus Controller (rev 05)
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family SMBus Controller
+	Flags: medium devsel, IRQ 18
+	Memory at fbffc000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at 0500 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:1f.5 IDE interface: Intel Corporation 6 Series/C200 Series Chipset Family 2 port SATA IDE Controller (rev 05) (prog-if 85 [PCI native mode-only controller, supports bus mastering])
+	Subsystem: Gigabyte Technology Co., Ltd 6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 4-5)
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 19
+	I/O ports at f800 [size=8]
+	I/O ports at f700 [size=4]
+	I/O ports at f600 [size=8]
+	I/O ports at f500 [size=4]
+	I/O ports at f400 [size=16]
+	I/O ports at f300 [size=16]
+	Capabilities: [70] Power Management version 3
+	Capabilities: [b0] PCI Advanced Features
+	Kernel driver in use: ata_piix
+	Kernel modules: ata_piix, ata_generic
+
+01:00.0 VGA compatible controller: NVIDIA Corporation GK208 [GeForce GT 710B] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: ASUSTeK Computer Inc. GK208B [GeForce GT 710]
+	Flags: bus master, fast devsel, latency 0, IRQ 30
+	Memory at f9000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at e0000000 (64-bit, prefetchable) [size=128M]
+	Memory at ee000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at bf00 [size=128]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [78] Express Legacy Endpoint, MSI 00
+	Capabilities: [100] Virtual Channel
+	Capabilities: [128] Power Budgeting <?>
+	Capabilities: [600] Vendor Specific Information: ID=0001 Rev=1 Len=024 <?>
+	Kernel driver in use: nouveau
+	Kernel modules: nouveau
+
+01:00.1 Audio device: NVIDIA Corporation GK208 HDMI/DP Audio Controller (rev a1)
+	Subsystem: ASUSTeK Computer Inc. GK208 HDMI/DP Audio Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at faffc000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [78] Express Endpoint, MSI 00
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+02:00.0 Serial controller: Device 1c00:3250 (rev 10) (prog-if 05 [16850])
+	Subsystem: Device 1c00:3250
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	I/O ports at ec00 [size=256]
+	Memory at fb8f8000 (32-bit, prefetchable) [size=32K]
+	I/O ports at ef00 [size=4]
+	[virtual] Expansion ROM at fb900000 [disabled] [size=32K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable- Count=1/32 Maskable+ 64bit+
+	Capabilities: [80] Express Legacy Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Kernel driver in use: parport_serial
+	Kernel modules: parport_serial
+
+03:00.0 USB controller: NEC Corporation uPD720200 USB 3.0 Host Controller (rev 04) (prog-if 30 [XHCI])
+	Subsystem: Gigabyte Technology Co., Ltd uPD720200 USB 3.0 Host Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at fbefe000 (64-bit, non-prefetchable) [size=8K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [70] MSI: Enable- Count=1/8 Maskable- 64bit+
+	Capabilities: [90] MSI-X: Enable+ Count=8 Masked-
+	Capabilities: [a0] Express Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Device Serial Number ff-ff-ff-ff-ff-ff-ff-ff
+	Capabilities: [150] Latency Tolerance Reporting
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+04:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+	Subsystem: Gigabyte Technology Co., Ltd Onboard Ethernet
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	I/O ports at de00 [size=256]
+	Memory at fbdff000 (64-bit, prefetchable) [size=4K]
+	Memory at fbdf8000 (64-bit, prefetchable) [size=16K]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [70] Express Endpoint, MSI 01
+	Capabilities: [b0] MSI-X: Enable+ Count=4 Masked-
+	Capabilities: [d0] Vital Product Data
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Virtual Channel
+	Capabilities: [160] Device Serial Number 01-00-00-00-68-4c-e0-00
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+
+05:00.0 PCI bridge: Integrated Technology Express, Inc. IT8892E PCIe to PCI Bridge (rev 10) (prog-if 01 [Subtractive decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 19
+	Bus: primary=05, secondary=06, subordinate=06, sec-latency=32
+	I/O behind bridge: 0000c000-0000cfff
+	Memory behind bridge: fbb00000-fbcfffff
+	Prefetchable memory behind bridge: 00000000fba00000-00000000fbafffff
+	Capabilities: [90] Power Management version 2
+	Capabilities: [a0] Subsystem: Gigabyte Technology Co., Ltd IT8892E PCIe to PCI Bridge
+
+06:00.0 Ethernet controller: Intel Corporation 82557/8/9/0/1 Ethernet Pro 100 (rev 05)
+	Subsystem: Compaq Computer Corporation NC3121 Fast Ethernet NIC (WOL)
+	Flags: bus master, medium devsel, latency 64, IRQ 19
+	Memory at fbaff000 (32-bit, prefetchable) [size=4K]
+	I/O ports at ce00 [size=32]
+	Memory at fbc00000 (32-bit, non-prefetchable) [size=1M]
+	[virtual] Expansion ROM at fbb00000 [disabled] [size=1M]
+	Capabilities: [dc] Power Management version 1
+	Kernel driver in use: e100
+	Kernel modules: e100
+
+06:01.0 Communication controller: MosChip Semiconductor Technology Ltd. PCI 1 port parallel adapter (rev 01)
+	Subsystem: LSI Logic / Symbios Logic PCI 1 port parallel adapter
+	Flags: medium devsel, IRQ 16
+	I/O ports at cff8 [size=8]
+	I/O ports at cff0 [size=8]
+	I/O ports at cfe8 [size=8]
+	I/O ports at cfe0 [size=8]
+	I/O ports at cfd8 [size=8]
+	I/O ports at cfc0 [size=16]
+	Kernel driver in use: parport_pc
+	Kernel modules: parport_pc
+
+(base) wruslan@GIGABlueDesktop-debian10:~$ 
+
+=========================================================
+          configuration: driver=system
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+(base) wruslan@GIGABlueDesktop-debian10:~$ sudo lshw
+[sudo] password for wruslan: 
+gigabluedesktop-debian10    
+    description: Desktop Computer
+    product: P67A-UD3-B3
+    vendor: Gigabyte Technology Co., Ltd.
+    width: 64 bits
+    capabilities: smbios-2.4 dmi-2.4 smp vsyscall32
+    configuration: boot=normal chassis=desktop uuid=00000000-0000-0000-0000-1C6F65D5450D
+  *-core
+       description: Motherboard
+       product: P67A-UD3-B3
+       vendor: Gigabyte Technology Co., Ltd.
+       physical id: 0
+     *-firmware
+          description: BIOS
+          vendor: Award Software International, Inc.
+          physical id: 0
+          version: F9
+          date: 03/21/2012
+          size: 128KiB
+          capacity: 4MiB
+          capabilities: pci pnp upgrade shadowing cdboot bootselect edd int13floppy360 int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer int10video acpi usb biosbootspecification
+     *-cpu
+          description: CPU
+          product: Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz
+          vendor: Intel Corp.
+          physical id: 4
+          bus info: cpu@0
+          version: Intel(R) Core(TM) i5-2300 CPU
+          slot: Socket 1155
+          size: 2560MHz
+          capacity: 4GHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp x86-64 constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt tsc_deadline_timer aes xsave avx lahf_lm epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid xsaveopt dtherm ida arat pln pts md_clear flush_l1d cpufreq
+        *-cache:0
+             description: L1 cache
+             physical id: a
+             slot: Internal Cache
+             size: 64KiB
+             capacity: 64KiB
+             capabilities: synchronous internal write-back
+             configuration: level=1
+        *-cache:1
+             description: L2 cache
+             physical id: b
+             slot: External Cache
+             size: 6MiB
+             capabilities: synchronous internal write-back
+             configuration: level=2
+     *-memory
+          description: System Memory
+          physical id: 19
+          slot: System board or motherboard
+          size: 20GiB
+        *-bank:0
+             description: DIMM 1600 MHz (0.6 ns)
+             physical id: 0
+             slot: A0
+             size: 8GiB
+             width: 2054 bits
+             clock: 1600MHz (0.6ns)
+        *-bank:1
+             description: DIMM 1600 MHz (0.6 ns)
+             physical id: 1
+             slot: A1
+             size: 4GiB
+             width: 4 bits
+             clock: 1600MHz (0.6ns)
+        *-bank:2
+             description: DIMM 1600 MHz (0.6 ns)
+             physical id: 2
+             slot: A2
+             size: 8GiB
+             width: 2052 bits
+             clock: 1600MHz (0.6ns)
+        *-bank:3
+             description: DIMM [empty]
+             physical id: 3
+             slot: A3
+     *-pci
+          description: Host bridge
+          product: 2nd Generation Core Processor Family DRAM Controller
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 09
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=snb_uncore
+          resources: irq:0
+        *-pci:0
+             description: PCI bridge
+             product: Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 09
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm msi pciexpress normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:16 ioport:b000(size=4096) memory:f9000000-faffffff ioport:e0000000(size=268435456)
+           *-display
+                description: VGA compatible controller
+                product: GK208 [GeForce GT 710B]
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+                configuration: driver=nouveau latency=0
+                resources: irq:30 memory:f9000000-f9ffffff memory:e0000000-e7ffffff memory:ee000000-efffffff ioport:bf00(size=128) memory:c0000-dffff
+           *-multimedia
+                description: Audio device
+                product: GK208 HDMI/DP Audio Controller
+                vendor: NVIDIA Corporation
+                physical id: 0.1
+                bus info: pci@0000:01:00.1
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:17 memory:faffc000-faffffff
+        *-communication
+             description: Communication controller
+             product: 6 Series/C200 Series Chipset Family MEI Controller #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:31 memory:fbfff000-fbfff00f
+        *-usb:0
+             description: USB controller
+             product: 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2
+             vendor: Intel Corporation
+             physical id: 1a
+             bus info: pci@0000:00:1a.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:18 memory:fbffe000-fbffe3ff
+           *-usbhost
+                product: EHCI Host Controller
+                vendor: Linux 4.19.0-24-rt-amd64 ehci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.19
+                capabilities: usb-2.00
+                configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usb
+                   description: USB hub
+                   product: Integrated Rate Matching Hub
+                   vendor: Intel Corp.
+                   physical id: 1
+                   bus info: usb@1:1
+                   version: 0.00
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=6 speed=480Mbit/s
+                 *-usb:0
+                      description: Keyboard
+                      product: USB Keyboard
+                      vendor: Logitech
+                      physical id: 3
+                      bus info: usb@1:1.3
+                      version: 64.00
+                      capabilities: usb-1.10
+                      configuration: driver=usbhid maxpower=90mA speed=2Mbit/s
+                 *-usb:1
+                      description: Mouse
+                      product: Gaming Mouse G300
+                      vendor: Logitech
+                      physical id: 4
+                      bus info: usb@1:1.4
+                      version: 70.02
+                      capabilities: usb-2.00
+                      configuration: driver=usbhid maxpower=200mA speed=12Mbit/s
+        *-multimedia
+             description: Audio device
+             product: 6 Series/C200 Series Chipset Family High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:32 memory:fbff8000-fbffbfff
+        *-pci:1
+             description: PCI bridge
+             product: 6 Series/C200 Series Chipset Family PCI Express Root Port 1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:16 ioport:e000(size=4096) memory:fb900000-fb9fffff ioport:fb800000(size=1048576)
+           *-communication
+                description: Serial controller
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                version: 10
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress 16850 bus_master cap_list rom
+                configuration: driver=parport_serial latency=0
+                resources: irq:16 ioport:ec00(size=256) memory:fb8f8000-fb8fffff ioport:ef00(size=4) memory:fb900000-fb907fff
+        *-pci:2
+             description: PCI bridge
+             product: 6 Series/C200 Series Chipset Family PCI Express Root Port 2
+             vendor: Intel Corporation
+             physical id: 1c.1
+             bus info: pci@0000:00:1c.1
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:17 memory:fbe00000-fbefffff
+           *-usb
+                description: USB controller
+                product: uPD720200 USB 3.0 Host Controller
+                vendor: NEC Corporation
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: 04
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi msix pciexpress xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:17 memory:fbefe000-fbefffff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 4.19.0-24-rt-amd64 xhci-hcd
+                   physical id: 0
+                   bus info: usb@2
+                   logical name: usb2
+                   version: 4.19
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 4.19.0-24-rt-amd64 xhci-hcd
+                   physical id: 1
+                   bus info: usb@3
+                   logical name: usb3
+                   version: 4.19
+                   capabilities: usb-3.00
+                   configuration: driver=hub slots=2 speed=5000Mbit/s
+        *-pci:3
+             description: PCI bridge
+             product: 6 Series/C200 Series Chipset Family PCI Express Root Port 3
+             vendor: Intel Corporation
+             physical id: 1c.2
+             bus info: pci@0000:00:1c.2
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:18 ioport:d000(size=4096) ioport:fbd00000(size=1048576)
+           *-network
+                description: Ethernet interface
+                product: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                logical name: enp4s0
+                version: 06
+                serial: 1c:6f:65:d5:45:0d
+                size: 100Mbit/s
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress msix vpd bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 duplex=full firmware=rtl_nic/rtl8168e-2.fw ip=192.168.0.21 latency=0 link=yes multicast=yes port=MII speed=100Mbit/s
+                resources: irq:18 ioport:de00(size=256) memory:fbdff000-fbdfffff memory:fbdf8000-fbdfbfff
+        *-pci:4
+             description: PCI bridge
+             product: 82801 PCI Bridge
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm subtractive_decode bus_master cap_list
+             resources: ioport:c000(size=4096) memory:fbb00000-fbcfffff ioport:fba00000(size=1048576)
+           *-pci
+                description: PCI bridge
+                product: Integrated Technology Express, Inc.
+                vendor: Integrated Technology Express, Inc.
+                physical id: 0
+                bus info: pci@0000:05:00.0
+                version: 10
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pci pm subtractive_decode bus_master cap_list
+                resources: ioport:c000(size=4096) memory:fbb00000-fbcfffff ioport:fba00000(size=1048576)
+              *-network
+                   description: Ethernet interface
+                   product: 82557/8/9/0/1 Ethernet Pro 100
+                   vendor: Intel Corporation
+                   physical id: 0
+                   bus info: pci@0000:06:00.0
+                   logical name: enp6s0
+                   version: 05
+                   serial: 00:50:8b:04:85:48
+                   size: 10Mbit/s
+                   capacity: 100Mbit/s
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pm bus_master cap_list rom ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd autonegotiation
+                   configuration: autonegotiation=on broadcast=yes driver=e100 driverversion=3.5.24-k2-NAPI duplex=half latency=64 link=no maxlatency=56 mingnt=8 multicast=yes port=MII speed=10Mbit/s
+                   resources: irq:19 memory:fbaff000-fbafffff ioport:ce00(size=32) memory:fbc00000-fbcfffff memory:fbb00000-fbbfffff
+              *-communication
+                   description: Communication controller
+                   product: PCI 1 port parallel adapter
+                   vendor: MosChip Semiconductor Technology Ltd.
+                   physical id: 1
+                   bus info: pci@0000:06:01.0
+                   version: 01
+                   width: 32 bits
+                   clock: 33MHz
+                   configuration: driver=parport_pc latency=32
+                   resources: irq:16 ioport:cff8(size=8) ioport:cff0(size=8) ioport:cfe8(size=8) ioport:cfe0(size=8) ioport:cfd8(size=8) ioport:cfc0(size=16)
+        *-usb:1
+             description: USB controller
+             product: 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:23 memory:fbffd000-fbffd3ff
+           *-usbhost
+                product: EHCI Host Controller
+                vendor: Linux 4.19.0-24-rt-amd64 ehci_hcd
+                physical id: 1
+                bus info: usb@4
+                logical name: usb4
+                version: 4.19
+                capabilities: usb-2.00
+                configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usb
+                   description: USB hub
+                   product: Integrated Rate Matching Hub
+                   vendor: Intel Corp.
+                   physical id: 1
+                   bus info: usb@4:1
+                   version: 0.00
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=8 speed=480Mbit/s
+        *-isa
+             description: ISA bridge
+             product: P67 Express Chipset Family LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: driver=lpc_ich latency=0
+             resources: irq:0
+        *-ide:0
+             description: IDE interface
+             product: 6 Series/C200 Series Chipset Family 4 port SATA IDE Controller
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: ide pm isa_compat_mode pci_native_mode bus_master cap_list
+             configuration: driver=ata_piix latency=0
+             resources: irq:19 ioport:ff00(size=8) ioport:fe00(size=4) ioport:fd00(size=8) ioport:fc00(size=4) ioport:fb00(size=16) ioport:fa00(size=16)
+        *-serial
+             description: SMBus
+             product: 6 Series/C200 Series Chipset Family SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: irq:18 memory:fbffc000-fbffc0ff ioport:500(size=32)
+        *-ide:1
+             description: IDE interface
+             product: 6 Series/C200 Series Chipset Family 2 port SATA IDE Controller
+             vendor: Intel Corporation
+             physical id: 1f.5
+             bus info: pci@0000:00:1f.5
+             logical name: scsi2
+             logical name: scsi3
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: ide pm pci_native_mode bus_master cap_list emulated
+             configuration: driver=ata_piix latency=0
+             resources: irq:19 ioport:f800(size=8) ioport:f700(size=4) ioport:f600(size=8) ioport:f500(size=4) ioport:f400(size=16) ioport:f300(size=16)
+           *-disk:0
+                description: ATA Disk
+                product: KINGSTON SKC6001
+                physical id: 0
+                bus info: scsi@2:0.0.0
+                logical name: /dev/sda
+                version: 0105
+                serial: 50026B7783DFE523
+                size: 953GiB (1024GB)
+                capabilities: partitioned partitioned:dos
+                configuration: ansiversion=5 logicalsectorsize=512 sectorsize=4096 signature=ababbdc7
+              *-volume:0
+                   description: EXT4 volume
+                   vendor: Linux
+                   physical id: 1
+                   bus info: scsi@2:0.0.0,1
+                   logical name: /dev/sda1
+                   logical name: /
+                   version: 1.0
+                   serial: d8da8f67-108b-4ad7-be55-1a5577aad587
+                   size: 482GiB
+                   capacity: 482GiB
+                   capabilities: primary bootable journaled extended_attributes large_files huge_files dir_nlink 64bit extents ext4 ext2 initialized
+                   configuration: created=2022-08-02 19:38:19 filesystem=ext4 lastmountpoint=/ modified=2023-06-24 18:29:26 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro mounted=2023-05-31 15:27:55 state=mounted
+              *-volume:1
+                   description: Linux swap volume
+                   physical id: 2
+                   bus info: scsi@2:0.0.0,2
+                   logical name: /dev/sda2
+                   version: 1
+                   serial: ee62fe80-04fb-4ac2-9e5e-056d2fa67808
+                   size: 15GiB
+                   capacity: 15GiB
+                   capabilities: primary nofs swap initialized
+                   configuration: filesystem=swap pagesize=4096
+              *-volume:2
+                   description: EXT4 volume
+                   vendor: Linux
+                   physical id: 3
+                   bus info: scsi@2:0.0.0,3
+                   logical name: /dev/sda3
+                   version: 1.0
+                   serial: 6dd865d3-4a20-4026-ba7d-f52f9188cdfd
+                   size: 433GiB
+                   capacity: 433GiB
+                   capabilities: primary journaled extended_attributes large_files huge_files dir_nlink 64bit extents ext4 ext2 initialized
+                   configuration: created=2021-03-28 18:49:18 filesystem=ext4 label=ubstudio-20.04.2 lastmountpoint=/ modified=2023-05-31 23:29:45 mounted=2023-05-31 23:29:45 state=clean
+              *-volume:3
+                   description: Windows FAT volume
+                   vendor: mkfs.fat
+                   physical id: 4
+                   bus info: scsi@2:0.0.0,4
+                   logical name: /dev/sda4
+                   version: FAT32
+                   serial: cecd-5e2f
+                   size: 22GiB
+                   capacity: 22GiB
+                   capabilities: primary boot fat initialized
+                   configuration: FATs=2 filesystem=fat
+           *-disk:1
+                description: ATA Disk
+                product: KINGSTON SKC6005
+                physical id: 1
+                bus info: scsi@3:0.0.0
+                logical name: /dev/sdb
+                version: 0105
+                serial: 50026B7784555FB6
+                size: 476GiB (512GB)
+                capabilities: partitioned partitioned:dos
+                configuration: ansiversion=5 logicalsectorsize=512 sectorsize=4096 signature=06e44dbe
+              *-volume:0
+                   description: Windows NTFS volume
+                   physical id: 1
+                   bus info: scsi@3:0.0.0,1
+                   logical name: /dev/sdb1
+                   version: 3.1
+                   serial: 1e43-f897
+                   size: 577MiB
+                   capacity: 579MiB
+                   capabilities: primary bootable ntfs initialized
+                   configuration: clustersize=4096 created=2019-06-01 23:18:28 filesystem=ntfs label=System Reserved state=clean
+              *-volume:1
+                   description: Windows NTFS volume
+                   physical id: 2
+                   bus info: scsi@3:0.0.0,2
+                   logical name: /dev/sdb2
+                   version: 3.1
+                   serial: 940515e8-b1f3-1542-8116-069fe8b23da6
+                   size: 476GiB
+                   capacity: 476GiB
+                   capabilities: primary ntfs initialized
+                   configuration: clustersize=4096 created=2019-06-01 23:18:40 filesystem=ntfs label=Windows 10 state=clean
+     *-pnp00:00
+          product: PnP device PNP0c02
+          physical id: 1
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:01
+          product: PnP device PNP0b00
+          physical id: 2
+          capabilities: pnp
+          configuration: driver=rtc_cmos
+     *-pnp00:02
+          product: PnP device PNP0501
+          physical id: 3
+          capabilities: pnp
+          configuration: driver=serial
+     *-pnp00:03
+          product: PnP device PNP0c02
+          physical id: 5
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:04
+          product: PnP device ICD0001
+          physical id: 6
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:05
+          product: PnP device INT3f0d
+          physical id: 7
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:06
+          product: PnP device PNP0c02
+          physical id: 8
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:07
+          product: PnP device PNP0c01
+          physical id: 9
+          capabilities: pnp
+          configuration: driver=system
+(base) wruslan@GIGABlueDesktop-debian10:~$ 
+
+
+
+
+
+
+

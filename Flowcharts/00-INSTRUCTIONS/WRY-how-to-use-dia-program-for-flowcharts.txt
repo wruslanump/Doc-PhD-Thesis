@@ -1,0 +1,201 @@
+
+WRY HOW TO USE DIA PROGRAM FOR FLOWCHARTS
+=====================================================================
+wruslan@HPElBk8570w-rt-work:~$ date
+Mon 27 Dec 2021 09:12:06 AM +08
+
+The program dia (Diagram Editor) is available for Linux, Windows and Mac OS.
+
+=====================================================================
+STEPS USING DIA (DIAGRAM EDITOR) FOR CREATING FLOWCHARTS
+=====================================================================
+
+	(1) Run /usr/bin/dia GUI Application. Usually also available as already made
+	launcher icon.)
+
+	(2) Menu ==> File ==> New
+	Opens a new xxxx.dia blank diagram file
+
+	(3) Menu ==> File ==> Save As
+	Give a name like "01-Tutorial-Steps.dia" in an appropriate directory.
+
+(4) Centering the diagram as blank layout in GUI workspace
+=================================================
+
+	Scroll to get the Y-axis at 0 centered value. 
+
+	Note that the Y-axis goes negative upward and positive downward. 
+
+	On the X-axis the default is 0 at the top-left corner.
+
+(5) Starting point in flowchart
+=================================================
+
+	In the flowchart palette, select the "Terminal Interrupt" object, which is
+	oval looking. Paste object to center point at (X-Y) = (33, 0). We get a yellow
+	bordered oval object. Type in text like "Start Program"
+
+	Center the object to the vertical axis at that point. Click outside and we 
+	get the object pasted. Now save with <Ctrl-s>.
+
+	Click the object again, the yellow border disappeared.
+
+(6) Duplicate the object in Item(5) above.
+=================================================
+
+	Select the object, and we get a normal bordered object.
+	Menu ==> Edit ==> Duplicate
+	We get a yellowed object created.
+
+	Click outside the object, we get a normal border.
+	Click the object, then drag (hand icon) the object to another position below,
+	like to (33, 20).
+	   
+	Click the object again, "left click" mouse and hover the mouse (hold) for a
+	few seconds, the mouse changes to a hand icon and the border changes to yellow. 
+	Now we can edit the text inside the box. 
+
+	Change "Start Program" to "End Program". 
+
+	Then click outside when finished editing text.
+
+(7) Create a process/auxiliary operation object
+=================================================
+
+	In the flowchart pellete, select the  "Process/Auxiliary operation" object.
+	It is a square looking icon. Paste into the diagram.
+
+	We get a yellow bordered object. Type in text like "Process 1".
+	Then click outside after finished editing. We get a normal border again.
+
+	Duplicate this object. Menu ==> Edit ==> Duplicate. 
+	Move object to a different location first. 
+
+	The "left click" mouse and hover the mouse (hold) for a few seconds, the mouse 
+	changes to a hand icon and the border changes to yellow. Now we can edit the 
+	text inside the box. 
+
+	Now change the text "Process 1" to "Process 2".
+
+(8) Align and resize the process objects
+=================================================
+
+	Drag box "Process 1" to (33, 5) . Resize the object.
+	Drag box "Process 2" to (33, 10). Resize the object.
+
+(9) Copy and paste external text into box.
+=================================================
+
+Create a new blank process box object. Resize blank box. 
+
+NOTE: This blank box is critical. You must create the object first before you
+can paste external text into it.
+
+Then copy external pre-prepared text to the system's clipboard.
+
+Now create a blank "text" object using the pallete "T" icon. Paste this
+T object icon onto the diagram outside of any object, anywhere in the diagram.
+
+	NOTE: Using <Ctrl-v> 
+	================================
+	Now paste using <Ctrl-v> the clipboard contents into this T text object. 
+	It is crucial to use <Ctrl-v> for pasting external text.
+
+	Now, drag this text object into the blank process box object. 
+	Done. Overlaid. We are done.
+
+	NOTE: Alignment
+	================================
+	Pre-prepared texts can be left aligned. When overlaid over a 
+	blank box will stay left aligned. 
+	
+	If you use the original title text for each object as you created it, 
+	it defaults to "center alignment" not left alignment. 
+
+	To get "left alignment", we must first paste external text (pre-prepared)
+	into the text "T" object, then finally drag this "T" object into the 
+	process box object. This is the "text overlay" over the process box.
+
+	NOTE: Order of object creation
+	================================
+	It is important to create the blank box first, then overlay text above it.
+	
+	If we create a blank box later after we created a text object, then when 
+	we drag the text into the blank box, we see nothing. Because the text goes 
+	below the blank box and cannot be seen (opaque box) not transparent. 
+	Ha ha ha.
+
+(10) Tricks with arrows for directions.
+=================================================
+	Create down  arrow with arrowhead downward.  Duplicate a few times.
+	Create top   arrow with arrowhead upward.    Duplicate a few times. 
+	Create right arrow with arrowhead rightward. Duplicate a few times.
+	Create left  arrow with arrowhead leftward.  Duplicate a few times.
+
+    Click icon "Line(L)" at the top palette followed by selecting linestyle 
+    (arrowhead) at the bottom. Paste this object. Resize and change
+    arrow head directions.   
+
+	Then drag and drop appropriate arrows to appropriate locations as required 
+	for the flowchart.
+	
+(11) Decision box (diamond) in flowchart
+=================================================
+	This is a diamond icon in the palette.
+	The rest of Item(1) until Item(10) above are applicable. Remains the same.
+	
+(13) HOW TO CORRECTLY EXPORT DIAGRAM TO PNG 
+=================================================
+    Format Cairo.png works for xxxx.dia files.
+
+	First, create a dummy horizontal textbox to cover extra border
+	blank space on both the left and right sides of the diagram.
+	
+	Otherwise, the exported PNG file is very narrow at the borders (slim).
+	Expand this border a bit using a dummy textbox or text object above. 
+	
+	Later on, clip out this dummy area for presentation purposes. 	
+	
+(12) HINTS AND TIPS TO REMEMBER
+=================================================
+
+Tip (1): Create blank objects first like boxes, arrows and text objects.	
+
+Tip (2): Duplicate these blank objects as many as we like. Resize the objects.
+
+Tip (3): To edit objects, make sure the border or the text background is yellow.
+
+Tip (4): For fine control, create "T-object" first, then copy external text into 
+clipboard, then paste clipboard contents into "T-object" using <Ctrl-v>. Then
+drag T-object over blank objects.
+
+Tip (5): Create base object first (like process box), then overlay the text
+object over the base object. Not the other way around.
+
+Tip (6): Regularly save diagram using <Ctrl-s>. 
+
+=====================================================================
+wruslan@HPElBk8570w-rt-work:~$ uname -a
+Linux HPElBk8570w-rt-work 5.11.0-43-lowlatency #47~20.04.2-Ubuntu 
+SMP PREEMPT Mon Dec 13 11:55:57 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPElBk8570w-rt-work:~$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.3 LTS
+Release:	20.04
+Codename:	focal
+
+wruslan@HPElBk8570w-rt-work:~$ locate bin/dia
+/usr/bin/dia
+/usr/bin/dia2code
+/usr/bin/diadia
+/usr/bin/diagtool-10
+/usr/lib/llvm-10/bin/diagtool
+wruslan@HPElBk8570w-rt-work:~$ 
+
+Alhamdulillah.
+Wassalam.
+WRY
+
+

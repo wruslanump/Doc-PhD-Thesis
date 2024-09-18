@@ -1,0 +1,12 @@
+(base) wruslan@HPLaptop-01-debian10:~$ uname -a
+Linux HPLaptop-01-debian10 4.19.0-25-rt-amd64 #1 SMP PREEMPT RT Debian 4.19.289-2 (2023-08-08) x86_64 GNU/Linux
+(base) wruslan@HPLaptop-01-debian10:~$ 
+(base) wruslan@HPLaptop-01-debian10:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+(base) wruslan@HPLaptop-01-debian10:~$ 
+(base) wruslan@HPLaptop-01-debian10:~$ 
+

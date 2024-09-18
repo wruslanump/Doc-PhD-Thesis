@@ -1,0 +1,127 @@
+
+wruslancnc
+wruslandr
+wruslandra
+wruslangit
+wruslanmit
+wruslanmmu
+wruslanump
+
+===========================================================
+github.com/wruslancnc/ as at Mon 05 Jun 2023 12:21:27 AM +08
+===========================================================
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc$ ls -1
+
+ASTEPI-parametric-curve
+BUTTERFLY-parametric-curve
+CIRCLE-parametric-curve
+CNC-Execution-Plan
+ELLIPSE-parametric-curve
+HYPOTROCOID-parametric-curve
+Linux-CNCDriver-RTOS-Parport
+Linux-CNCReceiver-Counter-PCIE-1884
+SKEWED-ASTROID-parametric-curve
+SNAHYP-parametric-curve
+SNAILSHELL-parametric-curve
+TEARDROP-parametric-curve
+Win10-CNC-Mach3
+Win10-CNCReceiver-Counter-PCIE1884
+
+===========================================================
+(1) WRUSLAN-DR as at Sat 10 Apr 2021 12:10:58 PM +08
+===========================================================
+Haskell-Leksah
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al ~/github/wruslandr/apps-testing/
+
+geomdl-examples
+octave6
+scilab6
+sessions
+text-python2-nurbs
+text-python3-nurbs
+
+USER: wruslandr
+PWD : KLwry1dr   (NO DOT)
+
+===========================================================
+(2) WRUSLAN-DRA as at Sat 10 Apr 2021 12:10:58 PM +08
+===========================================================
+using-dot-graphviz
+using-eclipse-parallel
+using-julia-pro
+using-julia-standard
+using-octave5
+using-octave6
+using-python2
+using-python3
+using-scilab5
+using-scilab6
+
+===========================================================
+(3) WRUSLAN-GIT as at Sat 10 Apr 2021 12:10:58 PM +08
+===========================================================
+ada-ArmCortexM3
+ada-ArmCortexM7
+ada-concurrency-01
+ada-concurrency-02
+ada-embedded-tests
+ada-file-processing
+ada-gnat-gps
+ada-gnat-studio
+ada-k8000parport
+ada-k8055usb
+ada-plplot
+ada-ppdev
+ada-python
+ada-serial
+ada-spark2014
+ada-strings-unbounded-edit
+app-linuxcnc-installation
+apps-hardware-linux-systems
+wruslandr-phd (private)
+
+===========================================================
+(4) WRUSLAN-MIT as at Sat 10 Apr 2021 12:10:58 PM +08
+===========================================================
+ada-file-processing
+ada-project-full-template
+ada-stable-packages
+gpr-pthread-barrier
+graphviz-atom-dot-editor
+pthread-barrier-dynamic-queues
+
+===========================================================
+(5) WRUSLAN-MMU as at Sat 10 Apr 2021 12:10:58 PM +08
+===========================================================
+ada-callpython-matplotlib
+ada-callpython-numpy
+ada-callpython-scipy
+ada-callpython-template
+gtk-ada-basic
+parallel-temperature-pressure-controller
+python-callada-template
+
+
+===========================================================
+(6) WRUSLAN-UMP as at Sat 10 Apr 2021 12:10:58 PM +08
+===========================================================
+ada-array-processing
+ada-date-time-rt-stamp
+ada-dynamically-sized-fixed-arrays
+ada-file-split-process-merge
+ada-parallel-port
+ada-parallel-tasks
+ada-process-ngc-gcodes
+ada-random-numbers
+ada-read-write
+ada-separate-compilations
+ada-string-processing
+ada-strings-unbounded-edit
+
+python-csv-pandas-data-processing
+
+(“no such directory entry”) and EPERM (“permission denied”). )
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+

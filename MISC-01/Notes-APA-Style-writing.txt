@@ -1,0 +1,147 @@
+/home/wruslan/WOM-WRY-UMP-PhD/00-Up-to-WOM-No-09/2021-07-10-WOM-No-03/codes_NURBS_for_WOM_03
+/home/wruslan/WOM-WRY-UMP-PhD/00-Up-to-WOM-No-09/2021-07-10-WOM-No-03/BOOKS/01-An-Introduction-to-NURBS-(2000).pdf
+/home/wruslan/WOM-WRY-UMP-PhD/00-Up-to-WOM-No-09/2021-07-10-WOM-No-03/BOOKS/02-The-NURBS-Book-Springer-Verlag-1997.pdf
+/home/wruslan/WOM-WRY-UMP-PhD/00-Up-to-WOM-No-09/2021-07-10-WOM-No-03/BOOKS/04-Python-NURBS-Writeup.pdf
+
+ So basically:
+http://merkel.texture.rocks/Latex/natbib.php
+
+    you use \citet{} when the authors name(s) are to be read as part of the text
+
+    you use \citep{} when the entire citation id parenthetical
+
+
+
+APA STYLE REFERENCES
+
+The format for a book is:
+==============================================
+@book{DoyleOwl:2004, 	<--This is the cite key, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {My Life}, 	<--Title Field
+Publisher = {Reed Press}, 	<--Publisher Field
+Year = {2004}} 	<--Year Field
+
+For a Journal Article:
+==============================================
+@article{DoyleOwl:2003, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {The Honor Principle}, 	<--Title Field
+Journal = {The Quest}, 	<--Journal Field
+Year = {2003}} 	<--Year Field
+
+For a booklet (unpublished books):
+===============================================
+@booklet{DoyleOwl2002, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}} 	<--Author Field
+
+For a chapter or part of a book:
+===============================================
+@inbook{DoyleOwl:2003a, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {Reed in Space}, 	<--Title Field
+Chapter={Chapter 7: New Frontier},
+AND/OR
+Pages={350-450}, <--Chapter Title and Page Number Field
+Publisher = {Macmillan} 	<--Publisher Field
+Year = {2003}} 	<--Year Field
+
+
+For a edited volume of articles or a collection:
+===============================================
+@incollection{DoyleOwl:1998, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {Owls and Inflation}, 	<--Chapter or Article Title Field
+BookTitle = {Economics of Lawn Ornaments}, 	<--Title Field
+Publisher = {Reed Press}, 	<--Publisher Field
+Year = {1998}} 	<--Year Field
+
+For an article in a book of conference proceedings:
+================================================
+@inproceedings{DoyleOwl:2000, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {Owls and the US Debt}, 	<--Chapter or Article Title Field
+BookTitle = {Lawn Ornaments Conference}, 	<--Title Field
+Publisher = {Reed Press}, 	<--Publisher Field
+Year = {2000}} 	<--Year Field
+
+For a technical manual or documentation:
+================================================
+@manual{Popular, 	<--This is the Label, and type of citation
+Title = {How to Become Popular}} 	<-- Title Field
+
+For a Master's thesis:
+================================================
+@mastersthesis{DoyleOwl:1990, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {My Life}, 	<--Title Field
+School = {Reed College}, 	<--Publisher Field
+Year = {1990}} 	<--Year Field
+
+For a source that does not fit into any particular category:
+================================================
+@misc{DoyleOwl:2004,} 	<--This is the Label, and type of citation
+none 	<--no Fields required
+
+For a PhD thesis,
+================================================
+@phdthesis{DoyleOwl:1990, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {My Life}, 	<--Title Field
+School = {Reed College}, 	<--Publisher Field
+Year = {1990}} 	<--Year Field
+
+For a conference proceedings,
+================================================
+@proceedings{Mascots:1990, 	<--This is the Label, and type of citation
+Title = {School Mascots}, 	<--Title Field
+Year = {1990}} 	<--Year Field
+
+For a report published by a university or other institutions, 
+usually as part of a series,
+=================================================
+@techreport{DoyleOwl:1980, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {Sociology of Mascots}, 	<--Title Field
+Institution= {Reed College}, 	<--Institution Field
+Year = {1990}} 	<--Year Field
+
+For unpublished sources,
+=================================================
+@unpublished{DoyleOwl:1970, 	<--This is the Label, and type of citation
+Author = {Doyle Owl}, 	<--Author Field
+Title = {My Life}, 	<--Title Field
+Note = {Reed College}} 	<--Note Field
+
+=================================================
+=================================================
+There are many other optional fields that you can use in each database entry, 
+such as Volume=, Number=, Abstract=, Series=, Month= . 
+All of the acceptable fields and entry types are listed below.
+
+<tableclass="table" style="margin:0 auto" >
+address 	Address of Publisher
+author 	Names of Authors
+booktitle 	Book Title when part of book is cited
+chapter 	Chapter Number
+edition 	Book Edition
+editor 	Book Editor or translator
+howpublished 	States anything unusual about how it was published
+institution 	Sponsoring Institution of Technical Report
+journal 	Journal Name
+key 	Addition for alphabetizing if author missing
+month 	Month Published
+note 	Any more Info?
+Number 	Number of Journal
+Organization 	Organization that sponsors a conference
+pages 	Page range
+publisher 	Publisher's Name
+school 	Name of school for thesis
+series 	Book Series Name
+title 	Title of work
+type 	Type of Technical Report
+url 	Website Address
+volume 	Volume Number of Book or Journal
+year 	Year of publication
+
+=======================================================
